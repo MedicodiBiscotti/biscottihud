@@ -15,6 +15,9 @@ There you can disable the box being coloured when in different states of health 
 You can also re-enable the shaded image that pops up on screen when disguising or picking of the intelligence.
 This is done by uncommenting the respective lines at the top of the file.
 
+This HUD includes multiple scoreboards with tweaked sizes for 24, 32, 18, and 12 man servers. (Normal, 32 man, Highlander, and 6's).
+To change the scoreboard, copy the contents of the one you want to use into the one just named **scoreboard.res**.
+
 #Credits
 This is HUD is greatly inspired by BroeselHUD, e.v.e HUD, and 7HUD.
 Thank you to all those people for making awesome HUDs and for making the code so readily available so that we all can learn how to realize our own ideas.
