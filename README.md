@@ -9,7 +9,7 @@ Then extract it to your /tf/custom/ folder so that inside your custom folder the
 #Customization
 If you want to re-enable the HP cross when overhealed or low on health, navigate to **/resource/ui/hudplayerhealth.res** and remove the *NULL** at the end of the HealthBonudImage (both the name *AND* and "fieldName")
 
-Inside /scripts/tf_hudanimation.txt will also find the animations for things like being overhealed or low on health and ammo.
+Inside /scripts/tf_hudanimations.txt will also find the animations for things like being overhealed or low on health and ammo.
 There you can disable the box being coloured when in different states of health (i.e. overhealed).
 
 You can also re-enable the shaded image that pops up on screen when disguising or picking of the intelligence.
