@@ -1,0 +1,13 @@
+http://doodlesstuff.com/?tutorial=tf2hud&page=basics#box
+
+Always the same height (480)
+16:9 ratio resolutions (such as 1920x1080) are 853 units wide
+4:3 ratio resolutions (such as 1440x1080) are 640 units wide
+5:4 ratio resolutions (such as 1024x819) are 600 units wide
+
+640*(4/3) = 853
+853*(3/4) = 640
+
+To convert the HUD to 4:3 from 16:9 you downscale all XPOS and WIDE by (3/4). Subract (1/4).
+
+In reverse, you add (1/3) to the width to upscale.
