@@ -2,6 +2,8 @@
 This is my custom HUD for Team Fortress 2 (TF2).
 I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercial uses like YouTube or Twitch.
 
+As of right now, I don't have all the resource files included in this release, only the ones I've changed. Let me know if I should include all the files. That would make it easier to customize for much harder to update as more files have potentiel changes made and then you need to update them for no real reason as they weren't supposed to be changed anyway.
+
 #Installation
 Click the button that says **Download ZIP**.
 Then extract it to your **/tf/custom/** folder so that inside your custom folder there is a folder called **biscottiHUD**.
