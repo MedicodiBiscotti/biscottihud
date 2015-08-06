@@ -978,6 +978,31 @@
 		"scaleImage"	"1"	
 	}
 	
+	"localPlayerBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"localPlayerBG"
+		"xpos"			"c-35"
+		"ypos"			"345"
+		"zpos"			"2"
+		"wide"			"55"
+		"tall"			"80"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_clear"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/color_panel_clear"
+		"teambg_3"		"../hud/color_panel_clear"
+			
+		"src_corner_height"		"15"			// pixels inside the image
+		"src_corner_width"		"15"
+				
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}
+	
 	"countImage0" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"

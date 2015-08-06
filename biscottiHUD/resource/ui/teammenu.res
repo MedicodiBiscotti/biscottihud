@@ -13,6 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		"paintbackground"	"0"
 	}
 
 	"SysMenu"
@@ -41,7 +42,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 125"
+		"fillcolor"		"0 0 0 175"
 	}
 
 	"MapInfo"
