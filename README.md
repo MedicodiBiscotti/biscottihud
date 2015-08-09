@@ -27,4 +27,6 @@ Thank you to all those people for making awesome HUDs and for making the code so
 There is an alternate colouring for full Über Charge that was taken from **RaysFireHUD**.
 The Engineer buildings panel is HUGELY inspired by **e.v.e HUD** but tweaked and altered to my liking.
 
+I took the RED and BLU buttons on the loadout screen from Ray (I think).
+
 **Hope you enjoy!**
