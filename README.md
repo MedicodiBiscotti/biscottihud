@@ -24,7 +24,7 @@ To change the scoreboard, copy the contents of the one you want to use into the 
 This is HUD is greatly inspired by **BroeselHUD**, **e.v.e HUD**, and **7HUD**.
 Thank you to all those people for making awesome HUDs and for making the code so readily available so that we all can learn how to realize our own ideas.
 
-There is an alternate colouring for full Über Charge that was taken from **RaysFireHUD**.
+There is an alternate colouring for full Über Charge that was taken from **SlinFireHUD**.
 The Engineer buildings panel is HUGELY inspired by **e.v.e HUD** but tweaked and altered to my liking.
 
 I took the RED and BLU buttons on the loadout screen from Ray (I think).
