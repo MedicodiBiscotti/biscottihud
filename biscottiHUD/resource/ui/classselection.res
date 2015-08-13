@@ -985,7 +985,7 @@
 		"xpos"			"c-35"
 		"ypos"			"345"
 		"zpos"			"2"
-		"wide"			"55"
+		"wide"			"-55"
 		"tall"			"80"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -996,11 +996,11 @@
 		"teambg_2"		"../hud/color_panel_clear"
 		"teambg_3"		"../hud/color_panel_clear"
 			
-		"src_corner_height"		"15"			// pixels inside the image
-		"src_corner_width"		"15"
+		"src_corner_height"		"23"			// pixels inside the image
+		"src_corner_width"		"23"
 				
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	
 	"countImage0" [$WIN32]
