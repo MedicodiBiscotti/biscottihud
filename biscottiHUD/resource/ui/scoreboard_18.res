@@ -1043,10 +1043,10 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
-			"xpos"			"260"	[$WIN32]
+			"xpos"			"271"	[$WIN32]
 			"ypos"			"0"	[$WIN32]
 			"zpos"			"3"
-			"wide"			"100"
+			"wide"			"95"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -1060,10 +1060,10 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
-			"xpos"			"260"	[$WIN32]
+			"xpos"			"271"	[$WIN32]
 			"ypos"			"10"	[$WIN32]
 			"zpos"			"3"
-			"wide"			"100"
+			"wide"			"95"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -1077,10 +1077,10 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
-			"xpos"			"260"	[$WIN32]
+			"xpos"			"271"	[$WIN32]
 			"ypos"			"20"	[$WIN32]
 			"zpos"			"3"
-			"wide"			"100"
+			"wide"			"95"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -1094,10 +1094,10 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
-			"xpos"			"260"	[$WIN32]
+			"xpos"			"271"	[$WIN32]
 			"ypos"			"30"	[$WIN32]
 			"zpos"			"3"
-			"wide"			"100"
+			"wide"			"95"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -1111,7 +1111,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
-			"xpos"			"365"	[$WIN32]
+			"xpos"			"371"	[$WIN32]
 			"ypos"			"0"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1128,7 +1128,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
-			"xpos"			"365"	[$WIN32]
+			"xpos"			"371"	[$WIN32]
 			"ypos"			"10"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1145,7 +1145,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
-			"xpos"			"365"	[$WIN32]
+			"xpos"			"371"	[$WIN32]
 			"ypos"			"20"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1162,7 +1162,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
-			"xpos"			"365"	[$WIN32]
+			"xpos"			"371"	[$WIN32]
 			"ypos"			"30"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1179,7 +1179,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
-			"xpos"			"356"	[$WIN32]
+			"xpos"			"357"	[$WIN32]
 			"ypos"			"30"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"	[$WIN32]
@@ -1196,7 +1196,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
-			"xpos"			"356"	[$WIN32]
+			"xpos"			"357"	[$WIN32]
 			"ypos"			"0"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
@@ -1213,7 +1213,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
-			"xpos"			"356"	[$WIN32]
+			"xpos"			"357"	[$WIN32]
 			"ypos"			"20"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"	[$WIN32]
@@ -1230,7 +1230,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
-			"xpos"			"356"	[$WIN32]
+			"xpos"			"357"	[$WIN32]
 			"ypos"			"10"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"	[$WIN32]
@@ -1247,7 +1247,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
-			"xpos"			"455"	[$WIN32]
+			"xpos"			"457"	[$WIN32]
 			"ypos"			"30"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1264,7 +1264,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
-			"xpos"			"455"	[$WIN32]
+			"xpos"			"457"	[$WIN32]
 			"ypos"			"0"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1281,7 +1281,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
-			"xpos"			"455"	[$WIN32]
+			"xpos"			"457"	[$WIN32]
 			"ypos"			"20"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1298,7 +1298,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
-			"xpos"			"455"	[$WIN32]
+			"xpos"			"457"	[$WIN32]
 			"ypos"			"10"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1315,7 +1315,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
-			"xpos"			"445"	[$WIN32]
+			"xpos"			"443"	[$WIN32]
 			"ypos"			"0"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
@@ -1332,7 +1332,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"		[$WIN32]
-			"xpos"			"545"	[$WIN32]
+			"xpos"			"543"	[$WIN32]
 			"ypos"			"0"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1349,7 +1349,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
-			"xpos"			"445"	[$WIN32]
+			"xpos"			"443"	[$WIN32]
 			"ypos"			"10"	[$WIN32]
 			"zpos"			"3"
 			"zpos"			"3"
@@ -1367,7 +1367,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"		[$WIN32]
-			"xpos"			"545"	[$WIN32]
+			"xpos"			"543"	[$WIN32]
 			"ypos"			"10"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1384,7 +1384,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"east"
-			"xpos"			"445"	[$WIN32]
+			"xpos"			"443"	[$WIN32]
 			"ypos"			"20"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
@@ -1401,7 +1401,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%support%"
 			"textAlignment"	"west"		[$WIN32]
-			"xpos"			"545"	[$WIN32]
+			"xpos"			"543"	[$WIN32]
 			"ypos"			"20"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1418,7 +1418,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"east"
-			"xpos"			"445"	[$WIN32]
+			"xpos"			"443"	[$WIN32]
 			"ypos"			"30"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
@@ -1435,7 +1435,7 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"		[$WIN32]
-			"xpos"			"545"	[$WIN32]
+			"xpos"			"543"	[$WIN32]
 			"ypos"			"30"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
