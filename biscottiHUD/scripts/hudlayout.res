@@ -16,8 +16,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c100"	[$WIN32]
-		"xpos_minmode"	"c150"	[$WIN32]		// +50 from minmode 0
+		"xpos"	"c115"	[$WIN32]
+		"xpos_minmode"	"c165"	[$WIN32]		// +50 from minmode 0		// c150
 		"ypos"	"c64"	[$WIN32]
 		"ypos_minmode"	"c144"	[$WIN32]		// +80 from minmode 0
 		"xpos"	"r131"	[$X360]
@@ -607,10 +607,10 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
+		"xpos"		"10"
+		"ypos"		"101"	[$WIN32]
 		"ypos"		"236"	[$X360]
-		"wide"		"500"
+		"wide"		"150"
 		"tall"		"136"	[$WIN32]
 		"tall"		"176"	[$X360]
 

@@ -117,13 +117,13 @@
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
 		"xpos"			"8"							// 22  // 8
-		"ypos"			"12"
+		"ypos"			"2"
 		"zpos"			"5"
 		"wide"			"55"
-		"tall"			"38"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"				// south-west  // south-east
+		"textAlignment"	"east"				// south-west  // south-east
 		"labelText"		"%Ammo%"
 		
 	}		
@@ -134,13 +134,13 @@
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
 		"xpos"			"9"							// 23  // 9
-		"ypos"			"12"
+		"ypos"			"2"
 		"zpos"			"5"
 		"wide"			"55"
-		"tall"			"38"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"				// south-west  // south-east
+		"textAlignment"	"east"				// south-west  // south-east
 		"labelText"		"%Ammo%"
 		
 	}						
@@ -152,13 +152,13 @@
 		"font_minmode"	"HudFontSmall"
 		"fgcolor"		"TanLight"
 		"xpos"			"65"
-		"ypos"			"18"
+		"ypos"			"12"
 		"zpos"			"7"
-		"wide"			"40"
-		"tall"			"27"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-west"		
+		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
 	}		
 	"AmmoInReserveShadow"
@@ -169,13 +169,13 @@
 		"font_minmode"	"HudFontSmall"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"66"
-		"ypos"			"18"
+		"ypos"			"12"
 		"zpos"			"7"
-		"wide"			"40"
-		"tall"			"27"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-west"		
+		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
 	}									
 	"AmmoNoClip"
@@ -184,14 +184,14 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
-		"xpos"			"26"
-		"ypos"			"12"
+		"xpos"			"16"		// 26
+		"ypos"			"2"		// 12
 		"zpos"			"5"
-		"wide"			"84"
-		"tall"			"36"
+		"wide"			"100"		// 84
+		"tall"			"50"		// 36
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-west"		
+		"textAlignment"	"west"		
 		"labelText"		"%Ammo%"
 		
 	}	
@@ -201,14 +201,14 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"27"
-		"ypos"			"12"
+		"xpos"			"17"
+		"ypos"			"2"
 		"zpos"			"5"
-		"wide"			"84"
-		"tall"			"36"
+		"wide"			"100"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-west"		
+		"textAlignment"	"west"		
 		"labelText"		"%Ammo%"
 		
 	}									
