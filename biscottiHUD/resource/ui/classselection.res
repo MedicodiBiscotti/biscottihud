@@ -1618,11 +1618,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"115"
-		"ypos"			"150"
+		"xpos"			"155"
+		"ypos"			"216"
 		"zpos"			"6"		
-		"wide"			"300"
-		"tall"			"300"
+		"wide"			"140"
+		"tall"			"200"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1635,7 +1635,7 @@
 
 		"paintbackground" "1"		
 		"paintbackgroundenabled" "1"
-		"bgcolor_override" "255 255 255 0"
+		"bgcolor_override" "0 0 0 175"
 		
 		"model"
 		{
@@ -1644,9 +1644,9 @@
 			"angles_x" "0"
 			"angles_y" "180"
 			"angles_z" "0"
-			"origin_x" "320"
-			"origin_y" "10"
-			"origin_z" "-49"
+			"origin_x" "170"
+			"origin_y" "0"
+			"origin_z" "-45"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
@@ -1697,6 +1697,99 @@
 				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
 			}								
 		}
+	}
+	
+	"PlayerModelLine1"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerModelLine1"
+		"xpos"			"155"
+		"ypos"			"212"
+		"zpos"			"6"
+		"wide"			"144"
+		"tall"			"4"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"15"
+		"src_corner_width"		"15"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
+	}
+	"PlayerModelLine2"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerModelLine2"
+		"xpos"			"295"
+		"ypos"			"216"
+		"zpos"			"6"
+		"wide"			"4"
+		"tall"			"204"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"15"
+		"src_corner_width"		"15"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
+	}
+	"PlayerModelLine3"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerModelLine3"
+		"xpos"			"151"
+		"ypos"			"416"
+		"zpos"			"6"
+		"wide"			"144"
+		"tall"			"4"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"15"
+		"src_corner_width"		"15"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
+	}
+	"PlayerModelLine4"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerModelLine4"
+		"xpos"			"151"
+		"ypos"			"212"
+		"zpos"			"6"
+		"wide"			"4"
+		"tall"			"204"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"15"
+		"src_corner_width"		"15"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
 	}
 	
 	"ClassTipsPanel"
