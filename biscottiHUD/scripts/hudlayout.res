@@ -79,7 +79,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"	[$WIN32]
-		"ypos"			"c73"	[$WIN32]
+		"ypos"			"c66"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
 		"wide"			"375"
