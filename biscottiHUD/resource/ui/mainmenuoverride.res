@@ -328,7 +328,156 @@
 			"fgcolor_override"	"235 226 202 255"
 			"auto_wide_tocontents" "1"
 		}
-	}	
+	}
+	
+	"VersionLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"VersionLabel"
+		"xpos"			"c-178"
+		"ypos"			"93"
+		"wide"			"140"
+		"tall"			"30"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"east"
+		"labelText"		"biscottiHUD v. 1.32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"235 227 203 255"
+	}
+	
+	"ControlBGPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ControlBGPanel"
+		"xpos"			"c-290"
+		"ypos"			"373"
+		"zpos"			"-1"
+		"wide"			"260"
+		"tall"			"48"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+
+		if_competitive
+		{
+			"ypos"		"315"
+		}
+	}
+		
+	"ConsoleButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ConsoleButton"
+		"xpos"			"c-285"
+		"ypos"			"377"
+		"zpos"			"11"
+		"wide"			"130"
+		"tall"			"20"
+		"visible"		"1"
+		"paintbackground"	"2"
+
+		"navUp"			"ReplayBrowserButton"
+		"navDown"		"ShowPromoCodesButton"
+//		"navLeft"		"ServerBrowserButton"
+//		"navRight"		"TrainingButton"
+		"navToRelay"	"SubButton"
+
+		if_competitive
+		{
+			"ypos"		"219"
+		}
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"125"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuButtonDefault"
+			"border_armed"		"MainMenuButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
+		}
+	}
+	
+	"MinmodeButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"MinmodeButton"
+		"xpos"			"c-160"
+		"ypos"			"377"
+		"zpos"			"11"
+		"wide"			"135"
+		"tall"			"20"
+		"visible"		"1"
+		"paintbackground"	"2"
+
+		"navUp"			"ReplayBrowserButton"
+		"navDown"		"ShowPromoCodesButton"
+//		"navLeft"		"ServerBrowserButton"
+//		"navRight"		"TrainingButton"
+		"navToRelay"	"SubButton"
+
+		if_competitive
+		{
+			"ypos"		"219"
+		}
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"125"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuButtonDefault"
+			"border_armed"		"MainMenuButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
+		}
+	}
 	
 	"CreateServerButton"
 	{
@@ -1352,11 +1501,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"VRModeButton"
-		"xpos"			"c-285"
-		"ypos"			"379"
+		"xpos"			"c47"		// c-285
+		"ypos"			"62"		// 379
 		"zpos"			"11"
 		"wide"			"270"
-		"tall"			"36"
+		"tall"			"32"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
@@ -1734,11 +1883,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"VRBGPanel"
-		"xpos"			"c-290"
-		"ypos"			"373"
+		"xpos"			"c42"
+		"ypos"			"57"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"38"
+		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
