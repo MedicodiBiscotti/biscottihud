@@ -340,7 +340,7 @@
 		"tall"			"30"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"east"
-		"labelText"		"biscottiHUD v. 1.32"
+		"labelText"		"biscottiHUD v. 1.33"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -380,9 +380,8 @@
 		"paintbackground"	"2"
 
 		"navUp"			"ReplayBrowserButton"
-		"navDown"		"ShowPromoCodesButton"
-//		"navLeft"		"ServerBrowserButton"
-//		"navRight"		"TrainingButton"
+		"navDown"		"VRModeButton"
+		"navRight"		"MinmodeButton"
 		"navToRelay"	"SubButton"
 
 		if_competitive
@@ -435,10 +434,10 @@
 		"visible"		"1"
 		"paintbackground"	"2"
 
-		"navUp"			"ReplayBrowserButton"
-		"navDown"		"ShowPromoCodesButton"
-//		"navLeft"		"ServerBrowserButton"
-//		"navRight"		"TrainingButton"
+		"navUp"			"SteamWorkshopButton"
+		"navDown"		"VRModeButton"
+		"navLeft"		"ConsoleButton"
+		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
 		if_competitive
@@ -1438,7 +1437,7 @@
 		"PaintBackgroundType"	"2"
 
 		"navUp"			"GeneralStoreButton"
-		"navDown"		"VRModeButton"
+		"navDown"		"MinmodeButton"
 		"navLeft"		"ReplayBrowserButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
@@ -1509,7 +1508,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
-		"navUp"			"ReplayBrowserButton"
+		"navUp"			"ConsoleButton"
 		"navDown"		"QuitButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
@@ -1582,7 +1581,7 @@
 		"PaintBackgroundType"	"2"
 
 		"navUp"			"CharacterSetupButton"
-		"navDown"		"VRModeButton"
+		"navDown"		"ConsoleButton"
 		"navRight"		"SteamWorkshopButton"
 		"navToRelay"	"SubButton"
 
