@@ -48,10 +48,10 @@
 		"tall"	"160"
 		
 		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
+		"blue_active_xpos_minmode"	"56"
 	
 		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
+		"red_active_xpos_minmode"	"106"
 	}	
 
 	HudItemEffectMeter
@@ -1153,11 +1153,12 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
-		"ypos_minmode"				"15"
+		"xpos"					"c-263"
+		"xpos_minmode"			"c-243"
+		"ypos"					"9"
+		"ypos_minmode"				"0"		// 15
 		"ypos_lodef"				"75"
-		"wide"					"125"
+		"wide"					"224"
 		"tall"					"55"
 	}
 	

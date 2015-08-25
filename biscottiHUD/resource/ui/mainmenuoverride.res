@@ -340,7 +340,7 @@
 		"tall"			"30"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"east"
-		"labelText"		"biscottiHUD v. 1.33"
+		"labelText"		"biscottiHUD v. 1.34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

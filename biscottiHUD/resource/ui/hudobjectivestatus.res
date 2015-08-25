@@ -7,8 +7,8 @@
 		"xpos"				"c-55"
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
-		"ypos"				"0"	[$WIN32]
-		"ypos_minmode"		"-14"	[$WIN32]
+		"ypos"				"9"	[$WIN32]
+		"ypos_minmode"		"0"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"1"
 		"wide"				"110"
@@ -34,19 +34,14 @@
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
-			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
+			"xpos"			"16"
+			"xpos_minmode"	"36"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"45"
-			"wide_minmode"	"30"
-			"wide_lodef"	"50"
-			"tall"			"31"
+			"wide"			"78"
+			"wide_minmode"	"38"
+			"tall"			"32"
+			"tall_minmode"	"15"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
