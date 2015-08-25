@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
-		"MainBackground"	
+	"MainBackground"	
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"
