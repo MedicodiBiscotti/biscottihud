@@ -36,7 +36,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BGColoredLineH"
-		"xpos"			"221"
+		"xpos"			"220"
 		"xpos_minmode"	"271"
 		"ypos"			"48"
 		"ypos_minmode"	"128"
