@@ -330,22 +330,34 @@
 		}
 	}
 	
-	"VersionLabel"
+	"Version"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"VersionLabel"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Version"
 		"xpos"			"c-178"
 		"ypos"			"93"
 		"wide"			"140"
 		"tall"			"30"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"east"
-		"labelText"		"biscottiHUD v. 1.34"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"235 227 203 255"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"140"
+			"tall"			"30"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"east"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"paintbackground"	"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"defaultFgColor_override"	"235 227 203 255"
+			"armedFgColor_override"		"255 255 233 255"
+		}
 	}
 	
 	"ControlBGPanel"

@@ -7,11 +7,34 @@
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"0"
-		"wide"			"470"
+		"wide"			"450"
 		"tall"			"170"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 175"
+	}
+	
+	"ColoredLine"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ColoredLine"
+		"xpos"			"0"
+		"ypos"			"5"
+		"wide"			"450"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"15"
+		"src_corner_width"		"15"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
 	}
 	
 	"Divider"
@@ -31,7 +54,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
 		"xpos"			"15"
-		"ypos"			"-8"
+		"ypos"			"-4"
 		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"48"
@@ -47,7 +70,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIconShadow"
 		"xpos"			"16"
-		"ypos"			"-7"
+		"ypos"			"-3"
 		"zpos"			"0"
 		"wide"			"48"
 		"tall"			"48"
@@ -64,7 +87,7 @@
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontGiantBold"
 		"xpos"			"68"			// align me to the left edge of the first selection
-		"ypos"			"0"
+		"ypos"			"4"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
@@ -85,7 +108,7 @@
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
 		"xpos"			"69"			// align me to the left edge of the first selection
-		"ypos"			"1"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"

@@ -1,7 +1,7 @@
 // Section to enable/disable certain event animations //
 //=====================================================
 
-// event HudSpyDisguiseChanged {runevent SpyDisguiseChanged 0}
+// event HudSpyDisguiseChanged {runevent HudSpyDisguiseChangedNULL 0}
 // event FlagOutline {runevent FlagOutlineNULL 0}
 
 //=====================================================
@@ -383,7 +383,7 @@ event FlagOutlineNULL
 //===========================================
 
 // Spy Disguise
-event SpyDisguiseChanged
+event HudSpyDisguiseChangedNULL
 {
 	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
 	

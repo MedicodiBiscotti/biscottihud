@@ -7,11 +7,34 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"470"
+		"wide"			"450"
 		"tall"			"180"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 175"
+	}
+	
+	"ColoredLine"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ColoredLine"
+		"xpos"			"0"
+		"ypos"			"5"
+		"wide"			"450"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"15"
+		"src_corner_width"		"15"
+		
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
 	}
 	
 	"ItemBackground"

@@ -49,7 +49,7 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
-	"PlayerStatusHealthBonusImageNULL"
+	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImageNULL"
