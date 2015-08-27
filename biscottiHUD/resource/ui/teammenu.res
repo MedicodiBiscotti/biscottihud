@@ -389,7 +389,7 @@
 		"xpos"			"0"
 		"ypos"			"r50"
 		"zpos"			"5"
-		"wide"			"225"
+		"wide"			"325"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"

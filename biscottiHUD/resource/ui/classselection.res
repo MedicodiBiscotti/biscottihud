@@ -825,10 +825,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"c-75"			// r180
+		"xpos"			"c-100"			// r180
 		"ypos"			"c9"			// r38
 		"zpos"			"6"
-		"wide"			"150"
+		"wide"			"200"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
