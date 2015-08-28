@@ -33,12 +33,9 @@
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"15"
-		"xpos_minmode"	"55"
-		"wide_minmode"	"300"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"west"
-		"textAlignment_minmode"		"west"
 		"labelText"					"%wave_count%"
 	}
 	
@@ -115,11 +112,11 @@
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
 		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
+		"src_corner_height"	"16"				// pixels inside the image
+		"src_corner_width"	"16"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"ProgressBarBG"
@@ -138,10 +135,10 @@
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_tan"
 		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
+		"src_corner_height"	"16"				// pixels inside the image
+		"src_corner_width"	"16"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 }

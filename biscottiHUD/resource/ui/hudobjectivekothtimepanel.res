@@ -103,7 +103,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
-		"ypos"				"9"
+		"ypos"				"0"
 		"ypos_minmode"		"0"
 		"zpos"				"1"
 		"wide"				"78"
