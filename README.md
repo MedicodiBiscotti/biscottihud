@@ -20,6 +20,10 @@ This is done by uncommenting the respective lines at the top of the file.
 This HUD includes **multiple scoreboards** with tweaked sizes for **24**, **32**, **18**, and **12** man servers. (**Normal**, **32 man**, **Highlander**, and **6's**).
 To change the scoreboard, copy the contents of the one you want to use into the one just named **scoreboard.res**.
 
+I've included multiple copies of the **Main Menu**. Two with custom design by me, and a pretty background, of which one  includes a seperate **full button** with text for **Training**, and the other uses an **icon** as a button for **Training**.
+Lastly, there's one menu that's a copy of the **stock** menu but with two extra buttons added. Of course, these extra buttons are in all the menus.
+To change the menu, copy the contents of the one you want into **mainmenuoverride**.
+
 #Credits
 This is HUD is greatly inspired by **BroeselHUD**, **e.v.e HUD**, and **7HUD**.
 Thank you to all those people for making awesome HUDs and for making the code so readily available so that we all can learn how to realize our own ideas.
@@ -28,5 +32,7 @@ There is an alternate colouring for full Über Charge that was taken from **Slin
 The Engineer buildings panel is HUGELY inspired by **e.v.e HUD** but tweaked and altered to my liking.
 
 I took the RED and BLU buttons on the loadout screen from Ray (I think).
+
+The main menu was inspired by **budhud**.
 
 **Hope you enjoy!**
