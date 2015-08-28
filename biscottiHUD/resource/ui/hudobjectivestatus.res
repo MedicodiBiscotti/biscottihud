@@ -7,7 +7,7 @@
 		"xpos"				"c-55"
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
-		"ypos"				"9"	[$WIN32]
+		"ypos"				"0"	[$WIN32]
 		"ypos_minmode"		"0"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"1"

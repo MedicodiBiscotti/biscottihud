@@ -1155,7 +1155,7 @@
 		"enabled"				"1"
 		"xpos"					"c-263"
 		"xpos_minmode"			"c-243"
-		"ypos"					"9"
+		"ypos"					"0"
 		"ypos_minmode"				"0"		// 15
 		"ypos_lodef"				"75"
 		"wide"					"224"
