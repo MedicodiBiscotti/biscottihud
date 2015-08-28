@@ -4,6 +4,12 @@ I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercia
 
 As of right now, I don't have all the resource files included in this release, only the ones I've changed. Let me know if I should include all the files. That would make it easier to customize but much harder to update as more files have potentiel changes made and then you need to update them for no real reason as they weren't supposed to be changed anyway.
 
+# IMPORTANT! Minmode
+This HUD is a **minmode HUD**, meaning I designed it around using minmode (**cl_hud_minmode 1**).
+But it also has a **non-minmode** version for people who like the HP and ammo to be higher up and closer to the centre. I personally don't like this and thus designed it in minmode.
+To change between them use **cl_hud_minmode 0/1** where 1 is minmode, and 0 is non-minmode.
+All the screenshots on huds.tf are in minmode (cl_hud_minmode 1).
+
 #Installation
 Click the button that says **Download ZIP**.
 Then extract it to your **/tf/custom/** folder so that inside your custom folder there is a folder called **biscottiHUD**.
