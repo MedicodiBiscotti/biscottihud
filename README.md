@@ -7,6 +7,7 @@ As of right now, I don't have all the resource files included in this release, o
 # IMPORTANT! Minmode
 This HUD is a **minmode HUD**, meaning I designed it around using minmode (**cl_hud_minmode 1**).
 But it also has a **non-minmode** version for people who like the HP and ammo to be higher up and closer to the centre. I personally don't like this and thus designed it in minmode.
+
 To change between them use **cl_hud_minmode 0/1** where 1 is minmode, and 0 is non-minmode.
 All the screenshots on huds.tf are in minmode (cl_hud_minmode 1).
 
@@ -24,10 +25,13 @@ You can also re-enable the shaded image that pops up on screen when disguising o
 This is done by uncommenting the respective lines at the top of the file.
 
 This HUD includes **multiple scoreboards** with tweaked sizes for **24**, **32**, **18**, and **12** man servers. (**Normal**, **32 man**, **Highlander**, and **6's**).
+
 To change the scoreboard, copy the contents of the one you want to use into the one just named **scoreboard.res**.
 
 I've included multiple copies of the **Main Menu**. Two with custom design by me, and a pretty background, of which one  includes a seperate **full button** with text for **Training**, and the other uses an **icon** as a button for **Training**.
+
 Lastly, there's one menu that's a copy of the **stock** menu but with two extra buttons added. Of course, these extra buttons are in all the menus.
+
 To change the menu, copy the contents of the one you want into **mainmenuoverride**.
 
 #Credits
