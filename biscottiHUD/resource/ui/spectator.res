@@ -61,7 +61,7 @@
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
@@ -155,7 +155,7 @@
 		"zpos"			"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -180,7 +180,7 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -202,7 +202,7 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -244,7 +244,7 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -265,7 +265,7 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
@@ -286,7 +286,7 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$WIN32]
 		"visible_minmode"		"0"
 		"visible"		"0"	[$X360]
 		"enabled"		"1"

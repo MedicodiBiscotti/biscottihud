@@ -334,9 +334,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Version"
-		"xpos"			"c-65"
+		"xpos"			"c-75"
 		"ypos"			"37"
-		"wide"			"140"
+		"wide"			"150"
 		"tall"			"30"
 		"visible"		"1"
 		
@@ -346,7 +346,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"140"
+			"wide"			"150"
 			"tall"			"30"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"east"

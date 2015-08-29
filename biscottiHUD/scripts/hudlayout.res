@@ -992,6 +992,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-225"
 		"ypos"			"c"		// c-55
+		"zpos"			"10"
 		"wide"			"450"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1004,6 +1005,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-225"
 		"ypos"			"c"		// c-59
+		"zpos"			"10"
 		"wide"			"450"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1016,6 +1018,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-125"
 		"ypos"			"c"	// c-55
+		"zpos"			"10"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1028,8 +1031,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c"		// c-52
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"zpos"			"10"
 		"wide"			"470"
 		"tall"			"200"	[$WIN32]
 		"tall"			"180"	[$X360]
