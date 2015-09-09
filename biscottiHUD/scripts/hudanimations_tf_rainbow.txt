@@ -213,11 +213,20 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.2			// White	Cross
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.2 0.4
 	
-	Animate PlayerStatusHealthValue		FgColor		"61 171 255 255"	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSelf	FgColor		"61 171 255 255"	Linear 0.0 0.0
+	Animate	PlayerHealthShadedBG 			BgColor		"BrightBlue"		Linear 0.0 0.0		// Coloured	Box
+	Animate	PlayerHealthShadedBG 			BgColor		"BrightBlueLight"	Linear 0.0 0.2		// Coloured	Box
+	Animate	PlayerHealthShadedBG 			BgColor		"BrightBlue"		Linear 0.2 0.2		// Coloured	Box
+	
+	Animate	PlayerHealthBonusShadedBGTournament		Alpha		"255"				Linear 0.0 0.0		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"BrightBlueLight"	Linear 0.0 0.2		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"BrightBlue"		Linear 0.2 0.2		// Coloured	Box	Tournament
+	
+	
+	Animate PlayerStatusHealthValue		FgColor		"HealthBonus"		Linear 0.0 0.0
+//	Animate PlayerStatusHealthValueSelf	FgColor		"HealthBonus"		Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -232,9 +241,13 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	
+	Animate	PlayerHealthShadedBG 		BgColor		"TransBlack"		Linear 0.0 0.0		// Coloured	Box
+	Animate	PlayerHealthBonusShadedBGTournament		Alpha		"0"		Linear 0.0 0.0		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"BrightBlue"		Linear 0.0 0.0		// Coloured	Box	Tournament
 
 	Animate PlayerStatusHealthValue		FgColor		"White"		Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSelf	FgColor		"TanDark"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSelf	FgColor		"TanLight"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -242,11 +255,15 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.075		// White	Cross
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.125 0.075
 	
-	Animate PlayerStatusHealthValue		FgColor		"255 50 50 255"	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSelf	FgColor		"255 50 50 255"	Linear 0.0 0.0
+	Animate	PlayerHealthShadedBG 			BgColor		"BrightRed"			Linear 0.0 0.0			// Coloured Box
+	Animate	PlayerHealthShadedBG 			BgColor		"BrightRedLight"	Linear 0.0 0.075		// Coloured Box
+	Animate	PlayerHealthShadedBG 			BgColor		"BrightRed"			Linear 0.125 0.075		// Coloured Box
+	
+	Animate PlayerStatusHealthValue			FgColor		"HealthDying"	Linear 0.0 0.0
+//	Animate PlayerStatusHealthValueSelf		FgColor		"HealthDying"	Linear 0.0 0.0			// Red Text
 
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -261,9 +278,11 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
+	
+	Animate	PlayerHealthShadedBG 			BgColor		"TransBlack"	Linear 0.0 0.0			// Coloured Box
 
-	Animate PlayerStatusHealthValue		FgColor		"White"		Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSelf	FgColor		"TanDark"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValue			FgColor		"White"			Linear 0.0 0.0
+//	Animate PlayerStatusHealthValueSelf		FgColor		"TanLight"		Linear 0.0 0.0			// Text Reset
 }
 
 //===========================================
@@ -271,10 +290,14 @@ event HudHealthDyingPulseStop
 event HudLowAmmoPulse
 {
 //	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-//	Animate	HudWeaponLowAmmoImage		Alpha		"0"		Linear 0.125 0.075
+//	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 
-	Animate AmmoInClip			FgColor		"AmmoLow"	Linear 0.0 0.0
-	Animate AmmoInReserve			FgColor		"AmmoLow"	Linear 0.0 0.0
+	Animate HudWeaponAmmoShadedBG		BgColor		"BrightRed"			Linear 0.0 0.0				// Coloured	Box
+	Animate HudWeaponAmmoShadedBG		BgColor		"BrightRedLight"	Linear 0.0 0.075			// Coloured	Box
+	Animate HudWeaponAmmoShadedBG		BgColor		"BrightRed"			Linear 0.125 0.075			// Coloured	Box
+
+//	Animate AmmoInClip					FgColor		"AmmoLow"	Linear 0.0 0.0				// Red Text
+//	Animate AmmoInReserve				FgColor		"AmmoLow"	Linear 0.0 0.0
 
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -290,8 +313,10 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 
+	Animate HudWeaponAmmoShadedBG		BgColor		"TransBlack"	Linear 0.0 0.0				// Coloured	Box	
+	
 	Animate AmmoInClip			FgColor		"TanLight"	Linear 0.0 0.0
-	Animate AmmoInReserve			FgColor		"TanLight"	Linear 0.0 0.0
+	Animate AmmoInReserve		FgColor		"TanLight"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -449,18 +474,31 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"255 0 255 255"		Linear 0.0 0.05
-	Animate	ChargeLabel 	FgColor		"125 0 255 255"		Linear 0.05 0.05
-	Animate	ChargeLabel 	FgColor		"0 0 255 255"		Linear 0.1 0.05
-	Animate	ChargeLabel 	FgColor		"0 125 255 255"		Linear 0.15 0.05
-	Animate	ChargeLabel 	FgColor		"0 255 255 255"		Linear 0.2 0.05
-	Animate	ChargeLabel 	FgColor		"0 255 125 255"		Linear 0.25 0.05
-	Animate	ChargeLabel 	FgColor		"0 255 0 255"		Linear 0.3 0.05
-	Animate	ChargeLabel 	FgColor		"125 255 0 255"		Linear 0.35 0.05
-	Animate	ChargeLabel 	FgColor		"255 255 0 255"		Linear 0.4 0.05
-	Animate	ChargeLabel 	FgColor		"255 125 0 255"		Linear 0.45 0.05
-	Animate	ChargeLabel 	FgColor		"255 0 0 255"		Linear 0.5 0.05
-	Animate	ChargeLabel 	FgColor		"255 0 125 255"		Linear 0.55 0.05
+//	Animate	ChargeLabel 	FgColor		"255 0 255 255"		Linear 0.0 0.05
+//	Animate	ChargeLabel 	FgColor		"125 0 255 255"		Linear 0.05 0.05
+//	Animate	ChargeLabel 	FgColor		"0 0 255 255"		Linear 0.1 0.05
+//	Animate	ChargeLabel 	FgColor		"0 125 255 255"		Linear 0.15 0.05
+//	Animate	ChargeLabel 	FgColor		"0 255 255 255"		Linear 0.2 0.05
+//	Animate	ChargeLabel 	FgColor		"0 255 125 255"		Linear 0.25 0.05
+//	Animate	ChargeLabel 	FgColor		"0 255 0 255"		Linear 0.3 0.05
+//	Animate	ChargeLabel 	FgColor		"125 255 0 255"		Linear 0.35 0.05
+//	Animate	ChargeLabel 	FgColor		"255 255 0 255"		Linear 0.4 0.05
+//	Animate	ChargeLabel 	FgColor		"255 125 0 255"		Linear 0.45 0.05
+//	Animate	ChargeLabel 	FgColor		"255 0 0 255"		Linear 0.5 0.05
+//	Animate	ChargeLabel 	FgColor		"255 0 125 255"		Linear 0.55 0.05
+	
+	Animate	MedicChargedShadedBG 	BgColor		"255 0 255 175"		Linear 0.0 0.05
+	Animate	MedicChargedShadedBG 	BgColor		"125 0 255 175"		Linear 0.05 0.05
+	Animate	MedicChargedShadedBG 	BgColor		"0 0 255 175"		Linear 0.1 0.05
+	Animate	MedicChargedShadedBG 	BgColor		"0 125 255 175"		Linear 0.15 0.05
+	Animate	MedicChargedShadedBG 	BgColor		"0 255 255 175"		Linear 0.2 0.05
+	Animate	MedicChargedShadedBG 	BgColor		"0 255 125 175"		Linear 0.25 0.05
+	Animate	MedicChargedShadedBG 	BgColor		"0 255 0 175"		Linear 0.3 0.05
+	Animate	MedicChargedShadedBG 	BgColor		"125 255 0 175"		Linear 0.35 0.05
+	Animate	MedicChargedShadedBG 	BgColor		"255 255 0 175"		Linear 0.4 0.05
+	Animate	MedicChargedShadedBG 	BgColor		"255 125 0 175"		Linear 0.45 0.05
+	Animate	MedicChargedShadedBG 	BgColor		"255 0 0 175"		Linear 0.5 0.05
+	Animate	MedicChargedShadedBG 	BgColor		"255 0 125 175"		Linear 0.55 0.05
 	
 	Animate	ChargeMeter 	FgColor		"255 0 255 255"		Linear 0.0 0.05
 	Animate	ChargeMeter 	FgColor		"125 0 255 255"		Linear 0.05 0.05
@@ -490,8 +528,9 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0
+	Animate	MedicChargedShadedBG 	BgColor		"TransBlack"	Linear 0.0 0.0
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0
 }
 
 //====================================

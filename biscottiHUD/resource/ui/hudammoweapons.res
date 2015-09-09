@@ -39,30 +39,20 @@
 	}
 	"HudWeaponAmmoShadedBG"
 	{
-		"controlname"		"ImagePanel"
+		"controlname"	"Button"
 		"fieldname"		"HudWeaponAmmoShadedBG"
 		"xpos"			"6"
 		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
-		"fillcolor"		"0 0 0 175"	
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}
-	"HudWeaponAmmoLowShadedBG"
-	{
-		"controlname"		"ImagePanel"
-		"fieldname"		"HudWeaponAmmoLowShadedBG"
-		"xpos"			"6"
-		"ypos"			"2"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"50"
-		"fillcolor"		"200 36 0 175"				// "192 28 0 175"  // "200 36 0 175"  // "255 50 50 175"
-		"alpha"			"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"defaultBgColor_Override"		"TransBlack"
+		"paintbackgroundtype"	"0"
+		"labelText"		""
 	}
 	"BGColoredLineH"
 	{

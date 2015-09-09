@@ -89,8 +89,10 @@ Scheme
 		"HealthBonus"		"61 171 255 255"
 		"HealthDying"		"255 50 50 255"
 		"AmmoLow"			"255 50 50 255"
-		"UberReady"			"255 0 255 255"
-		"UberReadyLight"	"255 125 255 255"
+		"UberReady"			"255 30 255 255"
+		"UberReadyLight"	"255 70 255 255"
+		"UberReadyTrans"		"255 30 255 175"
+		"UberReadyLightTrans"	"255 70 255 175"
 		"SlinFire1"			"255 137 0 255"
 		"SlinFire2"			"255 30 0 255"
 		"color_panel_brown"	"51 48 45 200"
@@ -101,8 +103,12 @@ Scheme
 		"color_panel_bluLighter"	"97 136 159 175"
 		"color_panel_red"	"184 59 59 175"
 		"color_panel_redLighter"	"204 79 79 175"
+		"BrightBlue"		"31 141 225 175"
+		"BrightBlueLight"	"51 161 225 175"
 		"BrightRed"			"200 36 0 175"
+		"BrightRedLight"	"220 56 20 175"
 		"DarkGray"			"50 50 50 200"
+		"TransBlack"		"0 0 0 175"
 				
 		"LowHealthRed"		"255 0 0 255"
 		"ProgressOffWhite"	"251 235 202 255"
@@ -1726,6 +1732,57 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"180"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"1200 10000"
+				"antialias" "1"
+			}
+		}
+		
+		"ScoreboardTeamScoreMedium"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"22"
+				"tall_lodef"		"50"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"1 599"
+				"antialias" "1"
+			}
+			"2"
+			{
+				"name"		"TF2"
+				"tall"		"52"
+				"tall_hidef"	"80"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"600 767"
+				"antialias" "1"
+			}
+			"3"
+			{
+				"name"		"TF2"
+				"tall"		"70"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"768 1023"
+				"antialias" "1"
+			}
+			"4"
+			{
+				"name"		"TF2"
+				"tall"		"100"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"1024 1199"
+				"antialias" "1"
+			}
+			"5"
+			{
+				"name"		"TF2"
+				"tall"		"130"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"1200 10000"
@@ -5027,240 +5084,56 @@ Scheme
 		{
 			"font" "resource/TF2.ttf"
 			"name" "TF2"
-			"turkish"
+			"russian"
 			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
+				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x017C"
+				"range" "0x0000 0xFFFF"
 			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
-			}	
 		}
 		"4" 
 		{
 			"font" "resource/TF2Secondary.ttf"
 			"name" "TF2 Secondary"
-			"english"
+			"russian"
 			{
-				"range" "0x0000 0x2014"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
+				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x017C"
+				"range" "0x0000 0xFFFF"
 			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
-			}	
 		}
 		"5" 
 		{
 			"font" "resource/TF2Professor.ttf"
 			"name" "TF2 Professor"
-			"turkish"
+			"russian"
 			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
+				"range" "0x0000 0x00FF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x017C"
+				"range" "0x0000 0x00FF"
 			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}	
 		}	
 		"6" 
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
-			"turkish"
+			"russian"
 			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
+				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x017C"
+				"range" "0x0000 0xFFFF"
 			}
-			"norwegian"
+			"turkish"
 			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
+				"range" "0x0000 0xFFFF"
 			}
 		}			
 		"7" "resource/ocra.ttf"

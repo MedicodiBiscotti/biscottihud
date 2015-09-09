@@ -17,9 +17,9 @@
 		"teambg_3"		"../hud/medic_charge_blue_bg"				
 	}
 	
-	"MedicChargeShadedBG"
+	"MedicChargedShadedBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"Button"
 		"fieldName"		"MedicChargedShadedBG"
 		"xpos"			"220"
 		"xpos_minmode"	"271"
@@ -28,8 +28,13 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
-		"fillcolor"		"0 0 0 175"	
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
+		"enabled"		"1"
+		"defaultBgColor_Override"		"TransBlack"
+		"paintbackgroundtype"	"0"
+		"labelText"		""
 		"enabled"		"1"
 	}
 	"BGColoredLineH"

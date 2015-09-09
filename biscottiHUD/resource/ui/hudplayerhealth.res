@@ -66,44 +66,20 @@
 	}
 	"PlayerHealthShadedBG"
 	{
-		"controlname"		"ImagePanel"
+		"controlname"	"Button"
 		"fieldname"		"PlayerHealthShadedBG"
 		"xpos"			"54"			// 45
 		"ypos"			"41"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
-		"fillcolor"		"0 0 0 175"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}
-	"PlayerHealthDyingShadedBG"
-	{
-		"controlname"		"ImagePanel"
-		"fieldname"		"PlayerHealthDyingShadedBG"
-		"xpos"			"54"			// 59
-		"ypos"			"41"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"50"
-		"fillcolor"		"200 36 0 175"			// "192 28 0 175"  // "200 36 0 175"  // "255 50 50 175"
-		"alpha" 		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-	"PlayerHealthBonusShadedBG"
-	{
-		"controlname"		"ImagePanel"
-		"fieldname"		"PlayerHealthBonusShadedBG"
-		"xpos"			"54"			// 59
-		"ypos"			"41"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"50"
-		"fillcolor"		"31 141 225 175"
-		"alpha" 		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"defaultBgColor_Override"		"TransBlack"
+		"paintbackgroundtype"	"0"
+		"labelText"		""
 	}
 	"BGColoredLineH"
 	{
