@@ -303,7 +303,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		if_mvm
@@ -341,7 +341,7 @@
 		"xpos_hidef"	"30"
 		"ypos"			"54"
 		"zpos"			"20"
-		"wide"			"310"
+		"wide"			"-310"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
 		"tall"			"167"	[$WIN32]
@@ -369,7 +369,7 @@
 		"xpos_hidef"	"334"
 		"ypos"			"54"
 		"zpos"			"20"
-		"wide"			"310"
+		"wide"			"-310"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
 		"tall"			"167"	[$WIN32]
@@ -427,7 +427,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		if_mvm
@@ -450,7 +450,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		if_mvm
@@ -517,12 +517,12 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 			"wide"			"175"
 			"ypos"			"375"
 		}

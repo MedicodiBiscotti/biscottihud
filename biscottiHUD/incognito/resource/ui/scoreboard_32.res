@@ -11,7 +11,7 @@
 		"wide"			"640"
 		"wide_lodef"	"560"
 		"wide_hidef"	"620"
-		"tall"			"311"
+		"tall"			"430"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -103,7 +103,7 @@
 		"ypos"			"9"			// 63
 		"zpos"			"-1"
 		"wide"			"640"
-		"tall"			"302"		// 385
+		"tall"			"421"		// 385
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -303,7 +303,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		if_mvm
@@ -341,17 +341,17 @@
 		"xpos_hidef"	"30"
 		"ypos"			"54"
 		"zpos"			"20"
-		"wide"			"310"
+		"wide"			"-310"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
-		"tall"			"167"	[$WIN32]
+		"tall"			"286"	[$WIN32]
 		"tall"			"255"	[$X360]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"17"
+		"linespacing"	"17"			// 24p = 22		// 32p = 17
 		"fgcolor"		"blue"
 		//"show_columns"	"1"
 		
@@ -369,17 +369,17 @@
 		"xpos_hidef"	"334"
 		"ypos"			"54"
 		"zpos"			"20"
-		"wide"			"310"
+		"wide"			"-310"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
-		"tall"			"167"	[$WIN32]
+		"tall"			"286"	[$WIN32]
 		"tall"			"255"	[$X360]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"17"
+		"linespacing"	"17"			// 24p = 22		// 32p = 17
 		"textcolor"		"red"
 		//"show_columns"	"1"
 
@@ -398,7 +398,9 @@
 		"ypos"			"52"
 		"zpos"			"2"
 		"wide"			"2"
-		"tall"			"173"
+		"tall"			"292"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -421,13 +423,14 @@
 		"textAlignment"		"west"
 		"xpos"			"115"
 		"xpos_hidef"	"135"
-		"ypos"			"220"
+		"ypos"			"339"	[$WIN32]
+		"ypos"			"277"	[$X360]
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		if_mvm
@@ -444,13 +447,14 @@
 		"textAlignment"		"west"
 		"xpos"			"115"
 		"xpos_hidef"	"135"
-		"ypos"			"211"
+		"ypos"			"330"	[$WIN32]
+		"ypos"			"277"	[$X360]
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		if_mvm
@@ -464,9 +468,12 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"30"
 		"xpos_hidef"	"50"
-		"ypos"			"235"
+		"ypos"			"354"	[$WIN32]
+		"ypos"			"297"	[$X360]
 		"zpos"			"2"
 		"wide"			"580"
+		"wide_lodef"	"539"
+		"wide_hidef"	"559"
 		"tall"			"70"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -488,7 +495,8 @@
 		"fieldName"		"ClassImage"
 		"xpos"			"22"
 		"xpos_lodef"	"12"
-		"ypos"			"223"
+		"ypos"			"342"	[$WIN32]
+		"ypos"			"275"	[$X360]
 		"zpos"			"3"
 		"wide"			"82"
 		"tall"			"82"
@@ -511,18 +519,18 @@
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"ypos"			"238"
+		"ypos"			"357"
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 			"wide"			"175"
 			"ypos"			"375"
 		}
@@ -535,7 +543,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
 		"xpos"			"415"
-		"ypos"			"238"
+		"ypos"			"357"
 		"zpos"			"3"
 		"wide"			"165"
 		"tall"			"20"
@@ -556,7 +564,8 @@
 		"fieldName"		"HorizontalLine"
 		"xpos"			"115"
 		"xpos_lodef"	"105"
-		"ypos"			"260"
+		"ypos"			"379"	[$WIN32]
+		"ypos"			"322"	[$X360]
 		"zpos"			"3"
 		"wide"			"465"
 		"wide_lodef"	"434"
@@ -584,7 +593,9 @@
 		"labelText"		"%playerscore%"
 		"textAlignment"	"east"
 		"xpos"			"440"
-		"ypos"			"240"
+		"xpos_lodef"	"399"
+		"xpos_hidef"	"439"
+		"ypos"			"359"
 		"zpos"			"3"
 		"wide"			"140"
 		"tall"			"20"
@@ -604,7 +615,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"0"
-		"ypos"			"258"
+		"ypos"			"377"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
@@ -815,7 +826,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
-		"ypos"			"258"
+		"ypos"			"377"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"448"

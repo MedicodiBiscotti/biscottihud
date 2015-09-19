@@ -1633,12 +1633,38 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"ScoreboardMediumSmallish"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		"ScoreboardMedium"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"20"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamNameSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"tall_hidef"	"18"
+				"tall_lodef"	"18"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1659,14 +1685,14 @@ Scheme
 				"additive"	"0"
 			}
 		}
-		"ScoreboardTeamNameSmall"
+		"ScoreboardTeamNameMedium"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"14"
-				"tall_hidef"	"18"
-				"tall_lodef"	"18"
+				"tall"		"24"
+				"tall_hidef"	"28"
+				"tall_lodef"	"28"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1754,8 +1780,8 @@ Scheme
 			"2"
 			{
 				"name"		"TF2"
-				"tall"		"52"
-				"tall_hidef"	"80"
+				"tall"		"42"
+				"tall_hidef"	"70"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"600 767"
@@ -1764,7 +1790,7 @@ Scheme
 			"3"
 			{
 				"name"		"TF2"
-				"tall"		"70"
+				"tall"		"60"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"768 1023"
@@ -1773,7 +1799,7 @@ Scheme
 			"4"
 			{
 				"name"		"TF2"
-				"tall"		"100"
+				"tall"		"90"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"1024 1199"
@@ -1782,7 +1808,7 @@ Scheme
 			"5"
 			{
 				"name"		"TF2"
-				"tall"		"130"
+				"tall"		"110"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"1200 10000"

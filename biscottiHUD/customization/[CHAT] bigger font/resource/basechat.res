@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"south-west"
-		"font"			"ChatFont"				// "ChatFontLarge" for bigger font. "ChatFont" for default size.
+		"font"			"ChatFontLarge"				// "ChatFontLarge" for bigger font. "ChatFont" for default size.
 		"maxchars"		"-1"
 	}
 }
