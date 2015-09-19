@@ -38,7 +38,7 @@ I've also included a **chat** file that uses a bigger font, and a set of **score
 
 To change those, use the same procedure as when described above.
 
-If you want to make the font of the buttons smaller in the main menu, use a text editor like **notepad++** and replace **HudFontBiggerBold** with *HudFontMediumBold**.
+If you want to make the font of the buttons smaller in the main menu, use a text editor like **notepad++** and replace **HudFontBiggerBold** with *HudFontMediumBold** in *resource/ui/mainmenuoverride.res**.
 
 #Incognito
 I've made an **incognito** mode designed for streamers that disables all names on the HUD. To enable it, copy the contents of the **incognito** folder into the parent folder (so that the folders match up). To disable it again, copy the contents of **backup_default_files** into the parent folder to overwrite the incognito ones. Note that I think custom weapon names still show up.
