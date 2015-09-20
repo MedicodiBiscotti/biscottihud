@@ -1,4 +1,5 @@
 # biscottiHUD
+v. 1.41
 This is my custom HUD for Team Fortress 2 (TF2).
 I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercial uses like YouTube or Twitch.
 
@@ -34,7 +35,7 @@ Lastly, there's one menu that's a copy of the **stock** menu but with two extra 
 
 To change the menu, copy the one you want from the **customization** folder into **resource/ui/**. Note that the **customization** folder has those folders in it.
 
-I've also included a **chat** file that uses a bigger font, and a set of **scoreboards** that have a bigger topbar.
+I've also included a **chat** file that uses a **bigger font**, and a set of **scoreboards** that have a **bigger topbar**. There is also a version of the **winpanels** that use a **smaller font** for the team score.
 
 To change those, use the same procedure as when described above.
 
