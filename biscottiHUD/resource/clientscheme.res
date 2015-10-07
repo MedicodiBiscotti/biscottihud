@@ -2470,6 +2470,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
 		"QuestFlavorText"
 		{
 			"1"
