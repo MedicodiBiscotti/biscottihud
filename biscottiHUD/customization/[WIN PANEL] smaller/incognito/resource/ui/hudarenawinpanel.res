@@ -77,7 +77,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"ScoreboardTeamScore"
+			"font"			"ScoreboardTeamScoreMedium"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"93"
@@ -94,7 +94,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"ScoreboardTeamScore"
+			"font"			"ScoreboardTeamScoreMedium"
 			"fgcolor"		"Black"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
