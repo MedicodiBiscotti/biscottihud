@@ -73,15 +73,38 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		// image is 1024x128, actual pixels are 872x43, scale 0.8515625
 		"image"			"../passtime/hud/passtime_ballcontrol_bar"
 		"scaleImage"	"1"
 	}
+	
+	"BlueProgressEnd"
+	{
+		// tells the code where the end of the progress bar is since the image
+		// might be padded for npot reasons.
+		"ControlName" 	"Panel"
+		"fieldName"		"BlueProgressEnd"
+		"xpos"			"c-152"
+		"ypos"			"76"		// r64
+		"ypos_minmode"	"48"
+		"visible"		"0"
+	}
 
-	"BaseIconBlue"
+	"RedProgressEnd"
+	{
+		// tells the code where the end of the progress bar is since the image
+		// might be padded for npot reasons.
+		"ControlName"	"Panel"
+		"fieldName"		"RedProgressEnd"
+		"xpos"			"c152"
+		"ypos"			"76"
+		"ypos_minmode"	"48"
+		"visible"		"0"
+	}	
+
+	"GoalBlue0"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BaseIconBlue"	
+		"fieldName"		"GoalBlue0"	
 		"xpos"			"c-162"
 		"ypos"			"64"		// r72
 		"ypos_minmode"	"36"
@@ -90,7 +113,7 @@
 		"tall"			"17"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
@@ -98,19 +121,60 @@
 		"scaleImage"	"1"	
 	}
 
-	"BaseIconRed"
+	"GoalBlue1"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BaseIconRed"	
-		"xpos"			"c146"
-		"ypos"			"64"		// r72
+		"fieldName"		"GoalBlue1"	
+		"xpos"			"c-132"
+		"ypos"			"64"
 		"ypos_minmode"	"36"
 		"zpos"			"1"									
 		"wide"			"17"
 		"tall"			"17"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../hud/cart_home_blue"
+		"scaleImage"	"1"	
+	}
+
+	"GoalBlue2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"GoalBlue2"	
+		"xpos"			"c-102"
+		"ypos"			"64"
+		"ypos_minmode"	"36"
+		"zpos"			"1"									
+		"wide"			"17"
+		"tall"			"17"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../hud/cart_home_blue"
+		"scaleImage"	"1"	
+	}
+
+
+	"GoalRed0"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"GoalRed0"	
+		"xpos"			"c146"
+		"ypos"			"64"
+		"ypos_minmode"	"36"
+		"zpos"			"1"									
+		"wide"			"17"
+		"tall"			"17"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
@@ -118,6 +182,47 @@
 		"scaleImage"	"1"	
 	}
 
+	"GoalRed1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"GoalRed1"
+		"xpos"			"c116"
+		"ypos"			"64"
+		"ypos_minmode"	"36"
+		"zpos"			"1"									
+		"wide"			"17"
+		"tall"			"17"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../hud/cart_home_red"
+		"scaleImage"	"1"	
+	}
+
+
+	"GoalRed2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"GoalRed2"
+		"xpos"			"c86"
+		"ypos"			"64"
+		"ypos_minmode"	"36"
+		"zpos"			"1"									
+		"wide"			"17"
+		"tall"			"17"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"image"			"../hud/cart_home_red"
+		"scaleImage"	"1"	
+	}
+	
 	"ProgressBallIcon"
 	{
 		"ControlName"	"ImagePanel"
