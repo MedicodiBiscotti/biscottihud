@@ -236,8 +236,8 @@
 		"enabled"	"1"
 		"xpos"		"c-231"	[$WIN32]
 		"xpos_minmode"	"c-281"	[$WIN32]
-		"ypos"		"r125"	[$WIN32]				// r125	is below HP box		// r196 is above
-		"ypos_minmode"	"r116"	[$WIN32]			// r45	is below HP box		// r116 is above
+		"ypos"		"r131"	[$WIN32]				// r125	is below HP box		// r196 is above
+		"ypos_minmode"	"r122"	[$WIN32]			// r45	is below HP box		// r116 is above
 		"xpos"		"50"	[$X360]
 		"ypos"		"330"	[$X360]
 		"wide"		"500"
@@ -289,7 +289,6 @@
 		"ypos"		"340"
 		"wide"	 	"252"
 		"tall"	 	"28"
-		"tall_minmode"	 	"28"
 		"priority"	"35"
 
 		if_vr
@@ -1459,5 +1458,28 @@
 		"ypos"			"0"
 		"wide"	 		"f0"
 		"tall"	 		"f0"
+	}
+	
+	"MatchMakingContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"MatchMakingContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
 	}
 }

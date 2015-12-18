@@ -48,7 +48,7 @@
 			"visible"	"0"
 		}
 	}
-		
+	
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -79,7 +79,7 @@
 			"visible"	"0"
 		}
 	}
-		
+	
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -148,7 +148,7 @@
 			"visible"	"0"
 		}
 	}	
-		
+	
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -186,7 +186,7 @@
 			"visible"	"0"
 		}
 	}	
-							
+	
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -224,7 +224,7 @@
 			"visible"	"0"
 		}
 	}	
-		
+	
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -262,7 +262,7 @@
 			"visible"	"0"
 		}
 	}	
-															
+	
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -338,7 +338,7 @@
 			"visible"	"0"
 		}
 	}	
-			
+	
 	"PlayingToBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -367,7 +367,7 @@
 			"visible"	"0"
 		}
 	}	
-		
+	
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -407,7 +407,7 @@
 			"visible"	"0"
 		}
 	}
-			
+	
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -447,7 +447,7 @@
 			"visible"	"0"
 		}
 	}	
-			
+	
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"
@@ -470,6 +470,38 @@
 		{
 			"ypos"		"r100"
 		}
+	}
+	
+	"PoisonIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PoisonIcon"
+		"xpos"			"cs-0.5"
+		"ypos"			"r75"
+		"zpos"			"6"
+		"wide"			"40"
+		"tall"			"o1"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"marked_for_death"
+		"scaleImage"	"1"
+	}
+	
+	"PoisonTimeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PoisonTimeLabel"
+		"xpos"			"cs-0.5"
+		"ypos"			"r65"
+		"zpos"			"6"
+		"wide"			"40"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%redscore%"
+		"font"			"HudFontMediumBold"
+		"fgcolor"		"TanLight"
 	}
 	
 	"SpecCarriedImage"

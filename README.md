@@ -1,5 +1,5 @@
 # biscottiHUD
-v. 1.49
+v. 1.50
 
 This is my custom HUD for Team Fortress 2 (TF2).
 I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercial uses like YouTube or Twitch.
@@ -40,10 +40,10 @@ I've also included a **chat** file that uses a **bigger font**, and a set of **s
 
 To change those, use the same procedure as when described above.
 
-If you want to make the font of the buttons smaller in the main menu, use a text editor like **notepad++** and replace **HudFontBiggerBold** with **HudFontMediumBigBold** in **resource/ui/mainmenuoverride.res**.
+If you want to make the font of the buttons different in the main menu, use a text editor like **notepad++** and replace **HudFontMediumBold** with **something else** in **resource/ui/mainmenuoverride.res**.
 
 #Incognito
-I've made an **incognito** mode designed for streamers that disables all names on the HUD. To enable it, copy the contents of the **incognito** folder into the parent folder (so that the folders match up). To disable it again, copy the contents of **backup_default_files** into the parent folder to overwrite the incognito ones. Note that I think custom weapon names still show up.
+I've made an **incognito** mode designed for streamers that disables all names on the HUD. To enable it, copy the contents of the **incognito** folder into the parent folder (so that the folders match up). To disable it again, copy the contents of **incognito_revert** into the parent folder to overwrite the incognito ones. Note that I think custom weapon names still show up.
 
 #Credits
 This is HUD is greatly inspired by **BroeselHUD**, **e.v.e HUD**, and **7HUD**.

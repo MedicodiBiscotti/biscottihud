@@ -38,6 +38,7 @@ Scheme
 		"Blue"				"0 28 162 140"
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
+		"BrightYellow"		"251 235 0 255"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
@@ -202,7 +203,8 @@ Scheme
 		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
 		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		
-		// QUALITY AND RARITY IN LIGHTER SHADE
+		// QUALITY AND RARITY IN LIGHTER AND DARKER SHADE
+		// +30
 		"QualityColorNormalLight"					"208 208 208 255"
 		"QualityColorrarity1Light"					"107 146 115 255"
 		"QualityColorrarity2Light"					"171 161 105 255"
@@ -226,8 +228,9 @@ Scheme
 		"ItemRarityRareLight"						"105 135 255 255"
 		"ItemRarityMythicalLight"					"166 101 255 255"
 		"ItemRarityLegendaryLight"					"241 74 230 255"
-		"ItemRarityAncienLightt"					"265 105 105 255"
+		"ItemRarityAncientLight"					"265 105 105 255"
 		
+		// +30
 		"ItemRarityDefault_GreyedOutLight"			"74 72 70 255"
 		"ItemRarityCommon_GreyedOutLight"			"89 95 102 255"
 		"ItemRarityUncommon_GreyedOutLight"			"61 80 102 255"
@@ -252,6 +255,58 @@ Scheme
 		"QualityColorHaunted_GreyedOutLight"		"44 91 73 255"
 		"QualityColorCollectors_GreyedOutLight"		"90 30 30 255"
 		"QualityColorPaintkitWeapon_GreyedOutLight"	"90 90 90 255"
+		
+		// -50
+		"QualityColorNormalDark"					"158 158 158 255"		// -20
+		"QualityColorrarity1Dark"					"57 96 65 255"			// -20
+		"QualityColorrarity2Dark"					"121 111 55 255"		// -20
+		"QualityColorrarity3Dark"					"184 184 230 255"		// -20
+		"QualityColorrarity4Dark"					"114 60 152 255"		// -20
+		"QualityColorVintageDark"					"51 78 125 255"
+		"QualityColorUniqueDark"					"205 165 0 255"			// -50
+		"QualityColorCommunityDark"					"62 126 24 255"
+		"QualityColorDeveloperDark"					"115 0 71 255"
+		"QualityColorSelfMadeDark"					"62 126 24 255"
+		"QualityColorCustomizedDark"				"11 48 95 255"
+		"QualityColorStrangeDark"					"187 86 30 255"			// -20
+		"QualityColorCompletedDark"					"84 30 122 255"
+		"QualityColorHauntedDark"					"6 193 121 255"
+		"QualityColorCollectorsDark"				"120 0 0 255"
+		"QualityColorPaintkitWeaponDark"			"200 200 200 255"
+
+		"ItemRarityDefaultDark"						"81 76 69 255"
+		"ItemRarityCommonDark"						"126 145 167 255"
+		"ItemRarityUncommonDark"					"44 102 167 255"
+		"ItemRarityRareDark"						"25 55 205 255"
+		"ItemRarityMythicalDark"					"86 21 205 255"
+		"ItemRarityLegendaryDark"					"161 0 180 255"
+		"ItemRarityAncientDark"						"185 25 25 255"
+		
+		// -20
+		"ItemRarityDefault_GreyedOutDark"			"24 22 20 255"
+		"ItemRarityCommon_GreyedOutDark"			"39 45 52 255"
+		"ItemRarityUncommon_GreyedOutDark"			"11 30 52 255"
+		"ItemRarityRare_GreyedOutDark"				"5 15 65 255"
+		"ItemRarityMythical_GreyedOutDark"			"25 4 65 255"
+		"ItemRarityLegendary_GreyedOutDark"			"50 0 57 255"
+		"ItemRarityAncient_GreyedOutDark"			"58 5 5 255"
+		
+		"QualityColorNormal_GreyedOutDark"			"24 24 24 255"
+		"QualityColorrarity1_GreyedOutDark"			"0 9 1 255"
+		"QualityColorrarity2_GreyedOutDark"			"15 13 0 255"
+		"QualityColorrarity3_GreyedOutDark"			"31 31 42 255"
+		"QualityColorrarity4_GreyedOutDark"			"16 0 23 255"
+		"QualityColorVintage_GreyedOutDark"			"8 5 16 255"
+		"QualityColorUnique_GreyedOutDarkDark"		"14 4 0  255"
+		"QualityColorCommunity_GreyedOutDark"		"8 24 0 255"
+		"QualityColorDeveloper_GreyedOutDark"		"21 0  10  255"
+		"QualityColorSelfMade_GreyedOutDark"		"8 24 54 255"
+		"QualityColorCustomized_GreyedOutDark"		"51 78 0 255"
+		"QualityColorStrange_GreyedOutDark"			"32 7 0 255"
+		"QualityColorCompleted_GreyedOutDark"		"14 0 23 255"
+		"QualityColorHaunted_GreyedOutDark"			"0 41 23 255"
+		"QualityColorCollectors_GreyedOutDark"		"40 0 0 255"
+		"QualityColorPaintkitWeapon_GreyedOutDark"	"40 40 40 255"
 		//
 		
 		"SaleGreen"								"76 107 34 255"
@@ -530,7 +585,257 @@ Scheme
 	{
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
-		// if a font fails to load then the subsequent fonts will replace	
+		// if a font fails to load then the subsequent fonts will replace
+		"Braille16"
+		{
+			"1"
+			{
+				"name"		"Braille"
+				"tall"		"16"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold8"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold10"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold12"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold14"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold16"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold18"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold20"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold22"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold24"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold26"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold28"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold30"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold32"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold34"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"34"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold36"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold38"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"38"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold40"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"40"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold42"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"42"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold44"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"44"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold46"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"46"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold48"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold50"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"50"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold52"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"52"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"OpenSansSemiBold54"
+		{
+			"1"
+			{
+				"name"		"Open Sans Semibold"
+				"tall"		"54"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
 		"Default"
 		{
 			"1"
@@ -1723,6 +2028,20 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"ScoreboardTeamNameNew"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"tall_hidef"	"24"
+				"tall_lodef"	"24"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		"ScoreboardTeamNameMedium"
 		{
 			"1"
@@ -1751,7 +2070,19 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
+		
+		"ScoreboardTeamScoreNew"
+ 		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"36"
+				"tall_hidef"	"48"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ScoreboardTeamScore"
 		{
 			"1"
@@ -3589,7 +3920,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"color_panel_brownSolid"
+			"color"					"QualityColorUniqueDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3601,7 +3932,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"color_panel_brownSolidLighter"
+			"color"					"QualityColorUnique"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3613,7 +3944,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"color_panel_brownSolid"
+			"color"					"QualityColorUnique_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3625,7 +3956,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"color_panel_brownSolidLighter"
+			"color"					"QualityColorUnique_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3639,7 +3970,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity1"
+			"color"					"QualityColorrarity1Dark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3651,7 +3982,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity1Light"
+			"color"					"QualityColorrarity1"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3663,7 +3994,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity1_GreyedOut"
+			"color"					"QualityColorrarity1_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3675,7 +4006,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity1_GreyedOutLight"
+			"color"					"QualityColorrarity1_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3689,7 +4020,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity2"
+			"color"					"QualityColorrarity2Dark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3701,7 +4032,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity2Light"
+			"color"					"QualityColorrarity2"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3713,7 +4044,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity2_GreyedOut"
+			"color"					"QualityColorrarity2_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3725,7 +4056,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity2_GreyedOutLight"
+			"color"					"QualityColorrarity2_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3739,7 +4070,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity3"
+			"color"					"QualityColorrarity3Dark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3751,7 +4082,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity3Light"
+			"color"					"QualityColorrarity3"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3763,7 +4094,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity3_GreyedOut"
+			"color"					"QualityColorrarity3_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3775,7 +4106,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity3_GreyedOutLight"
+			"color"					"QualityColorrarity3_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3789,7 +4120,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity4"
+			"color"					"QualityColorrarity4Dark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3801,7 +4132,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity4Light"
+			"color"					"QualityColorrarity4"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3813,7 +4144,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity4_GreyedOut"
+			"color"					"QualityColorrarity4_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3825,7 +4156,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorrarity4_GreyedOutLight"
+			"color"					"QualityColorrarity4_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3839,7 +4170,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorHaunted"
+			"color"					"QualityColorHauntedDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3851,7 +4182,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorHauntedLight"
+			"color"					"QualityColorHaunted"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3863,7 +4194,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorHaunted_GreyedOut"
+			"color"					"QualityColorHaunted_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3875,7 +4206,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorHaunted_GreyedOutLight"
+			"color"					"QualityColorHaunted_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3889,7 +4220,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorPaintkitWeapon"
+			"color"					"QualityColorPaintkitWeaponDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3901,7 +4232,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorPaintkitWeaponLight"
+			"color"					"QualityColorPaintkitWeapon"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3913,7 +4244,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorPaintkitWeapon_GreyedOut"
+			"color"					"QualityColorPaintkitWeapon_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3925,7 +4256,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorPaintkitWeaponGreyedOutLight"
+			"color"					"QualityColorPaintkitWeaponGreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3939,7 +4270,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCollectors"
+			"color"					"QualityColorCollectorsDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3951,7 +4282,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCollectorsLight"
+			"color"					"QualityColorCollectors"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3963,7 +4294,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCollectors_GreyedOut"
+			"color"					"QualityColorCollectors_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3975,7 +4306,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCollectors_GreyedOutLight"
+			"color"					"QualityColorCollectors_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3989,7 +4320,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorVintage"
+			"color"					"QualityColorVintageDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4001,7 +4332,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorVintageLight"
+			"color"					"QualityColorVintage"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4013,7 +4344,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorVintage_GreyedOut"
+			"color"					"QualityColorVintage_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4025,7 +4356,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorVintage_GreyedOutLight"
+			"color"					"QualityColorVintage_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4039,7 +4370,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCommunity"
+			"color"					"QualityColorCommunityDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4051,7 +4382,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCommunityLight"
+			"color"					"QualityColorCommunity"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4063,7 +4394,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCommunity_GreyedOut"
+			"color"					"QualityColorCommunity_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4075,7 +4406,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCommunity_GreyedOutLight"
+			"color"					"QualityColorCommunity_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4089,7 +4420,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorDeveloper"
+			"color"					"QualityColorDeveloperDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4101,7 +4432,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorDeveloperLight"
+			"color"					"QualityColorDeveloper"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4113,7 +4444,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorDeveloper_GreyedOut"
+			"color"					"QualityColorDeveloper_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4125,7 +4456,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorDeveloper_GreyedOutLight"
+			"color"					"QualityColorDeveloper_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4139,7 +4470,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorSelfMade"
+			"color"					"QualityColorSelfMadeDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4151,7 +4482,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorSelfMadeLight"
+			"color"					"QualityColorSelfMade"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4163,7 +4494,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorSelfMade_GreyedOut"
+			"color"					"QualityColorSelfMade_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4175,7 +4506,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorSelfMade_GreyedOutLight"
+			"color"					"QualityColorSelfMade_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4189,7 +4520,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCustomized"
+			"color"					"QualityColorCustomizedDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4201,7 +4532,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCustomizedLight"
+			"color"					"QualityColorCustomized"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4213,7 +4544,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCustomized_GreyedOut"
+			"color"					"QualityColorCustomized_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4225,7 +4556,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCustomized_GreyedOutLight"
+			"color"					"QualityColorCustomized_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4239,7 +4570,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorStrange"
+			"color"					"QualityColorStrangeDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4251,7 +4582,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorStrangeLight"
+			"color"					"QualityColorStrange"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4263,7 +4594,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorStrange_GreyedOut"
+			"color"					"QualityColorStrange_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4275,7 +4606,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorStrange_GreyedOutLight"
+			"color"					"QualityColorStrange_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4289,7 +4620,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCompleted"
+			"color"					"QualityColorCompletedDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4301,7 +4632,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCompletedLight"
+			"color"					"QualityColorCompleted"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4313,7 +4644,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCompleted_GreyedOut"
+			"color"					"QualityColorCompleted_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4325,7 +4656,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorCompleted_GreyedOutLight"
+			"color"					"QualityColorCompleted_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4339,7 +4670,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityDefault"
+			"color"					"ItemRarityDefaultDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4351,7 +4682,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityDefaultLight"
+			"color"					"ItemRarityDefault"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4363,7 +4694,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityDefault_GreyedOut"
+			"color"					"ItemRarityDefault_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4375,7 +4706,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityDefault_GreyedOutLight"
+			"color"					"ItemRarityDefault_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4388,7 +4719,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityCommon"
+			"color"					"ItemRarityCommonDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4400,7 +4731,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityCommonLight"
+			"color"					"ItemRarityCommon"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4412,7 +4743,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityCommon_GreyedOut"
+			"color"					"ItemRarityCommon_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4424,7 +4755,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityCommon_GreyedOutLight"
+			"color"					"ItemRarityCommon_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4437,7 +4768,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityUncommon"
+			"color"					"ItemRarityUncommonDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4449,7 +4780,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityUncommonLight"
+			"color"					"ItemRarityUncommon"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4461,7 +4792,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityUncommon_GreyedOut"
+			"color"					"ItemRarityUncommon_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4473,7 +4804,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityUncommon_GreyedOutLight"
+			"color"					"ItemRarityUncommon_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4486,7 +4817,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityRare"
+			"color"					"ItemRarityRareDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4498,7 +4829,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityRareLight"
+			"color"					"ItemRarityRare"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4510,7 +4841,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityRare_GreyedOut"
+			"color"					"ItemRarityRare_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4522,7 +4853,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityRare_GreyedOutLight"
+			"color"					"ItemRarityRare_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4535,7 +4866,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityMythical"
+			"color"					"ItemRarityMythicalDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4547,7 +4878,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityMythicalLight"
+			"color"					"ItemRarityMythical"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4559,7 +4890,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityMythical_GreyedOut"
+			"color"					"ItemRarityMythical_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4571,7 +4902,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityMythical_GreyedOutLight"
+			"color"					"ItemRarityMythical_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4584,7 +4915,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityLegendary"
+			"color"					"ItemRarityLegendaryDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4596,7 +4927,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityLegendaryLight"
+			"color"					"ItemRarityLegendary"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4608,7 +4939,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityLegendary_GreyedOut"
+			"color"					"ItemRarityLegendary_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4620,7 +4951,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityLegendary_GreyedOutLight"
+			"color"					"ItemRarityLegendary_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4633,7 +4964,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityAncient"
+			"color"					"ItemRarityAncientDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4645,7 +4976,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityAncientLight"
+			"color"					"ItemRarityAncient"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4657,7 +4988,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityAncient_GreyedOut"
+			"color"					"ItemRarityAncient_GreyedOutDark"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -4669,7 +5000,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"ItemRarityAncient_GreyedOutLight"
+			"color"					"ItemRarityAncient_GreyedOut"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -5322,5 +5653,16 @@ Scheme
 			}
 		}			
 		"7" "resource/ocra.ttf"
+		
+		"8"
+		{
+			"font" "resource/OpenSans-Semibold.ttf"
+			"name" "Open Sans Semibold"
+		}
+		"9"
+		{
+			"font" "resource/braille.ttf"
+			"name" "Braille"
+		}
 	}
 }
