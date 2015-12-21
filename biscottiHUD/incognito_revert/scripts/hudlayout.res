@@ -868,9 +868,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-146"
-		"ypos"					"248"					// 215
+		"ypos"					"258"					// 215
 		"wide"					"292"
-		"tall"					"216"
+		"tall"					"206"
 	}
 
 	ArenaWinPanel
@@ -879,9 +879,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-203"
-		"ypos"					"286"
+		"ypos"					"296"
 		"wide"					"406"
-		"tall"					"178"
+		"tall"					"168"
 	}
 	
 	PVEWinPanel
