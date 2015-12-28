@@ -613,7 +613,7 @@
 		"tall"		"136"	[$WIN32]
 		"tall"		"176"	[$X360]
 
-		"BgAlpha"	"128"
+		"BgAlpha"	"64"		// 128
 
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
