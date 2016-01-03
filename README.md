@@ -102,3 +102,8 @@ A lot of README formatting inspired by Omni.
 # [^](#top "Back to Top")See it in action! YouTube!
 I also have a [YouTube channel](https://www.youtube.com/user/SuperKavv "Medico di Biscotti on YouTube") that serves as a dump-site for the terrible, terrible videos I make from time to time. You can also see the HUD in action [here](https://youtu.be/cEWcqiAdATU "Tough Break update video") and [here](https://youtu.be/aZYaEZxbI-8 "HUD + name origin video"). The trailer uses an old version of the HUD, but the newer videos show the current one.
 
+[Imgur album](http://imgur.com/a/4ipiu "biscottiHUD on Imgur")
+
+[huds.tf page](http://huds.tf/biscottihud/ "biscottiHUD on huds.tf")
+
+[Steam profile](http://www.steamcommunity.com/profiles/76561198020028851 "Medico di Biscotti on Steam"). Feel free to contact me but if you just add me, I'll probably ignore it. See how to get my attention in the bio.
