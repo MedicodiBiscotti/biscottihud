@@ -13,7 +13,7 @@ I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercia
 * [Incognito](#incognito)
 * [Close Captions](#close-captions)
 * [Credits](#credits)
-* [See it in action!](#see-it-in-action-youtube)
+* [See it in action! YouTube!](#see-it-in-action-youtube)
 
 # [^](#top "Back to Top")Compatibility
 | Operating System | Compatible? |
