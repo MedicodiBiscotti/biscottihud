@@ -13,6 +13,7 @@ I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercia
 * [Incognito](#incognito)
 * [Close Captions](#close-captions)
 * [Credits](#credits)
+* [See it in action!](#see-it-in-action-youtube)
 
 # [^](#top "Back to Top")Compatibility
 | Operating System | Compatible? |
@@ -97,3 +98,7 @@ The Close Captions were created by **Clovervidia** and edited by me.
 A lot of README formatting inspired by Omni.
 
 **Hope you enjoy!**
+
+# [^](#top "Back to Top")See it in action! YouTube!
+I also have a [YouTube channel](https://www.youtube.com/user/SuperKavv "Medico di Biscotti on YouTube") that serves as a dump-site for the terrible, terrible videos I make from time to time. You can also see the HUD in action [here](https://youtu.be/cEWcqiAdATU "Tough Break update video") and [here](https://youtu.be/aZYaEZxbI-8 "HUD + name origin video"). The trailer uses an old version of the HUD, but the newer videos show the current one.
+
