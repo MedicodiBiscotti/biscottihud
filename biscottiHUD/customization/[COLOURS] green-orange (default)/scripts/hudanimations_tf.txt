@@ -231,7 +231,7 @@ event HudHealthBonusPulse
 	
 	
 	Animate PlayerStatusHealthValue		FgColor		"OverhealGreen"		Linear 0.0 0.0
-//	Animate PlayerStatusHealthValueSelf	FgColor		"HealthBonus"		Linear 0.0 0.0
+//	Animate PlayerStatusHealthValueSelf	FgColor		"OverhealGreen"		Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -270,7 +270,7 @@ event HudHealthDyingPulse
 	Animate	PlayerHealthShadedBG 			BgColor		"HurtOrange"		Linear 0.125 0.075		// Coloured Box
 	
 	Animate PlayerStatusHealthValue			FgColor		"HealthDying"	Linear 0.0 0.0
-//	Animate PlayerStatusHealthValueSelf		FgColor		"HealthDying"	Linear 0.0 0.0			// Red Text
+//	Animate PlayerStatusHealthValueSelf		FgColor		"HurtOrange"	Linear 0.0 0.0			// Red Text
 
 	RunEvent HudHealthDyingPulseLoop	0.25
 }

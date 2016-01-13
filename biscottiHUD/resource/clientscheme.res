@@ -39,8 +39,7 @@ Scheme
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
 		"BrightYellow"		"251 235 0 255"
-		//"Black"				"0 0 0 255"
-		//Changed black to a NTSC safe color
+		"BlackSolid"		"0 0 0 255"
 		"GreenSolid"		 "76 107 34 255"
 		
 		"Black"				"46 43 42 255"
@@ -109,13 +108,17 @@ Scheme
 		"color_panel_bluLighter"	"97 136 159 175"
 		"color_panel_red"	"184 59 59 175"
 		"color_panel_redLighter"	"204 79 79 175"
-		"BrightBlue"		"31 141 225 175"
-		"BrightBlueLight"	"51 161 225 175"
-		"BrightRed"			"200 36 0 175"
-		"BrightRedLight"	"220 56 20 175"
+		"BrightBlue"		"31 141 225 255"
+		"BrightBlueLight"	"51 161 225 255"
+		"BrightRed"			"200 36 0 255"
+		"BrightRedLight"	"220 56 20 255"
 		"DarkGray"			"50 50 50 200"
 		"TransBlack"		"0 0 0 175"
-				
+		"OverhealGreen"		"0 175 0 225"
+		"OverhealGreenLight"	"20 195 20 225"
+		"HurtOrange"		"200 66 10 255"
+		"HurtOrangeLight"	"220 86 30 255"
+		
 		"LowHealthRed"		"255 0 0 255"
 		"ProgressOffWhite"	"251 235 202 255"
 		"ProgressBackground"	"250 234 201 51"

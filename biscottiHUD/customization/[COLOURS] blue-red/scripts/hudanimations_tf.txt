@@ -218,19 +218,19 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.2			// White	Cross
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.2 0.4
 	
-	Animate	PlayerHealthShadedBG 			BgColor		"OverhealGreen"			Linear 0.0 0.0		// Coloured	Box
-	Animate	PlayerHealthShadedBG 			BgColor		"OverhealGreenLight"	Linear 0.0 0.2		// Coloured	Box
-	Animate	PlayerHealthShadedBG 			BgColor		"OverhealGreen"			Linear 0.2 0.2		// Coloured	Box
+	Animate	PlayerHealthShadedBG 			BgColor		"BrightBlue"		Linear 0.0 0.0		// Coloured	Box
+	Animate	PlayerHealthShadedBG 			BgColor		"BrightBlueLight"	Linear 0.0 0.2		// Coloured	Box
+	Animate	PlayerHealthShadedBG 			BgColor		"BrightBlue"		Linear 0.2 0.2		// Coloured	Box
 	
 	Animate	PlayerHealthBonusShadedBGTournament		Alpha		"230"				Linear 0.0 0.0		// Coloured	Box	Tournament
-	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"OverhealGreen"		Linear 0.0 0.0		// Coloured	Box	Tournament
-	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"OverhealGreenLight"	Linear 0.0 0.2	// Coloured	Box	Tournament
-	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"OverhealGreen"		Linear 0.2 0.2		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"BrightBlue"		Linear 0.0 0.0		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"BrightBlueLight"	Linear 0.0 0.2		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"BrightBlue"		Linear 0.2 0.2		// Coloured	Box	Tournament
 	
 	Animate BlackFilter						Alpha		"0"				Linear 0.0 0.0
 	
 	
-	Animate PlayerStatusHealthValue		FgColor		"OverhealGreen"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValue		FgColor		"HealthBonus"		Linear 0.0 0.0
 //	Animate PlayerStatusHealthValueSelf	FgColor		"HealthBonus"		Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
@@ -249,7 +249,7 @@ event HudHealthBonusPulseStop
 	
 	Animate	PlayerHealthShadedBG 		BgColor		"BlackSolid"		Linear 0.0 0.0		// Coloured	Box
 	Animate	PlayerHealthBonusShadedBGTournament		Alpha		"0"		Linear 0.0 0.0		// Coloured	Box	Tournament
-	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"OverhealGreen"		Linear 0.0 0.0		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"BrightBlue"		Linear 0.0 0.0		// Coloured	Box	Tournament
 	
 	Animate BlackFilter					Alpha		"255"				Linear 0.0 0.0
 
@@ -265,9 +265,9 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.075		// White	Cross
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.125 0.075
 	
-	Animate	PlayerHealthShadedBG 			BgColor		"HurtOrange"		Linear 0.0 0.0			// Coloured Box
-	Animate	PlayerHealthShadedBG 			BgColor		"HurtOrangeLight"	Linear 0.0 0.075		// Coloured Box
-	Animate	PlayerHealthShadedBG 			BgColor		"HurtOrange"		Linear 0.125 0.075		// Coloured Box
+	Animate	PlayerHealthShadedBG 			BgColor		"BrightRed"		Linear 0.0 0.0			// Coloured Box
+	Animate	PlayerHealthShadedBG 			BgColor		"BrightRedLight"	Linear 0.0 0.075		// Coloured Box
+	Animate	PlayerHealthShadedBG 			BgColor		"BrightRed"		Linear 0.125 0.075		// Coloured Box
 	
 	Animate PlayerStatusHealthValue			FgColor		"HealthDying"	Linear 0.0 0.0
 //	Animate PlayerStatusHealthValueSelf		FgColor		"HealthDying"	Linear 0.0 0.0			// Red Text
@@ -299,9 +299,9 @@ event HudLowAmmoPulse
 //	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 //	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 
-	Animate HudWeaponAmmoShadedBG		BgColor		"HurtOrange"		Linear 0.0 0.0				// Coloured	Box
-	Animate HudWeaponAmmoShadedBG		BgColor		"HurtOrangeLight"	Linear 0.0 0.075			// Coloured	Box
-	Animate HudWeaponAmmoShadedBG		BgColor		"HurtOrange"		Linear 0.125 0.075			// Coloured	Box
+	Animate HudWeaponAmmoShadedBG		BgColor		"BrightRed"		Linear 0.0 0.0				// Coloured	Box
+	Animate HudWeaponAmmoShadedBG		BgColor		"BrightRedLight"	Linear 0.0 0.075			// Coloured	Box
+	Animate HudWeaponAmmoShadedBG		BgColor		"BrightRed"		Linear 0.125 0.075			// Coloured	Box
 
 //	Animate AmmoInClip					FgColor		"AmmoLow"	Linear 0.0 0.0				// Red Text
 //	Animate AmmoInReserve				FgColor		"AmmoLow"	Linear 0.0 0.0
