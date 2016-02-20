@@ -57,7 +57,7 @@ To change the scoreboard, copy the contents of the one you want to use into the 
 
 I've included multiple copies of the **Main Menu** located in the **customization** folder. One with a **custom** design by me, and one with the **stock** design but with two extra buttons added.
 
-To change the menu, copy the one you want from the **customization** folder into `/resource/ui/`. Note that the **customization** folder has those folders in it.
+To change the menu, copy the one you want from the **customization** folder into `/resource/ui/`. Note that the **customization** folder has those folders in it. See the diagram below for a more detailed explanation of this procedure.
 
 I've also included a **chat** file that uses a **bigger font**. There is also a version of the **winpanels** that use a **bigger font** for the team score.
 
@@ -65,7 +65,29 @@ To change those, use the same procedure as when described above.
 
 If you want to make the font of the buttons different in the main menu, use a text editor like **notepad++** and replace `HudFontMediumBold` with **something else** in `/resource/ui/mainmenuoverride.res`
 
-I've included two **colour schemes** for being **overhealed** and **hurt**. The current default one is **green/orange**, but I've included the option for the old **blue/red** theme which you might want to use if you suffer from red-green colour blindness.
+I've included two **colour schemes** for being **overhealed** and **hurt**. The current default one is **green/orange**, but I've included the option for the old **blue/red** theme which you might want to use if you suffer from **red-green colour blindness**.
+
+There are tons of other customizations that I've added as I've made more significant changes to some design elements. Basically, whenever I made a big change, I included the old version as a customization.
+
+Here's a diagram to show you how to enable customizations to the HUD.
+```
+| \tf\custom\biscottiHUD\
+--------------------------------------
+'-> customization
+'	'-> [SPEC HP] cross
+'	'	'-> **incognito**						**CTRL+A**
+'	'	'-> **incognito_revert**				**CTRL+C**
+'	'	'-> **resource**
+'	'
+'	'-> etc.									**Go back**
+'												**Go back**
+'-> incognito									**CTRL+V**
+'-> incognito_revert							**Overwrite files?**
+'-> materials									**YES!**
+'-> resource
+'-> scripts
+```
+In other words, mark and **copy (CTRL+C)** the elements inside the `customization` that you wish to use (i.e. the folders inside **[SPEC HP] cross**, then **go back two steps**, and **paste (CTRL+V)** to overwrite all the normal files in all the major folders with the new ones. This way the customization also applies to the incongito mode and the revert fomr incognito back to normal. See below. it follows the same procedure for enabling it as customizations do.
 
 # [^](#top "Back to Top")Incognito
 I've made an **incognito** mode designed for streamers that disables all names on the HUD. To enable it, copy the contents of the **incognito** folder into the parent folder (so that the folders match up). To disable it again, copy the contents of **incognito_revert** into the parent folder to overwrite the incognito ones. Note that I think custom weapon names still show up.
