@@ -17,12 +17,10 @@
 		"avatar_width"		"65"
 		"spacer"			"5"
 		"name_width"		"118"
-		"name_width_short"	"85"
 		"nemesis_width"		"25"
 		"class_width"		"25"
 		"score_width"		"30"
 		"ping_width"		"25"
-		"stats_width"		"30"
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 		
@@ -484,7 +482,7 @@
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"17"			// 24p = 22		// 32p = 17
-		"textcolor"		"red"
+		"fgcolor"		"red"
 		//"show_columns"	"1"
 
  		if_mvm
