@@ -2,7 +2,7 @@
 {
 	"Version"
 	{
-		"label"			"biscottiHUD v. 1.56d"
+		"label"			"biscottiHUD v. 1.56e"
 		"command"		"engine showconsole
 						 echo ..............................................................................................................
 						 echo ..............................................................................................................
@@ -119,6 +119,7 @@
 	}
 	"TrainingButton"
 	{
+		"label" "#TF_Training"
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
