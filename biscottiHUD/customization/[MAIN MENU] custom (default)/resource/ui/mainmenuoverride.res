@@ -2566,10 +2566,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayCompetitiveButton"
-		"xpos"			"c-285"
-		"ypos"			"170"
+		"xpos"			"c0"
+		"ypos"			"98"
 		"zpos"			"11"
-		"wide"			"234"
+		"wide"			"265"
 		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
@@ -2586,7 +2586,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"234"
+			"wide"			"265"
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -2634,8 +2634,8 @@
 		"ControlName"	"ImagePanel"
 		"fieldname"		"CompetitiveBetaImage"
 		// Competitive button, plus offset.
-		"xpos"			"c-285+218"
-		"ypos"			"178"
+		"xpos"			"c0+263"
+		"ypos"			"96"
 		"zpos"			"12"
 		"wide"			"30"
 		"tall"			"30"
@@ -2651,8 +2651,8 @@
 		if_competitive_stress_event
 		{
 			// Move up/left 10px, bump up to 20x20
-			"ypos"	"165"
-			"xpos"	"c-285+205"
+			"ypos"	"83"
+			"xpos"	"c0+250"
 			"wide"	"56"
 			"tall"	"56"
 			"image"	"beta_stress"
