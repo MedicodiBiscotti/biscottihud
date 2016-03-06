@@ -106,7 +106,7 @@ cc_lang			biscotti
 
 If you want more thorough captions set `cc_subtitles 0`.
 
-I try to keep these updated so it doesn't flood your console `Caption not found`.
+I try to keep these updated so it doesn't flood your console with `Caption not found`.
 
 [Here](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751 "Clovervidia's Guide to CC") is a guide by **Clovervidia** that explains CC and how to use it.
 
