@@ -67,6 +67,8 @@ If you want to make the font of the buttons different in the main menu, use a te
 
 I've included two **colour schemes** for being **overhealed** and **hurt**. The current default one is **green/orange**, but I've included the option for the old **blue/red** theme which you might want to use if you suffer from **red-green colour blindness**.
 
+There are currently 2(and ½) different design for **spectating HP**. One that's the original **cross design**, and one that's a **rectangular bar** that you'll also see in tournament mode. The third design is a slimmer version of the rectangle. While the rectangular design is the one enabled by default, it does have some issues such as looking weird when using floating target HP (where the health appears over the target's head instead of on the bar in the center of the screen ) and when being revived in Mann vs. Machine (MvM). If these are things that you use, consider using the cross design.
+
 There are tons of other customizations that I've added as I've made more significant changes to some design elements. Basically, whenever I made a big change, I included the old version as a customization.
 
 Here's a diagram to show you how to enable customizations to the HUD.
