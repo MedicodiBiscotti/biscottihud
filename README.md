@@ -40,7 +40,7 @@ All the screenshots on huds.tf are in minmode (`cl_hud_minmode 1`).
 
 # [^](#top "Back to Top")Installation
 Click the button that says **Download ZIP**.
-Then extract it to your `/tf/custom/` folder so that inside your custom folder there is a folder called **biscottiHUD**.
+Then extract it to your `/tf/custom/` folder so that inside your custom folder there is a folder called **biscottiHUD** which contains `customization`, `materials`, `resource`, `scripts` etc.
 
 # [^](#top "Back to Top")Customization
 If you want to re-enable the HP cross when overhealed or low on health, navigate to `/resource/ui/hudplayerhealth.res` and remove the `NULL` at the end of the `HealthBonusImage` (the `"fieldName"`).
@@ -92,7 +92,7 @@ Here's a diagram to show you how to enable customizations to the HUD.
 In other words, mark and **copy (CTRL+C)** the elements inside the `customization` that you wish to use (i.e. the folders inside **[SPEC HP] cross**, then **go back two steps**, and **paste (CTRL+V)** to overwrite all the normal files in all the major folders with the new ones. This way the customization also applies to the incongito mode and the revert fomr incognito back to normal. See below. it follows the same procedure for enabling it as customizations do.
 
 # [^](#top "Back to Top")Incognito
-I've made an **incognito** mode designed for streamers that disables all names on the HUD. To enable it, copy the contents of the **incognito** folder into the parent folder (so that the folders match up). To disable it again, copy the contents of **incognito_revert** into the parent folder to overwrite the incognito ones. Note that I think custom weapon names still show up.
+I've made an **incognito** mode designed for streamers that disables all names on the HUD. To enable it, copy the contents of the **incognito** folder into the parent folder (so that the folders match up). To disable it again, copy the contents of **incognito_revert** into the parent folder to overwrite the incognito ones. It's a similar maneuvre to how you enable customizations, only you only go back one step (up one folder) isntead of two like you do with customizations. Note that I think custom weapon names still show up.
 
 # [^](#top "Back to Top")Close Captions
 The Close Captions were created by **Clovervidia** and edited by me.
@@ -105,6 +105,8 @@ cc_lang			biscotti
 ```
 
 If you want more thorough captions set `cc_subtitles 0`.
+
+I try to keep these updated so it doesn't flood your console `Caption not found`.
 
 [Here](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751 "Clovervidia's Guide to CC") is a guide by **Clovervidia** that explains CC and how to use it.
 
