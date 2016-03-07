@@ -559,7 +559,7 @@
 
 		if_competitive
 		{
-			"ypos"		"219"
+//			"ypos"		"219"
 		}
 		
 		"SubButton"
@@ -631,7 +631,7 @@
 
 		if_competitive
 		{
-			"ypos"		"219"
+//			"ypos"		"219"
 		}
 		
 		"SubButton"
@@ -687,7 +687,7 @@
 
 		if_competitive
 		{
-			"ypos"		"219"
+//			"ypos"		"219"
 		}
 		
 		"SubButton"
@@ -742,7 +742,7 @@
 
 		if_competitive
 		{
-			"ypos"		"219"
+//			"ypos"		"219"
 		}
 		
 		"SubButton"
@@ -1657,7 +1657,7 @@
 
 		if_competitive
 		{
-			"ypos"		"219"
+//			"ypos"		"219"
 		}
 		
 		"SubButton"
@@ -1730,7 +1730,7 @@
 
 		if_competitive
 		{
-			"ypos"		"342"
+//			"ypos"		"342"
 		}
 
 		"SubButton"
@@ -1801,7 +1801,7 @@
 
 		if_competitive
 		{
-			"ypos"		"384"
+//			"ypos"		"384"
 		}
 
 		"SubButton"
@@ -1873,7 +1873,7 @@
 
 		if_competitive
 		{
-			"ypos"		"342"
+//			"ypos"		"342"
 		}
 
 		"SubButton"
@@ -1944,7 +1944,7 @@
 
 		if_competitive
 		{
-			"ypos"		"279"
+//			"ypos"		"279"
 		}
 
 		"SubButton"
@@ -2029,7 +2029,7 @@
 
 		if_competitive
 		{
-			"ypos"		"279"
+//			"ypos"		"279"
 		}
 
 		"SubButton"
@@ -2096,7 +2096,7 @@
 
 		if_competitive
 		{
-			"ypos"		"251"
+//			"ypos"		"251"
 		}
 	}
 	"CustomizeLabel"
@@ -2178,7 +2178,7 @@
 
 		if_competitive
 		{
-			"ypos"		"378"
+//			"ypos"		"378"
 		}
 	}
 
@@ -2679,7 +2679,7 @@
 
 		if_competitive
 		{
-			"ypos"		"216"
+//			"ypos"		"216"
 		}
 
 		"SubButton"
