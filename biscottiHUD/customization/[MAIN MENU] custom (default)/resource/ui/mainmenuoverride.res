@@ -448,20 +448,25 @@
 		"ypos"			"96"
 		"zpos"			"-61"
 		"wide"			"285"
-		"tall"			"256"
+		"tall"			"230"
 		"visible"		"1"
 		"enabled"		"1"
 		"defaultBgColor_Override"		"0 0 0 200"
 		"armedBgColor_Override"			"0 0 0 200"
 		"paintbackgroundtype"	"0"
 		"labelText"		""
+		
+		if_competitive
+		{
+			"tall"		"260"
+		}
 	}
 	"ShadedBG2"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShadedBG2"
 		"xpos"			"c-295"
-		"ypos"			"375"
+		"ypos"			"345"
 		"zpos"			"-61"
 		"wide"			"42"
 		"tall"			"42"
@@ -471,13 +476,18 @@
 		"armedBgColor_Override"			"0 0 0 200"
 		"paintbackgroundtype"	"0"
 		"labelText"		""
+		
+		if_competitive
+		{
+			"ypos"		"375"
+		}
 	}
 	"ShadedBG3"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShadedBG3"
 		"xpos"			"c-250"
-		"ypos"			"375"
+		"ypos"			"345"
 		"zpos"			"-61"
 		"wide"			"240"
 		"tall"			"42"
@@ -487,13 +497,18 @@
 		"armedBgColor_Override"			"0 0 0 200"
 		"paintbackgroundtype"	"0"
 		"labelText"		""
+		
+		if_competitive
+		{
+			"ypos"		"375"
+		}
 	}
 	"ShadedBG4"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShadedBG4"
 		"xpos"			"c-295"
-		"ypos"			"429"
+		"ypos"			"424"
 		"zpos"			"-61"
 		"wide"			"364"
 		"tall"			"40"
@@ -545,7 +560,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DemoUIButton"
 		"xpos"			"c-293"
-		"ypos"			"377"
+		"ypos"			"347"
 		"zpos"			"11"
 		"wide"			"38"
 		"tall"			"38"
@@ -559,7 +574,7 @@
 
 		if_competitive
 		{
-//			"ypos"		"219"
+			"ypos"		"375"
 		}
 		
 		"SubButton"
@@ -616,7 +631,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ConsoleButton"
 		"xpos"			"c-240"
-		"ypos"			"377"
+		"ypos"			"347"
 		"zpos"			"11"
 		"wide"			"80"
 		"tall"			"20"
@@ -628,10 +643,10 @@
 		"navLeft"		"DemoUIButton"
 		"navRight"		"MinmodeButton"
 		"navToRelay"	"SubButton"
-
+		
 		if_competitive
 		{
-//			"ypos"		"219"
+			"ypos"		"375"
 		}
 		
 		"SubButton"
@@ -672,7 +687,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MinmodeButton"
 		"xpos"			"c-160"
-		"ypos"			"377"
+		"ypos"			"347"
 		"zpos"			"11"
 		"wide"			"90"
 		"tall"			"20"
@@ -684,10 +699,10 @@
 		"navLeft"		"ConsoleButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
-
+		
 		if_competitive
 		{
-//			"ypos"		"219"
+			"ypos"		"375"
 		}
 		
 		"SubButton"
@@ -728,10 +743,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
 		"xpos"			"c-87"
-		"ypos"			"170"
+		"ypos"			"158"
 		"zpos"			"12"
-		"wide"			"36"
-		"tall"			"36"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 
 		"navUp"			"PlayPVEButton"
@@ -742,7 +757,7 @@
 
 		if_competitive
 		{
-//			"ypos"		"219"
+			"ypos"		"188"
 		}
 		
 		"SubButton"
@@ -750,9 +765,9 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
-			"ypos"			"3"
-			"wide"			"28"
-			"tall"			"28"
+			"ypos"			"0"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -783,11 +798,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_create"
@@ -1643,10 +1658,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
 		"xpos"			"c-51"
-		"ypos"			"170"
+		"ypos"			"158"
 		"zpos"			"12"
-		"wide"			"36"
-		"tall"			"36"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 
 		"navUp"			"PlayPVEButton"
@@ -1657,7 +1672,7 @@
 
 		if_competitive
 		{
-//			"ypos"		"219"
+			"ypos"		"188"
 		}
 		
 		"SubButton"
@@ -1665,9 +1680,9 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
-			"ypos"			"3"
-			"wide"			"28"
-			"tall"			"28"
+			"ypos"			"0"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1698,11 +1713,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_create"
@@ -1716,10 +1731,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
 		"xpos"			"c-285"
-		"ypos"			"314"
+		"ypos"			"294"
 		"zpos"			"11"
 		"wide"			"234"
-		"tall"			"36"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
@@ -1730,7 +1745,7 @@
 
 		if_competitive
 		{
-//			"ypos"		"342"
+			"ypos"		"324"
 		}
 
 		"SubButton"
@@ -1740,7 +1755,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"234"
-			"tall"			"36"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1770,11 +1785,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"3"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -1786,8 +1801,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"VRModeButton"
-		"xpos"			"c52"		// c-285
-		"ypos"			"2"		// 379
+		"xpos"			"c52"
+		"ypos"			"2"
 		"zpos"			"11"
 		"wide"			"270"
 		"tall"			"32"
@@ -1798,11 +1813,6 @@
 		"navDown"		"QuitButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
-
-		if_competitive
-		{
-//			"ypos"		"384"
-		}
 
 		"SubButton"
 		{
@@ -1859,10 +1869,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
 		"xpos"			"c-285"
-		"ypos"			"278"
+		"ypos"			"264"
 		"zpos"			"11"
 		"wide"			"234"
-		"tall"			"36"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
@@ -1873,7 +1883,7 @@
 
 		if_competitive
 		{
-//			"ypos"		"342"
+			"ypos"		"294"
 		}
 
 		"SubButton"
@@ -1883,7 +1893,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"234"
-			"tall"			"36"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1913,11 +1923,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"3"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -1930,10 +1940,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"c-285"
-		"ypos"			"242"
+		"ypos"			"234"
 		"zpos"			"11"
 		"wide"			"234"
-		"tall"			"36"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
@@ -1944,7 +1954,7 @@
 
 		if_competitive
 		{
-//			"ypos"		"279"
+			"ypos"		"264"
 		}
 
 		"SubButton"
@@ -1954,7 +1964,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"234"
-			"tall"			"36"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1984,11 +1994,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"3"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -2000,7 +2010,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
 		"xpos"			"c-160"
-		"ypos"			"234"
+		"ypos"			"240"
 		"zpos"			"13"
 		"wide"			"32"
 		"tall"			"32"
@@ -2015,10 +2025,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"c-285"
-		"ypos"			"206"
+		"ypos"			"204"
 		"zpos"			"11"
 		"wide"			"234"
-		"tall"			"36"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
@@ -2029,7 +2039,7 @@
 
 		if_competitive
 		{
-//			"ypos"		"279"
+			"ypos"		"234"
 		}
 
 		"SubButton"
@@ -2039,7 +2049,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"234"
-			"tall"			"36"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2069,11 +2079,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"3"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -2093,11 +2103,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-
-		if_competitive
-		{
-//			"ypos"		"251"
-		}
 	}
 	"CustomizeLabel"
 	{
@@ -2115,11 +2120,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
-
-		if_competitive
-		{
-			"ypos"		"252"
-		}
 	}		
 
 	"CreateBGPanel"
@@ -2134,11 +2134,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-
-		if_competitive
-		{
-			"ypos"		"315"
-		}
 	}
 	"CreateLabel"
 	{
@@ -2156,11 +2151,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
-
-		if_competitive
-		{
-			"ypos"		"314"
-		}
 	}
 	
 	"VRBGPanel"
@@ -2175,11 +2165,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-
-		if_competitive
-		{
-//			"ypos"		"378"
-		}
 	}
 
 	"ShowPromoCodesButton"
@@ -2187,7 +2172,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ShowPromoCodesButton"
 		"xpos"			"c-240"
-		"ypos"			"397"
+		"ypos"			"367"
 		"wide"			"250"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -2212,6 +2197,11 @@
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "GoalOrange"
 		"depressedFgColor_override" "TanLight"
+		
+		if_competitive
+		{
+			"ypos"		"297"
+		}
 	}
 	"FreeTrialPanel"
 	{
@@ -2303,7 +2293,7 @@
 		"ypos"			"98"
 		"zpos"			"11"
 		"wide"			"265"
-		"tall"			"36"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -2318,7 +2308,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"265"
-			"tall"			"36"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2348,11 +2338,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"3"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -2370,7 +2360,7 @@
 		"ypos"			"98"
 		"zpos"			"11"
 		"wide"			"265"
-		"tall"			"36"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -2386,7 +2376,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"265"
-			"tall"			"36"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2416,11 +2406,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"3"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -2434,10 +2424,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayChangeButton"
 		"xpos"			"c-285"
-		"ypos"			"134"
+		"ypos"			"128"
 		"zpos"			"11"
 		"wide"			"265"
-		"tall"			"36"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -2453,7 +2443,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"265"
-			"tall"			"36"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2483,11 +2473,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"3"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -2501,10 +2491,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
 		"xpos"			"c-285"
-		"ypos"			"134"
+		"ypos"			"128"
 		"zpos"			"11"
 		"wide"			"265"
-		"tall"			"36"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -2520,7 +2510,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"265"
-			"tall"			"36"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2550,11 +2540,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"3"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -2566,11 +2556,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayCompetitiveButton"
-		"xpos"			"c0"
-		"ypos"			"98"
+		"xpos"			"c-285"
+		"ypos"			"158"
 		"zpos"			"11"
 		"wide"			"265"
-		"tall"			"36"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
@@ -2587,7 +2577,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"265"
-			"tall"			"36"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2617,11 +2607,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"3"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -2634,8 +2624,8 @@
 		"ControlName"	"ImagePanel"
 		"fieldname"		"CompetitiveBetaImage"
 		// Competitive button, plus offset.
-		"xpos"			"c0+263"
-		"ypos"			"96"
+		"xpos"			"c-285+263"
+		"ypos"			"156"
 		"zpos"			"12"
 		"wide"			"30"
 		"tall"			"30"
@@ -2651,8 +2641,8 @@
 		if_competitive_stress_event
 		{
 			// Move up/left 10px, bump up to 20x20
-			"ypos"	"83"
-			"xpos"	"c0+250"
+			"ypos"	"143"
+			"xpos"	"c-285+250"
 			"wide"	"56"
 			"tall"	"56"
 			"image"	"beta_stress"
@@ -2665,10 +2655,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
 		"xpos"			"c-285"
-		"ypos"			"170"
+		"ypos"			"158"
 		"zpos"			"11"
 		"wide"			"198"
-		"tall"			"36"
+		"tall"			"30"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 
@@ -2679,7 +2669,7 @@
 
 		if_competitive
 		{
-//			"ypos"		"216"
+			"ypos"		"188"
 		}
 
 		"SubButton"
@@ -2689,7 +2679,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"198"
-			"tall"			"36"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2719,11 +2709,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"3"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -2737,10 +2727,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
 		"xpos"			"c-285"
-		"ypos"			"170"
+		"ypos"			"158"
 		"zpos"			"11"
 		"wide"			"265"
-		"tall"			"36"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -2756,7 +2746,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"265"
-			"tall"			"36"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2786,11 +2776,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"3"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -3031,7 +3021,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
 		"xpos"			"c-61"
-		"ypos"			"437"
+		"ypos"			"432"
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"25"
@@ -3081,7 +3071,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
 		"xpos"			"c-36"
-		"ypos"			"437"
+		"ypos"			"432"
 		"zpos"			"3"
 		"wide"			"30"
 		"tall"			"25"
@@ -3131,7 +3121,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
 		"xpos"			"c-11"
-		"ypos"			"437"
+		"ypos"			"432"
 		"zpos"			"4"
 		"wide"			"30"
 		"tall"			"25"
@@ -3181,7 +3171,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
 		"xpos"			"c14"
-		"ypos"			"437"
+		"ypos"			"432"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
@@ -3231,7 +3221,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
 		"xpos"			"c34"
-		"ypos"			"437"
+		"ypos"			"432"
 		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"25"
@@ -3391,7 +3381,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"QuitButton"
 		"xpos"			"c-285"
-		"ypos"			"431"
+		"ypos"			"426"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"36"
@@ -3447,7 +3437,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
 		"xpos"			"c-285"
-		"ypos"			"437"
+		"ypos"			"432"
 		"zpos"			"1"
 		"wide"			"170"
 		"tall"			"25"
