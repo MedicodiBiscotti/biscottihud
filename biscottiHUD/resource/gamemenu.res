@@ -2,7 +2,7 @@
 {
 	"Version"
 	{
-		"label"			"biscottiHUD v. 1.57"
+		"label"			"biscottiHUD v. 1.58"
 		"command"		"engine showconsole
 						 echo ..............................................................................................................
 						 echo ..............................................................................................................
@@ -171,5 +171,13 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
+	}
+	"ReportPlayerButton"
+	{
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }
