@@ -1,0 +1,34 @@
+//===========================================
+
+// Flash the medic charge hud when we have full charge
+event HudMedicCharged
+{	
+//	Animate	ChargeLabel 	FgColor		"SlinFire1"			Linear 0.0 0.1				// SlinFire's beautiful orange flash
+//	Animate	ChargeLabel 	FgColor		"SlinFire2"			Accel  0.3 0.4
+
+	Animate	MedicChargedShadedBG 	BgColor		"SlinFire1"		Linear 0.0 0.1
+	Animate	MedicChargedShadedBG 	BgColor		"SlinFire2"		Accel  0.3 0.4
+
+	Animate	ChargeMeter 	FgColor		"SlinFire1"			Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"SlinFire2"			Accel  0.3 0.4
+
+	RunEvent HudMedicChargedLoop	0.6													// Loop time for SlinFire
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeLabel 			FgColor		"TanLight"		Linear 0.0 0.0
+	Animate	MedicChargedShadedBG 	BgColor		"TransBlack"	Linear 0.0 0.0
+	Animate	ChargeMeter 			FgColor		"TanLight"		Linear 0.0 0.0
+}
+
+//===========================================

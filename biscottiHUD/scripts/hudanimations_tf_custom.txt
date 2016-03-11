@@ -6,122 +6,6 @@
 
 //===========================================
 
-//Health Bonus Pulse
-event HudHealthBonusPulse
-{
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.2			// White	Cross
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.2 0.4
-	
-	Animate	PlayerHealthShadedBG 			BgColor		"OverhealGreen"			Linear 0.0 0.0		// Coloured	Box
-	Animate	PlayerHealthShadedBG 			BgColor		"OverhealGreenLight"	Linear 0.0 0.2		// Coloured	Box
-	Animate	PlayerHealthShadedBG 			BgColor		"OverhealGreen"			Linear 0.2 0.2		// Coloured	Box
-	
-	Animate	PlayerHealthBonusShadedBGTournament		Alpha		"230"				Linear 0.0 0.0		// Coloured	Box	Tournament
-	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"OverhealGreen"		Linear 0.0 0.0		// Coloured	Box	Tournament
-	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"OverhealGreenLight"	Linear 0.0 0.2	// Coloured	Box	Tournament
-	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"OverhealGreen"		Linear 0.2 0.2		// Coloured	Box	Tournament
-	
-	Animate BlackFilter						Alpha		"0"				Linear 0.0 0.0
-	
-	
-	Animate PlayerStatusHealthValue		FgColor		"OverhealGreen"		Linear 0.0 0.0
-//	Animate PlayerStatusHealthValueSelf	FgColor		"OverhealGreen"		Linear 0.0 0.0
-
-	RunEvent HudHealthBonusPulseLoop	0.4
-}
-
-// call to loop HudHealthBonusPulse
-event HudHealthBonusPulseLoop
-{
-	RunEvent HudHealthBonusPulse 0.0
-}
-
-event HudHealthBonusPulseStop
-{
-	StopEvent HudHealthBonusPulse 0.0
-	StopEvent HudHealthBonusPulseLoop 0.0
-	
-	Animate	PlayerHealthShadedBG 		BgColor		"BlackSolid"		Linear 0.0 0.0		// Coloured	Box
-	Animate	PlayerHealthBonusShadedBGTournament		Alpha		"0"		Linear 0.0 0.0		// Coloured	Box	Tournament
-	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"OverhealGreen"		Linear 0.0 0.0		// Coloured	Box	Tournament
-	
-	Animate BlackFilter					Alpha		"255"				Linear 0.0 0.0
-
-	Animate PlayerStatusHealthValue		FgColor		"White"		Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSelf	FgColor		"TanLight"	Linear 0.0 0.0
-}
-
-//===========================================
-
-//Health Dying Pulse
-event HudHealthDyingPulse
-{
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.075		// White	Cross
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.125 0.075
-	
-	Animate	PlayerHealthShadedBG 			BgColor		"HurtOrange"		Linear 0.0 0.0			// Coloured Box
-	Animate	PlayerHealthShadedBG 			BgColor		"HurtOrangeLight"	Linear 0.0 0.075		// Coloured Box
-	Animate	PlayerHealthShadedBG 			BgColor		"HurtOrange"		Linear 0.125 0.075		// Coloured Box
-	
-	Animate PlayerStatusHealthValue			FgColor		"HealthDying"	Linear 0.0 0.0
-//	Animate PlayerStatusHealthValueSelf		FgColor		"HurtOrange"	Linear 0.0 0.0			// Red Text
-
-	RunEvent HudHealthDyingPulseLoop	0.25
-}
-
-// call to loop HudHealthDyingPulse
-event HudHealthDyingPulseLoop
-{
-	RunEvent HudHealthDyingPulse 0.0
-}
-
-event HudHealthDyingPulseStop
-{
-	StopEvent HudHealthDyingPulse 0.0
-	StopEvent HudHealthDyingPulseLoop 0.0
-	
-	Animate	PlayerHealthShadedBG 			BgColor		"BlackSolid"	Linear 0.0 0.0			// Coloured Box
-
-	Animate PlayerStatusHealthValue			FgColor		"White"			Linear 0.0 0.0
-//	Animate PlayerStatusHealthValueSelf		FgColor		"TanLight"		Linear 0.0 0.0			// Text Reset
-}
-
-//===========================================
-
-event HudLowAmmoPulse
-{
-//	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-//	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
-
-	Animate HudWeaponAmmoShadedBG		BgColor		"HurtOrange"		Linear 0.0 0.0				// Coloured	Box
-	Animate HudWeaponAmmoShadedBG		BgColor		"HurtOrangeLight"	Linear 0.0 0.075			// Coloured	Box
-	Animate HudWeaponAmmoShadedBG		BgColor		"HurtOrange"		Linear 0.125 0.075			// Coloured	Box
-
-//	Animate AmmoInClip					FgColor		"AmmoLow"	Linear 0.0 0.0				// Red Text
-//	Animate AmmoInReserve				FgColor		"AmmoLow"	Linear 0.0 0.0
-
-	RunEvent HudLowAmmoPulseLoop	0.25
-}
-
-// call to loop HudLowAmmoPulse
-event HudLowAmmoPulseLoop
-{
-	RunEvent HudLowAmmoPulse 0.0
-}
-
-event HudLowAmmoPulseStop
-{
-	StopEvent HudLowAmmoPulse 0.0
-	StopEvent HudLowAmmoPulseLoop 0.0
-
-	Animate HudWeaponAmmoShadedBG		BgColor		"BlackSolid"	Linear 0.0 0.0				// Coloured	Box	
-	
-	Animate AmmoInClip			FgColor		"TanLight"	Linear 0.0 0.0
-	Animate AmmoInReserve		FgColor		"TanLight"	Linear 0.0 0.0
-}
-
-//===========================================
-
 event FlagOutlineHide
 {
 	Animate OutlineImage	Alpha		"0"				Linear 0.0 0.1
@@ -186,60 +70,15 @@ event HudSpyDisguiseFadeOut
 
 //===========================================
 
-// Flash the medic charge hud when we have full charge
-
-event HudMedicCharged
-{
-//	Animate	ChargeLabel 	FgColor		"UberReady"			Linear 0.0 0.0				// My magenta/purple flash
-//	Animate	ChargeLabel 	FgColor		"UberReadyLight"	Linear 0.0 0.5
-//	Animate	ChargeLabel 	FgColor		"UberReady"			Linear 0.5 0.5
-	
-	Animate	MedicChargedShadedBG 	BgColor		"UberReadyTrans"			Linear 0.0 0.0
-	Animate	MedicChargedShadedBG 	BgColor		"UberReadyLightTrans"	Linear 0.0 0.5
-	Animate	MedicChargedShadedBG 	BgColor		"UberReadyTrans"			Linear 0.5 0.5
-	
-	Animate	ChargeMeter 	FgColor		"UberReady"			Linear 0.0 0.0
-	Animate	ChargeMeter 	FgColor		"UberReadyLight"	Linear 0.0 0.5
-	Animate	ChargeMeter 	FgColor		"UberReady"			Linear 0.5 0.5
-	
-//	Animate	ChargeLabel 	FgColor		"SlinFire1"			Linear 0.0 0.1				// SlinFire's beautiful orange flash
-//	Animate	ChargeLabel 	FgColor		"SlinFire2"			Accel  0.3 0.4
-
-	
-//	Animate	ChargeMeter 	FgColor		"SlinFire1"			Linear 0.0 0.1
-//	Animate	ChargeMeter 	FgColor		"SlinFire2"			Accel  0.3 0.4
-
-	RunEvent HudMedicChargedLoop	1.0
-//	RunEvent HudMedicChargedLoop	0.6													// Loop time for SlinFire
-}
-
-// call to loop HudHealthBonusPulse
-event HudMedicChargedLoop
-{
-	RunEvent HudMedicCharged 0.0
-}
-
-event HudMedicChargedStop
-{
-	StopEvent HudMedicCharged 0.0
-	StopEvent HudMedicChargedLoop 0.0
-	
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0
-	Animate	MedicChargedShadedBG 	BgColor		"TransBlack"	Linear 0.0 0.0
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0
-}
-
-//====================================
-
 event DamagedPlayer
 {
 	Animate HudHitMarker			Alpha		"255"		Linear 0.0 0.0
-	Animate HudHitmarker			Alpha		"0"		Linear 0.1 0.2
+	Animate HudHitmarker			Alpha		"0"			Linear 0.1 0.2
 
 	Animate CDamageAccountValue		Alpha		"255"		Linear 0.0  0.0
-	Animate CDamageAccountValue		Alpha		"0"		Linear 10.0 0.2
-	Animate CDamageAccountValueBG		Alpha		"255"		Linear 0.0  0.0
-	Animate CDamageAccountValueBG		Alpha		"0"		Linear 10.0 0.2
+	Animate CDamageAccountValue		Alpha		"0"			Linear 10.0 0.2
+	Animate CDamageAccountValueBG	Alpha		"255"		Linear 0.0  0.0
+	Animate CDamageAccountValueBG	Alpha		"0"			Linear 10.0 0.2
 }
 
 //===========================================

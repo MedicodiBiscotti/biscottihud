@@ -2792,11 +2792,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c-214"
+		"xpos"			"c-240"
 		"ypos"			"45"
 		"zpos"			"12"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"1"
 
 		"navLeft"		"ResumeGameButton"
@@ -2827,26 +2827,26 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
+//			"border_default"	"MainMenuMiniButtonDefault"
+//			"border_armed"		"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-			
+						
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 133 0 255"
 			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_create"
