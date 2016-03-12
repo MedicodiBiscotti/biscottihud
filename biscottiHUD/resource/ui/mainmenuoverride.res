@@ -2010,7 +2010,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
 		"xpos"			"c-160"
-		"ypos"			"240"
+		"ypos"			"226"
 		"zpos"			"13"
 		"wide"			"32"
 		"tall"			"32"
@@ -2018,6 +2018,11 @@
 		"enabled"		"1"
 		"image"			"../vgui/new"
 		"scaleImage"	"1"
+		
+		if_competitive
+		{
+			"ypos"		"256"
+		}
 	}
 	
 	"CharacterSetupButton"
