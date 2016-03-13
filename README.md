@@ -43,29 +43,29 @@ Click the button that says **Download ZIP**.
 Then extract it to your `/tf/custom/` folder so that inside your custom folder there is a folder called **biscottiHUD** which contains `customization`, `materials`, `resource`, `scripts` etc.
 
 # [^](#top "Back to Top")Customization
+The easiest way to do most customization is to use the ones that I've made specifically, but if you're HUD savvy and feel up for it, you can of course edit the files of the HUD manually. I'd still appreciate credit for the HUD, though. Such as "Oh, I use an edited biscottiHUD" or something similar. Below I'll quickly utline some customizations you can do that I haven't made into an actual option.
+
 If you want to re-enable the HP cross when overhealed or low on health, navigate to `/resource/ui/hudplayerhealth.res` and remove the `NULL` at the end of the `HealthBonusImage` (the `"fieldName"`).
 
-Inside `/scripts/hudanimations_tf.txt` will also find the animations for things like being **overhealed** or **low on health and ammo**.
-There you can disable the **box being coloured** when in different states of health (i.e. overhealed).
+Inside `/scripts/hudanimations_tf_custom_healthcolour.txt` you will find the animations for things like being **overhealed** or **low on health and ammo**. There you can disable the **box being coloured** when in different states of health (i.e. overhealed). You can also change the colours, but if you want to switch the colour scheme from **green-orange** to **blue-red** for overheal/low, I've already made those as official customizations.
 
-You can also re-enable the shaded image that pops up on screen when disguising or picking of the intelligence.
-This is done by uncommenting the respective lines at the top of the file.
+In `/scripts/hudanimations_tf_custom.txt` you can also re-enable the **shaded image** that pops up on screen when **disguising or picking of the intelligence**. This is done by uncommenting the respective lines at the top of the file. I hate that thing, though, but it's up to you.
 
-This HUD includes **multiple scoreboards** with tweaked sizes for **24**, **32**, **18**, and **12** man servers. (**Normal**, **32 man**, **Highlander**, and **6's**).
+This HUD includes **multiple scoreboards** with tweaked sizes for **24**, **32**, **18**, and **12** man servers. (**Normal**, **32 man**, **Highlander**, and **6's**). To change the scoreboard, copy the contents of the one you want to use into the one just named `scoreboard.res`.
 
-To change the scoreboard, copy the contents of the one you want to use into the one just named `scoreboard.res`.
+If you want to make the font of the buttons different in the main menu, use a text editor like **notepad++** and replace `HudFontMediumBold` with **something else** in `/resource/ui/mainmenuoverride.res`.
+
+Now to talk about the **official customizations** included in the HUD.
 
 I've included multiple copies of the **Main Menu** located in the **customization** folder. One with a **custom** design by me, and one with the **stock** design but with two extra buttons added.
 
 To change the menu, copy the one you want from the **customization** folder into `/resource/ui/`. Note that the **customization** folder has those folders in it. See the diagram below for a more detailed explanation of this procedure.
 
-I've also included a **chat** file that uses a **bigger font**. There is also a version of the **winpanels** that use a **bigger font** for the team score.
-
-To change those, use the same procedure as when described above.
-
-If you want to make the font of the buttons different in the main menu, use a text editor like **notepad++** and replace `HudFontMediumBold` with **something else** in `/resource/ui/mainmenuoverride.res`
+I've also included a **chat** file that uses a **bigger font**. There is also a version of the **winpanels** that use a **bigger font** for the team score. To change those, use the same procedure as when described above.
 
 I've included two **colour schemes** for being **overhealed** and **hurt**. The current default one is **green/orange**, but I've included the option for the old **blue/red** theme which you might want to use if you suffer from **red-green colour blindness**.
+
+Similarly, there are two **colour schemes** for flashing the meter when you **ÜBER charged**. The default colour is the **magenta** that's I've made. The alternative option is taken from **SlinFireHUD** and is a nice orange flash. All credit goes to Flame and Slin.
 
 There are currently 2 (and ½) different designs for **spectating HP**. One that's the original **cross design**, and one that's a **rectangular bar** that you'll also see in tournament mode. The third design is a slimmer version of the rectangle. While the rectangular design is the one enabled by default, it does have some issues such as looking weird when using floating target HP (where the health appears over the target's head instead of on the bar in the center of the screen ) and when being revived in Mann vs. Machine (MvM). If these are things that you use, consider using the cross design.
 
@@ -89,7 +89,7 @@ Here's a diagram to show you how to enable customizations to the HUD.
 '-> resource
 '-> scripts
 ```
-In other words, mark and **copy (CTRL+C)** the elements inside the `customization` that you wish to use (i.e. the folders inside **[SPEC HP] cross**, then **go back two steps**, and **paste (CTRL+V)** to overwrite all the normal files in all the major folders with the new ones. This way the customization also applies to the incongito mode and the revert fomr incognito back to normal. See below. it follows the same procedure for enabling it as customizations do.
+In other words, mark and **copy (CTRL+C)** the elements inside the `customization` that you wish to use (i.e. the folders inside **[SPEC HP] cross**, then **go back two steps**, and **paste (CTRL+V)** to overwrite all the normal files in all the major folders with the new ones. This way the customization also applies to the incongito mode and the revert from incognito back to normal. See below. it follows the same procedure for enabling it as customizations do.
 
 # [^](#top "Back to Top")Incognito
 I've made an **incognito** mode designed for streamers that disables all names on the HUD. To enable it, copy the contents of the **incognito** folder into the parent folder (so that the folders match up). To disable it again, copy the contents of **incognito_revert** into the parent folder to overwrite the incognito ones. It's a similar maneuvre to how you enable customizations, only you only go back one step (up one folder) isntead of two like you do with customizations. Note that I think custom weapon names still show up.
@@ -111,7 +111,7 @@ I try to keep these updated so it doesn't flood your console with `Caption not f
 [Here](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751 "Clovervidia's Guide to CC") is a guide by **Clovervidia** that explains CC and how to use it.
 
 # [^](#top "Back to Top")Credits
-This is HUD is greatly inspired by **BroeselHUD**, **e.v.e HUD**, and **7HUD**.
+This HUD is greatly inspired by **BroeselHUD**, **e.v.e HUD**, and **7HUD**.
 Thank you to all those people for making awesome HUDs and for making the code so readily available so that we all can learn how to realize our own ideas.
 
 There is an alternate colouring for full Über Charge that was taken from **SlinFireHUD**.
