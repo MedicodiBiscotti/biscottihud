@@ -65,7 +65,20 @@
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"20"
-		"fillcolor"		"TransBlack"
+		"fillcolor"		"0 0 0 125"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	"BlackFilter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlackFilter"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"32"
+		"tall"			"20"
+		"fillcolor"		"0 0 0 155"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -82,7 +95,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"BrightBlue"
 		"paintbackgroundtype"	"0"
 		"border_default"	"NoBorder"
 		"labelText"		""
@@ -91,7 +103,7 @@
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSelf"			// "Self" to prevent animation of text
+		"fieldName"		"PlayerStatusHealthValueNULL"			// "NULL" to prevent animation of text
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"6"

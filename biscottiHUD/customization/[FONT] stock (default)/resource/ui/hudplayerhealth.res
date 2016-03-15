@@ -77,10 +77,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"TransBlack"
+		"defaultBgColor_Override"		"BlackSolid"
 		"paintbackgroundtype"	"0"
 		"border_default"	"NoBorder"
 		"labelText"		""
+		"alpha"			"175"
 	}
 	"BGColoredLineH"
 	{
