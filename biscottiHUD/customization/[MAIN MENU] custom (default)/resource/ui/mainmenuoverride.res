@@ -2205,7 +2205,7 @@
 		
 		if_competitive
 		{
-			"ypos"		"297"
+			"ypos"		"395"
 		}
 	}
 	"FreeTrialPanel"
