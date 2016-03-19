@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Biscottihud by MedicodiBiscotti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Biscottihud</h1>
+      <h2 class="project-tagline">Custom HUD for TF2</h2>
+      <a href="https://github.com/MedicodiBiscotti/biscottiHUD" class="btn">View on GitHub</a>
+      <a href="https://github.com/MedicodiBiscotti/biscottiHUD/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/MedicodiBiscotti/biscottiHUD/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="biscottihud" class="anchor" href="#biscottihud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>biscottiHUD</h1>
+
+<p>v. 1.60d</p>
+
+<p>This is my custom HUD for Team Fortress 2 (TF2).</p>
+
+<p>I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercial uses like YouTube or Twitch.</p>
+
+<p><strong>Table of Contents</strong></p>
+
+<ul>
+<li><a href="#compatibility">Compatibility</a></li>
+<li><a href="#important-minmode">IMPORTANT! Minmode</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#customization">Customization</a></li>
+<li><a href="#incognito">Incognito</a></li>
+<li><a href="#close-captions">Close Captions</a></li>
+<li><a href="#credits">Credits</a></li>
+<li><a href="#see-it-in-action-youtube">See it in action! YouTube!</a></li>
+</ul>
+
+<h1>
+<a id="compatibility" class="anchor" href="#compatibility" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="#top" title="Back to Top">^</a>Compatibility</h1>
+
+<table>
+<thead>
+<tr>
+<th align="center">Operating System</th>
+<th align="center">Compatible?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Windows</td>
+<td align="center">Yes!</td>
+</tr>
+<tr>
+<td align="center">Mac</td>
+<td align="center">Probably not.</td>
+</tr>
+<tr>
+<td align="center">Linux</td>
+<td align="center">No idea.</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="center">Resolution</th>
+<th align="center">Compatible?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">16:10</td>
+<td align="center">Yes!</td>
+</tr>
+<tr>
+<td align="center">16:9</td>
+<td align="center">Yes!</td>
+</tr>
+<tr>
+<td align="center">5:4</td>
+<td align="center">Maybe?..</td>
+</tr>
+<tr>
+<td align="center">4:3</td>
+<td align="center">Yes!</td>
+</tr>
+</tbody>
+</table>
+
+<p>By compatible I mean that they work, not necessarily that it follows the design philosophy of the HUD. But at least there's nothing clipping out of the side of the screen.</p>
+
+<h1>
+<a id="important-minmode" class="anchor" href="#important-minmode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="#top" title="Back to Top">^</a>IMPORTANT! Minmode</h1>
+
+<p>This HUD is a <strong>minmode HUD</strong>, meaning I designed it around using minmode (<strong>cl_hud_minmode 1</strong>).
+But it also has a <strong>non-minmode</strong> version for people who like the HP and ammo to be higher up and closer to the centre. I personally don't like this and thus designed it in minmode.</p>
+
+<p>To change between them use <code>cl_hud_minmode 0/1</code> where 1 is minmode, and 0 is non-minmode.
+All the screenshots on huds.tf are in minmode (<code>cl_hud_minmode 1</code>).</p>
+
+<h1>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="#top" title="Back to Top">^</a>Installation</h1>
+
+<p>Click the button that says <strong>Download ZIP</strong>.
+Then extract it to your <code>/tf/custom/</code> folder so that inside your custom folder there is a folder called <strong>biscottiHUD</strong> which contains <code>customization</code>, <code>materials</code>, <code>resource</code>, <code>scripts</code> etc.</p>
+
+<h1>
+<a id="customization" class="anchor" href="#customization" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="#top" title="Back to Top">^</a>Customization</h1>
+
+<p>The easiest way to do most customization is to use the ones that I've made specifically, but if you're HUD savvy and feel up for it, you can of course <strong>edit the files of the HUD manually</strong>. I'd still appreciate credit for the HUD, though. Such as "Oh, I use an edited biscottiHUD" or something similar. Below I'll quickly outline some customizations you can do that I haven't made into an actual option.</p>
+
+<p>If you want to re-enable the HP cross when overhealed or low on health, navigate to <code>/resource/ui/hudplayerhealth.res</code> and remove the <code>NULL</code> at the end of the <code>HealthBonusImage</code> (the <code>"fieldName"</code>).</p>
+
+<p>Inside <code>/scripts/hudanimations_tf_custom_healthcolour.txt</code> you will find the animations for things like being <strong>overhealed</strong> or <strong>low on health and ammo</strong>. There you can disable the <strong>box being coloured</strong> when in different states of health (i.e. overhealed). You can also change the colours, but if you want to switch the colour scheme from <strong>green-orange</strong> to <strong>blue-red</strong> for overheal/low, I've already made those as official customizations.</p>
+
+<p>In <code>/scripts/hudanimations_tf_custom.txt</code> you can also re-enable the <strong>shaded image</strong> that pops up on screen when <strong>disguising or picking of the intelligence</strong>. This is done by uncommenting the respective lines at the top of the file. I hate that thing, though, but it's up to you.</p>
+
+<p>This HUD includes <strong>multiple scoreboards</strong> with tweaked sizes for <strong>24</strong>, <strong>32</strong>, <strong>18</strong>, and <strong>12</strong> man servers. (<strong>Normal</strong>, <strong>32 man</strong>, <strong>Highlander</strong>, and <strong>6's</strong>). To change the scoreboard, copy the contents of the one you want to use into the one just named <code>scoreboard.res</code>.</p>
+
+<p>If you want to make the font of the buttons different in the main menu, use a text editor like <strong>notepad++</strong> and replace <code>HudFontMediumBold</code> with <strong>something else</strong> in <code>/resource/ui/mainmenuoverride.res</code>.</p>
+
+<p>Now to talk about the <strong>official customizations</strong> included in the HUD.</p>
+
+<p>I've included multiple copies of the <strong>Main Menu</strong> located in the <strong>customization</strong> folder. One with a <strong>custom</strong> design by me, and one with the <strong>stock</strong> design but with two extra buttons added.</p>
+
+<p>To change the menu, copy the one you want from the <strong>customization</strong> folder into <code>/resource/ui/</code>. Note that the <strong>customization</strong> folder has those folders in it. See the diagram below for a more detailed explanation of this procedure.</p>
+
+<p>I've also included a <strong>chat</strong> file that uses a <strong>bigger font</strong>. There is also a version of the <strong>winpanels</strong> that use a <strong>bigger font</strong> for the team score. To change those, use the same procedure as when described above.</p>
+
+<p>I've included two <strong>colour schemes</strong> for being <strong>overhealed</strong> and <strong>hurt</strong>. The current default one is <strong>green/orange</strong>, but I've included the option for the old <strong>blue/red</strong> theme which you might want to use if you suffer from <strong>red-green colour blindness</strong>.</p>
+
+<p>Similarly, there are two <strong>colour schemes</strong> for flashing the meter when you <strong>ÜBER charged</strong>. The default colour is the <strong>magenta</strong> that's I've made. The alternative option is taken from <strong>SlinFireHUD</strong> and is a nice orange flash. All credit goes to Flame and Slin.</p>
+
+<p>There are currently 2 (and ½) different designs for <strong>spectating HP</strong>. One that's the original <strong>cross design</strong>, and one that's a <strong>rectangular bar</strong> that you'll also see in tournament mode. The third design is a slimmer version of the rectangle. While the rectangular design is the one enabled by default, it does have some issues such as looking weird when using floating target HP (where the health appears over the target's head instead of on the bar in the center of the screen ) and when being revived in Mann vs. Machine (MvM). If these are things that you use, consider using the cross design.</p>
+
+<p>There are tons of other customizations that I've added as I've made more significant changes to some design elements. Basically, whenever I made a big change, I included the old version as a customization.</p>
+
+<p>Here's a diagram to show you how to enable customizations to the HUD.</p>
+
+<pre><code>| \tf\custom\biscottiHUD\
+--------------------------------------
+'-&gt; customization
+'   '-&gt; [SPEC HP] cross
+'   '   '-&gt; **incognito**                       **CTRL+A**
+'   '   '-&gt; **incognito_revert**                **CTRL+C**
+'   '   '-&gt; **resource**
+'   '
+'   '-&gt; etc.                                    **Go back**
+'                                               **Go back**
+'-&gt; incognito                                   **CTRL+V**
+'-&gt; incognito_revert                            **Overwrite files?**
+'-&gt; materials                                   **YES!**
+'-&gt; resource
+'-&gt; scripts
+</code></pre>
+
+<p>In other words, mark and <strong>copy (CTRL+C)</strong> the elements inside the <code>customization</code> that you wish to use (i.e. the folders inside <strong>[SPEC HP] cross</strong>, then <strong>go back two steps</strong>, and <strong>paste (CTRL+V)</strong> to overwrite all the normal files in all the major folders with the new ones. This way the customization also applies to the incongito mode and the revert from incognito back to normal. See below. it follows the same procedure for enabling it as customizations do.</p>
+
+<h1>
+<a id="incognito" class="anchor" href="#incognito" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="#top" title="Back to Top">^</a>Incognito</h1>
+
+<p>I've made an <strong>incognito</strong> mode designed for streamers that disables all names on the HUD. To enable it, copy the contents of the <strong>incognito</strong> folder into the parent folder (so that the folders match up). To disable it again, copy the contents of <strong>incognito_revert</strong> into the parent folder to overwrite the incognito ones. It's a similar maneuvre to how you enable customizations, only you only go back one step (up one folder) isntead of two like you do with customizations. Note that I think custom weapon names still show up.</p>
+
+<h1>
+<a id="close-captions" class="anchor" href="#close-captions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="#top" title="Back to Top">^</a>Close Captions</h1>
+
+<p>The Close Captions were created by <strong>Clovervidia</strong> and edited by me.
+To enable them, put this in your <code>autoexec.cfg</code></p>
+
+<pre><code>closecaption    1
+cc_subtitles    1
+cc_lang         biscotti
+</code></pre>
+
+<p>If you want more thorough captions set <code>cc_subtitles 0</code>.</p>
+
+<p>I try to keep these updated so it doesn't flood your console with <code>Caption not found</code>.</p>
+
+<p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=167785751" title="Clovervidia's Guide to CC">Here</a> is a guide by <strong>Clovervidia</strong> that explains CC and how to use it.</p>
+
+<h1>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="#top" title="Back to Top">^</a>Credits</h1>
+
+<p>This HUD is greatly inspired by <strong>BroeselHUD</strong>, <strong>e.v.e HUD</strong>, and <strong>7HUD</strong>.
+Thank you to all those people for making awesome HUDs and for making the code so readily available so that we all can learn how to realize our own ideas.</p>
+
+<p>There is an alternate colouring for full Über Charge that was taken from <strong>SlinFireHUD</strong>.
+The Engineer buildings panel is HUGELY inspired by <strong>e.v.e HUD</strong> but tweaked and altered to my liking.</p>
+
+<p>I took the RED and BLU buttons on the loadout screen from Ray (I think).</p>
+
+<p>The main menu was inspired by WhiskerBiscuit's <strong>budhud</strong>. As was the concept of incognito to hide player names, but was of course implemented manually by me.</p>
+
+<p>The Close Captions were created by <strong>Clovervidia</strong> and edited by me.</p>
+
+<p>A lot of README formatting inspired by Omni.</p>
+
+<p><strong>Hope you enjoy!</strong></p>
+
+<h1>
+<a id="see-it-in-action-youtube" class="anchor" href="#see-it-in-action-youtube" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="#top" title="Back to Top">^</a>See it in action! YouTube!</h1>
+
+<p>I also have a <a href="https://www.youtube.com/user/SuperKavv" title="Medico di Biscotti on YouTube">YouTube channel</a> that serves as a dump-site for the terrible, terrible videos I make from time to time. You can also see the HUD in action <a href="https://youtu.be/cEWcqiAdATU" title="Tough Break update video">here</a> and <a href="https://youtu.be/aZYaEZxbI-8" title="HUD + name origin video">here</a>. The trailer uses an old version of the HUD, but the newer videos show the current one.</p>
+
+<p><a href="http://imgur.com/a/4ipiu" title="biscottiHUD on Imgur">Imgur album</a></p>
+
+<p><a href="http://huds.tf/biscottihud/" title="biscottiHUD on huds.tf">huds.tf page</a></p>
+
+<p><a href="http://www.steamcommunity.com/profiles/76561198020028851" title="Medico di Biscotti on Steam">Steam profile</a>. Feel free to contact me but if you just add me, I'll probably ignore it. See how to get my attention in the bio.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/MedicodiBiscotti/biscottiHUD">Biscottihud</a> is maintained by <a href="https://github.com/MedicodiBiscotti">MedicodiBiscotti</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
