@@ -330,7 +330,7 @@
 
 				if_competitive
 				{
-					"xpos"			"30"
+					"xpos"			"27"
 					"ypos"			"7"
 					"wide"			"p0.21"
 					"tall"			"p0.34"
