@@ -98,19 +98,19 @@
 			
 			if_mvm
 			{
-				"wide"		"55"
+				"wide"		"50"
 				"tall"		"35"
 			}
 						
 			if_competitive
 			{
-				"wide"		"45"
+				"wide"		"40"
 				"tall"		"29"
 			}
 
 			if_readymode
 			{
-				"wide"		"55"
+				"wide"		"50"
 				"tall"		"35"
 			}
 			
@@ -133,18 +133,18 @@
 					
 				if_mvm
 				{
-					"xpos"				"4"
+					"xpos"				"0"
 					"ypos"				"25"
-					"wide"			"48"
+					"wide"			"50"
 					"textAlignment"		"center"
 					"font"				"PlayerPanelPlayerName"
 				}
 
 				if_competitive
 				{
-					"xpos"				"4"
+					"xpos"				"0"
 					"ypos"				"21"
-					"wide"				"p0.9"
+					"wide"				"p1"
 					"tall"				"p0.22"
 					"textAlignment"		"center"
 					"font"				"PlayerPanelPlayerName"
@@ -293,7 +293,7 @@
 				
 				if_competitive
 				{
-					"xpos"			"28"
+					"xpos"			"25"
 					"ypos"			"5"
 					"wide"			"p0.3"
 					"tall"			"p0.45"

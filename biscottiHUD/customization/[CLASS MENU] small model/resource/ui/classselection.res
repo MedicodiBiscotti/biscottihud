@@ -81,7 +81,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 175"
+		"fillcolor"		"0 0 0 255"
 	}
 	
 	"random"
