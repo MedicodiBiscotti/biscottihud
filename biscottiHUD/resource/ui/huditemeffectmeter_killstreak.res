@@ -14,7 +14,7 @@
 		"MeterBG"		"Gray"
 	}
 	
-"ItemEffectMeterBG"
+	"ItemEffectMeterBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"

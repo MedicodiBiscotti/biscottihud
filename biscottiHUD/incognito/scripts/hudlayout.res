@@ -17,7 +17,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c115"	[$WIN32]
-		"xpos_minmode"	"c165"	[$WIN32]		// +50 from minmode 0		// c150
+		"xpos_minmode"	"c165"	[$WIN32]		// +50 from minmode 0
 		"ypos"	"c64"	[$WIN32]
 		"ypos_minmode"	"c144"	[$WIN32]		// +80 from minmode 0
 		"xpos"	"r131"	[$X360]
