@@ -1,14 +1,12 @@
-"Resource/UI/HudItemEffectMeter_Raygun.res"
+"Resource/UI/HudItemEffectMeter_Pomson.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c131"	[$WIN32]		// c131
-		"ypos"			"c146"	[$WIN32]		// c45	// c146
-		"xpos_minmode"	"c85"	[$WIN32]
-		"ypos_minmode"	"c176"	[$WIN32]
+		"xpos"			"c-40"	[$WIN32]
+		"ypos"			"c90"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"100"
@@ -28,11 +26,11 @@
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz1_blue"
+		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
+		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
+		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
@@ -72,7 +70,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
+		"textAlignment"			"left"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
