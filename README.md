@@ -16,18 +16,18 @@ I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercia
 * [See it in action! YouTube!](#see-it-in-action-youtube)
 
 # [^](#top "Back to Top")Compatibility
-| Operating System | Compatible? |
-|:----------------:|:-----------:|
-| Windows | Yes! |
-| Mac | Probably not. |
-| Linux | No idea. |
+| Operating System | Compatible?   |
+|:----------------:|:-------------:|
+| Windows          | Yes!          |
+| Mac              | Probably not. |
+| Linux            | No idea.      |
 
 | Resolution | Compatible? |
 |:----------:|:-----------:|
-| 16:10 | Yes! |
-| 16:9 | Yes! |
-| 5:4 | Maybe?.. |
-| 4:3 | Yes! |
+| 16:10      | Yes!        |
+| 16:9       | Yes!        |
+| 5:4        | Maybe?..    |
+| 4:3        | Yes!        |
 
 By compatible I mean that they work, not necessarily that it follows the design philosophy of the HUD. But at least there's nothing clipping out of the side of the screen.
 
@@ -68,6 +68,8 @@ I've included two **colour schemes** for being **overhealed** and **hurt**. The 
 Similarly, there are two **colour schemes** for flashing the meter when you **ÜBER charged**. The default colour is the **magenta** that's I've made. The alternative option is taken from **SlinFireHUD** and is a nice orange flash. All credit goes to Flame and Slin.
 
 There are currently 2 (and ½) different designs for **spectating HP**. One that's the original **cross design**, and one that's a **rectangular bar** that you'll also see in tournament mode. The third design is a slimmer version of the rectangle. While the rectangular design is the one enabled by default, it does have some issues such as looking weird when using floating target HP (where the health appears over the target's head instead of on the bar in the center of the screen ) and when being revived in Mann vs. Machine (MvM). If these are things that you use, consider using the cross design.
+
+There are also a bigger design for the **item meters** as opposed to the smaller ones that are enabled by default.
 
 There are tons of other customizations that I've added as I've made more significant changes to some design elements. Basically, whenever I made a big change, I included the old version as a customization.
 
