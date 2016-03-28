@@ -40,6 +40,7 @@ All the screenshots on huds.tf are in minmode (`cl_hud_minmode 1`).
 
 # [^](#top "Back to Top")Installation
 Click the button that says **Download ZIP**.
+
 Then extract it to your `/tf/custom/` folder so that inside your custom folder there is a folder called **biscottiHUD** which contains `customization`, `materials`, `resource`, `scripts` etc.
 
 # [^](#top "Back to Top")Customization
