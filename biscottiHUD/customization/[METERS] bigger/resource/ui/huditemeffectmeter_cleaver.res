@@ -1,14 +1,14 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter_Cleaver.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"c154"	[$WIN32]
-		"wide"			"100"
-		"tall"			"100"
+		"xpos"			"c-80"
+		"ypos"			"c138"
+		"wide"			"160"
+		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -17,11 +17,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"-30"
-		"ypos"			"28"
+		"xpos"			"12"
+		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"150"
-		"tall"			"75"
+		"wide"			"100"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
@@ -31,27 +31,26 @@
 		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
+		"ControlName"			"Label"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
-		"ypos"					"-5"
+		"ypos"					"-9"
 		"zpos"					"2"
-		"wide"					"100"
-		"tall"					"15"
+		"wide"					"160"
+		"tall"					"24"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"textAlignment"			"center"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_KART"
+		"labelText"				"#TF_Cleaver"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontSmallLabel"
+		"font"					"TFFontSmallLabel"
 		"fgcolor_override"		"Black"
 	}
 
@@ -63,34 +62,14 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"100"
-		"tall"					"5"				
+		"wide"					"160"
+		"tall"					"7"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-	}
-	
-	"ItemEffectMeterCount"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"0"
-		"ypos"					"2"
-		"zpos"					"2"
-		"wide"					"100"
-		"tall"					"20"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
-	}
+	}					
 }

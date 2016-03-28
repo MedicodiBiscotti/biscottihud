@@ -5,7 +5,6 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-//		"x_offset"		"40"
 		"xpos"			"c-40"	[$WIN32]
 		"ypos"			"c130"	[$WIN32]
 		"xpos"			"r194"	[$X360]
@@ -41,13 +40,12 @@
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
 		"ypos"					"-5"
-		"zpos"					"3"
+		"zpos"					"2"
 		"wide"					"80"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"textAlignment_minmode"			"center"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
@@ -55,7 +53,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmallLabel"
-		"fgcolor_override"			"Black"
+		"fgcolor_override"		"Black"
 	}
 
 	"ItemEffectMeter"

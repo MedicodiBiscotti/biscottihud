@@ -91,10 +91,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-40"
-		"ypos"			"c130"
+		"xpos"			"c-80"
+		"ypos"			"c138"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"80"
+		"wide"			"160"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -1042,11 +1042,11 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-40"	[$WIN32]
+		"xpos"			"c-80"	[$WIN32]
 		"ypos"			"c38"	[$WIN32]
 		"ypos_minmode"	"c118"	[$WIN32]
-		"Wide"			"175"
-		"wide_minmode"		"225"
+		"wide"			"215"
+		"wide_minmode"		"265"
 		"tall"			"130"
 		"tall_minmode"		"50"
 	}	
