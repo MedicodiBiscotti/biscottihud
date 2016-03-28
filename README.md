@@ -15,7 +15,7 @@ I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercia
 * [Credits](#credits)
 * [See it in action! YouTube!](#see-it-in-action-youtube)
 
-# [^](#top "Back to Top")Compatibility
+# [:arrow_up:](#top "Back to Top")Compatibility
 | Operating System | Compatible?   |
 |:----------------:|:-------------:|
 | Windows          | Yes!          |
@@ -31,18 +31,18 @@ I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercia
 
 By compatible I mean that they work, not necessarily that it follows the design philosophy of the HUD. But at least there's nothing clipping out of the side of the screen.
 
-# [^](#top "Back to Top")IMPORTANT! Minmode
+# [:arrow_up:](#top "Back to Top")IMPORTANT! Minmode
 This HUD is a **minmode HUD**, meaning I designed it around using minmode (**cl_hud_minmode 1**).
 But it also has a **non-minmode** version for people who like the HP and ammo to be higher up and closer to the centre. I personally don't like this and thus designed it in minmode.
 
 To change between them use `cl_hud_minmode 0/1` where 1 is minmode, and 0 is non-minmode.
 All the screenshots on huds.tf are in minmode (`cl_hud_minmode 1`).
 
-# [^](#top "Back to Top")Installation
+# [:arrow_up:](#top "Back to Top")Installation
 Click the button that says **Download ZIP**.
 Then extract it to your `/tf/custom/` folder so that inside your custom folder there is a folder called **biscottiHUD** which contains `customization`, `materials`, `resource`, `scripts` etc.
 
-# [^](#top "Back to Top")Customization
+# [:arrow_up:](#top "Back to Top")Customization
 The easiest way to do most customization is to use the ones that I've made specifically, but if you're HUD savvy and feel up for it, you can of course **edit the files of the HUD manually**. I'd still appreciate credit for the HUD, though. Such as "Oh, I use an edited biscottiHUD" or something similar. Below I'll quickly outline some customizations you can do that I haven't made into an actual option.
 
 If you want to re-enable the HP cross when overhealed or low on health, navigate to `/resource/ui/hudplayerhealth.res` and remove the `NULL` at the end of the `HealthBonusImage` (the `"fieldName"`).
@@ -93,10 +93,10 @@ Here's a diagram to show you how to enable customizations to the HUD.
 ```
 In other words, mark and **copy (CTRL+C)** the elements inside the `customization` that you wish to use (i.e. the folders inside **[SPEC HP] cross**, then **go back two steps**, and **paste (CTRL+V)** to overwrite all the normal files in all the major folders with the new ones. This way the customization also applies to the incongito mode and the revert from incognito back to normal. See below. it follows the same procedure for enabling it as customizations do.
 
-# [^](#top "Back to Top")Incognito
+# [:arrow_up:](#top "Back to Top")Incognito
 I've made an **incognito** mode designed for streamers that disables all names on the HUD. To enable it, copy the contents of the **incognito** folder into the parent folder (so that the folders match up). To disable it again, copy the contents of **incognito_revert** into the parent folder to overwrite the incognito ones. It's a similar maneuvre to how you enable customizations, only you only go back one step (up one folder) isntead of two like you do with customizations. Note that I think custom weapon names still show up.
 
-# [^](#top "Back to Top")Close Captions
+# [:arrow_up:](#top "Back to Top")Close Captions
 The Close Captions were created by **Clovervidia** and edited by me.
 To enable them, put this in your `autoexec.cfg`
 
@@ -112,7 +112,7 @@ I try to keep these updated so it doesn't flood your console with `Caption not f
 
 [Here](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751 "Clovervidia's Guide to CC") is a guide by **Clovervidia** that explains CC and how to use it.
 
-# [^](#top "Back to Top")Credits
+# [:arrow_up:](#top "Back to Top")Credits
 This HUD is greatly inspired by **BroeselHUD**, **e.v.e HUD**, and **7HUD**.
 Thank you to all those people for making awesome HUDs and for making the code so readily available so that we all can learn how to realize our own ideas.
 
@@ -129,7 +129,7 @@ A lot of README formatting inspired by Omni.
 
 **Hope you enjoy!**
 
-# [^](#top "Back to Top")See it in action! YouTube!
+# [:arrow_up:](#top "Back to Top")See it in action! YouTube!
 I also have a [YouTube channel](https://www.youtube.com/user/SuperKavv "Medico di Biscotti on YouTube") that serves as a dump-site for the terrible, terrible videos I make from time to time. You can also see the HUD in action [here](https://youtu.be/cEWcqiAdATU "Tough Break update video") and [here](https://youtu.be/aZYaEZxbI-8 "HUD + name origin video"). The trailer uses an old version of the HUD, but the newer videos show the current one.
 
 [Imgur album](http://imgur.com/a/4ipiu "biscottiHUD on Imgur")
