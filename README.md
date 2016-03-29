@@ -99,6 +99,7 @@ I've made an **incognito** mode designed for streamers that disables all names o
 
 # [^](#top "Back to Top")Close Captions
 The Close Captions were created by **Clovervidia** and edited by me.
+
 To enable them, put this in your `autoexec.cfg`
 
 ```
