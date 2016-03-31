@@ -589,6 +589,26 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		"FogCrosshairs"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"14"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Garm3nFontKonrWings"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"28"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
 		"Braille16"
 		{
 			"1"
@@ -5753,13 +5773,23 @@ Scheme
 		
 		"8"
 		{
-			"font" "resource/OpenSans-Semibold.ttf"
+			"font" "resource/fonts/OpenSans-Semibold.ttf"
 			"name" "Open Sans Semibold"
 		}
 		"9"
 		{
-			"font" "resource/braille.ttf"
+			"font" "resource/fonts/braille.ttf"
 			"name" "Braille"
+		}
+		"10"
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
+		"11"
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
 		}
 	}
 }

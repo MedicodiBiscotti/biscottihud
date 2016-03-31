@@ -1,5 +1,50 @@
 "Resource/HudLayout.res"
 {
+	FogCrosshairs
+	{
+		"controlName" "CExLabel"
+		"fieldName" "FogCrosshairs"
+		"visible" "0"
+		"enabled" "1"
+		"xpos" "c-100"
+		"ypos" "c-100"
+		"zpos" "2"
+		"wide" "202"
+		"tall" "198"
+		"font" "FogCrosshairs"
+		"labelText" "p"
+		"textAlignment" "center"
+	}
+	Garm3nFontKonrWings
+	{
+		"controlName" "CExLabel"
+		"fieldName" "Garm3nFontKonrWings"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "c-25"
+		"ypos" "c-25"
+		"zpos" "2"
+		"wide" "50"
+		"tall" "50"
+		"font" "Garm3nFontKonrWings"
+		"labelText" "#"
+		"textAlignment" "center"
+	}
+	HudHitMarker
+	{
+		"controlname" "ImagePanel"
+		"fieldname" "HudHitMarker"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"		"c-32"
+		"ypos"		"c-32"
+		"wide"	 "64"
+		"tall"	 "64"
+		"image"	 "../vgui/crosshairs/crosshair3"
+		"imagecolor"	"255 0 0 255"
+		"scaleimage"	"1"
+		"alpha"		"0"
+	}
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -415,22 +460,6 @@
 	HudDamageIndicator
 	{
 
-	}
-
-	HudHitMarker
-	{
-		"controlname" "ImagePanel"
-		"fieldname" "HudHitMarker"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"		"c-32"
-		"ypos"		"c-32"
-		"wide"	 "64"
-		"tall"	 "64"
-		"image"	 "../vgui/crosshairs/crosshair3"
-		"imagecolor"	"255 0 0 255"
-		"scaleimage"	"1"
-		"Alpha"		"0"
 	}
 
 	HudCommentary
