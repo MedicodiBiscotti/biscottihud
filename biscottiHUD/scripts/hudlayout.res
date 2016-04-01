@@ -29,11 +29,12 @@
 		"font" "Garm3nFontKonrWings"
 		"labelText" "#"
 		"textAlignment" "center"
+		"alpha"		"0"
 	}
-	HudHitMarker
+	WhiteCircle
 	{
 		"controlname" "ImagePanel"
-		"fieldname" "HudHitMarker"
+		"fieldname" "WhiteCircle"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"		"c-32"
