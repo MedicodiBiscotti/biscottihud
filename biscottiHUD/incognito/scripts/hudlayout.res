@@ -19,22 +19,38 @@
 	{
 		"controlName" "CExLabel"
 		"fieldName" "Garm3nFontKonrWings"
-		"visible" "1"
+		"visible" "0"
 		"enabled" "1"
-		"xpos" "c-25"
-		"ypos" "c-25"
+		"xpos" "c-26"
+		"ypos" "c-24"
 		"zpos" "2"
-		"wide" "50"
+		"wide" "51"
 		"tall" "50"
-		"font" "Garm3nFontKonrWings"
+		"font" "Garm3nFontKonrWings28"
 		"labelText" "#"
 		"textAlignment" "center"
+	}
+	Garm3nFontKonrWingsHitMarker
+	{
+		"controlName" "CExLabel"
+		"fieldName" "Garm3nFontKonrWingsHitMarker"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "c-26"
+		"ypos" "c-24"
+		"zpos" "2"
+		"wide" "51"
+		"tall" "50"
+		"font" "Garm3nFontKonrWings28"
+		"labelText" "#"
+		"textAlignment" "center"
+		"fgcolor"	"230 230 230 255"
 		"alpha"		"0"
 	}
-	WhiteCircle
+	WhiteCircleHitMarker
 	{
 		"controlname" "ImagePanel"
-		"fieldname" "WhiteCircle"
+		"fieldname" "WhiteCircleHitMarker"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"		"c-32"

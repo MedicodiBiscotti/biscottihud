@@ -1,5 +1,5 @@
 # biscottiHUD
-v. 1.64b
+v. 1.65
 
 This is my custom HUD for Team Fortress 2 (TF2).
 
@@ -10,6 +10,8 @@ I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercia
 * [IMPORTANT! Minmode](#important-minmode)
 * [Installation](#installation)
 * [Customization](#customization)
+	* [Manual edits](#manual-edits)
+	* [Official customizations](#official-customizations)
 * [Incognito](#incognito)
 * [Close Captions](#close-captions)
 * [Credits](#credits)
@@ -46,6 +48,8 @@ Then extract it to your `/tf/custom/` folder so that inside your custom folder t
 # [^](#top "Back to Top")Customization
 The easiest way to do most customization is to use the ones that I've made specifically, but if you're HUD savvy and feel up for it, you can of course **edit the files of the HUD manually**. I'd still appreciate credit for the HUD, though. Such as "Oh, I use an edited biscottiHUD" or something similar. Below I'll quickly outline some customizations you can do that I haven't made into an actual option.
 
+## [^](#top "Back to Top")Manual edits
+
 If you want to re-enable the HP cross when overhealed or low on health, navigate to `/resource/ui/hudplayerhealth.res` and remove the `NULL` at the end of the `HealthBonusImage` (the `"fieldName"`).
 
 Inside `/scripts/hudanimations_tf_custom_healthcolour.txt` you will find the animations for things like being **overhealed** or **low on health and ammo**. There you can disable the **box being coloured** when in different states of health (i.e. overhealed). You can also change the colours, but if you want to switch the colour scheme from **green-orange** to **blue-red** for overheal/low, I've already made those as official customizations.
@@ -55,6 +59,10 @@ In `/scripts/hudanimations_tf_custom.txt` you can also re-enable the **shaded im
 This HUD includes **multiple scoreboards** with tweaked sizes for **24**, **32**, **18**, and **12** man servers. (**Normal**, **32 man**, **Highlander**, and **6's**). To change the scoreboard, copy the contents of the one you want to use into the one just named `scoreboard.res`.
 
 If you want to make the font of the buttons different in the main menu, use a text editor like **notepad++** and replace `HudFontMediumBold` with **something else** in `/resource/ui/mainmenuoverride.res`.
+
+I've also added **custom crosshairs** to the HUD. To enable them you have to edit the file `scripts/hudlayout.res`. The crosshairs are at the top of the file. They're already set to a certain crosshair, but I would advise that you tweak it yourself however you like. Keep in mind that for some reason, the symbols in the font aren't completely centered so positioning them could be really tricky. You'll also have to manually make the same edit to the `scripts/hudlayout.res` files in the `incognito/` and `incognito_revert/` folders. To change the style of the crosshair, change the `labelText` to a different symbol. See more information [here](http://www.teamfortress.tv/14702/release-fogs-crosshairs-v3 "Fog's Crosshairs on teamfortress.tv").
+
+## [^](#top "Back to Top")Official customizations
 
 Now to talk about the **official customizations** included in the HUD.
 
@@ -71,6 +79,8 @@ Similarly, there are two **colour schemes** for flashing the meter when you **Ü
 There are currently 2 (and ½) different designs for **spectating HP**. One that's the original **cross design**, and one that's a **rectangular bar** that you'll also see in tournament mode. The third design is a slimmer version of the rectangle. While the rectangular design is the one enabled by default, it does have some issues such as looking weird when using floating target HP (where the health appears over the target's head instead of on the bar in the center of the screen ) and when being revived in Mann vs. Machine (MvM). If these are things that you use, consider using the cross design.
 
 There are also a bigger design for the **item meters** as opposed to the smaller ones that are enabled by default.
+
+I've also added the option for a **hitmarker** to show when you damage an enemy. There's a **white circle** that appears around the crosshair and I also added the **KonrWings** as a hitmarker as well. You can tweak the positioning, style, colour, and size of the hitmarker in `scripts/hudlayout.res` but keep in mind you also have to manually make the same edit to the `scripts/hudlayout.res` files in the `incognito/` and `incognito_revert/` folders as described previously. To make the KonrWingsHitmarker larger or smaller, change the number at the end of the `font` name to one defined in `clientscheme` (currently 16, 20, 24, 28, 32, 36, 40, 44, and 48). 28 is the default value for the KonrWingsHitMarker, but hitmarkers are disabled entirely by default.
 
 There are tons of other customizations that I've added as I've made more significant changes to some design elements. Basically, whenever I made a big change, I included the old version as a customization.
 

@@ -2,13 +2,8 @@
 
 event DamagedPlayer
 {
-	Animate WhiteCircle				Alpha		"255"		Linear 0.0 0.0
-	Animate WhiteCircle				Alpha		"0"			Linear 0.1 0.2
-
-	Animate CDamageAccountValue		Alpha		"255"		Linear 0.0  0.0
-	Animate CDamageAccountValue		Alpha		"0"			Linear 10.0 0.2
-	Animate CDamageAccountValueBG	Alpha		"255"		Linear 0.0  0.0
-	Animate CDamageAccountValueBG	Alpha		"0"			Linear 10.0 0.2
+	Animate WhiteCircleHitMarker				Alpha		"255"		Linear 0.0 0.0
+	Animate WhiteCircleHitMarker				Alpha		"0"			Linear 0.1 0.2
 }
 
 //===========================================

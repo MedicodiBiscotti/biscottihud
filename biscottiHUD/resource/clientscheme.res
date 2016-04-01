@@ -599,12 +599,92 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Garm3nFontKonrWings"
+		"Garm3nFontKonrWings16"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"16"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Garm3nFontKonrWings20"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Garm3nFontKonrWings24"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"24"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Garm3nFontKonrWings28"
 		{
 			"1"
 			{
 				"name"		"Garm3nFont"
 				"tall"		"28"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Garm3nFontKonrWings32"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"32"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Garm3nFontKonrWings36"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"36"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Garm3nFontKonrWings40"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"40"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Garm3nFontKonrWings44"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"44"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Garm3nFontKonrWings48"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"48"
 				"weight"	"0"
 				"antialias"	"1"
 			}
