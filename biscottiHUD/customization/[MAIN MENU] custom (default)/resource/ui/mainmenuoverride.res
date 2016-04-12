@@ -172,13 +172,53 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
+		"image"			"../console/title_invasion"
 		"scaleImage"	"1"
-		
-		if_operation
+				
+		if_halloween_0
 		{
-			"image"		"../console/title_team_tough_break"
+			"image"		"../console/title_team_halloween2011"
 		}
+		if_halloween_1
+		{
+			"image"		"../console/title_team_halloween2012"
+		}
+		if_halloween_2
+		{
+			"image"		"../console/title_team_halloween2013"
+		}
+		if_halloween_3
+		{
+			"image"		"../console/title_team_halloween2014"
+		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
+		if_fullmoon
+		{
+			"image"		"../console/title_fullmoon"
+		}
+		if_christmas
+		{
+			"image"		"../console/background_xmas2011"
+		}
+//		if_eotl_launch
+//		{
+//			"image"		"../console/title_eotl01"
+//		}
+		if_spy_vs_engy_war
+		{
+			"image"		"../console/background_sve_01"
+		}
+//		if_operation
+//		{
+//			"image"		"../console/title_team_tough_break"
+//		}
+//		if_community_update
+//		{
+//			"image"		"../console/title_invasion"
+//		}
 	}
 	
 	"TFLogoImage"
@@ -195,10 +235,10 @@
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		
-		if_operation
-		{
-			"image"		"../logo/tough_break_logo"
-		}
+//		if_operation
+//		{
+//			"image"		"../logo/tough_break_logo"
+//		}
 	}	
 	
 	"TFCharacterImage"
@@ -4513,10 +4553,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
 			"xpos"			"cs-0.5"
-			"ypos"			"285"
+			"ypos"			"315"
 			"zpos"			"0"
 			"wide"			"p0.8"
-			"tall"			"120"
+			"tall"			"90"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -4530,10 +4570,10 @@
 				"fieldName"		"OperationTitleLabel"
 				"font"			"HudFontSmallBold"
 				"labelText"		"#MMenu_Update"
-				"textAlignment"	"center"
-				"xpos"			"p0.05"
+				"textAlignment"	"west"
+				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"p0.9"
+				"wide"			"f0"
 				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -4541,7 +4581,6 @@
 				"enabled"		"1"
 				"textinsetx"	"20"
 				"fgcolor_override"	"235 227 203 255"
-				"proportionaltoparent"	"1"
 			}
 
 			"ViewDetailsButton"
@@ -4553,7 +4592,7 @@
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"1"
+				"visible"		"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -4653,10 +4692,10 @@
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"p0.47"
+				"ypos"					"25"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"p0.5"
+				"tall"					"60"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -4668,30 +4707,25 @@
 				{
 					"0"
 					{
-						"item"		 	"Unused Operation Tough Break Pass"
-						"show_market"	"0"
-					}
-					"1"
-					{
 						"item"		"Tough Break Case 01 Pyroland"
 						"show_market"	"1"
 					}
-					"2"
+					"1"
 					{
 						"item"		"Tough Break Case 02 Warbirds"
 						"show_market"	"1"
 					}
-					"3"
+					"2"
 					{
 						"item"		"Tough Break Key"
 						"show_market"	"0"
 					}
-					"4"
+					"3"
 					{
 						"item"		"Tough Break Cosmetic Case"
 						"show_market"	"1"
 					}
-					"5"
+					"4"
 					{
 						"item"		"Tough Break Cosmetic Key"
 						"show_market"	"0"
