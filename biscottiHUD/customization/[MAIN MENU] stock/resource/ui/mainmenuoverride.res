@@ -172,7 +172,7 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../console/title_invasion"
+		"image"			"../console/title_team_tough_break"
 		"scaleImage"	"1"
 				
 		if_halloween_0
