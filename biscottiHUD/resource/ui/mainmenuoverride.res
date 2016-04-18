@@ -230,13 +230,14 @@
 		"zpos"			"-99"
 		"wide"			"256"
 		"tall"			"64"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		
 //		if_operation
 //		{
+//			"visible"	"1"
 //			"image"		"../logo/tough_break_logo"
 //		}
 	}	

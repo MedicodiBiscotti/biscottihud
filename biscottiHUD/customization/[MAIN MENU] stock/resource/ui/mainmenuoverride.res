@@ -413,11 +413,6 @@
 //		"navLeft"		"ServerBrowserButton"
 //		"navRight"		"TrainingButton"
 		"navToRelay"	"SubButton"
-
-		if_competitive
-		{
-			"ypos"		"219"
-		}
 		
 		"SubButton"
 		{
@@ -469,11 +464,6 @@
 		"navLeft"		"ConsoleButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
-
-		if_competitive
-		{
-			"ypos"		"219"
-		}
 		
 		"SubButton"
 		{
