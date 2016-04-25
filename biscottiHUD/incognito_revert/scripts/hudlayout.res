@@ -917,6 +917,8 @@
 		"ypos"					"258"					// 215
 		"wide"					"292"
 		"tall"					"206"
+		"zpos"					"4"
+		"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel
@@ -1119,7 +1121,7 @@
 		"ypos"					"15"
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"245"
+		"tall"					"260"
 	}
 
 	HudTeamSwitch
@@ -1206,7 +1208,7 @@
 		"ypos_minmode"				"0"		// 15
 		"ypos_lodef"				"75"
 		"wide"					"224"
-		"tall"					"55"
+		"tall"					"70"
 	}
 	
 	NotificationPanel
@@ -1547,20 +1549,8 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"2"
+		"zpos"					"3"
 		"wide"					"f0"
 		"tall"					"f0"
-	}
-
-	HudTeamStatus
-	{
-		"fieldName"				"HudTeamStatus"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"f0"
-		"tall"					"150"
 	}
 }
