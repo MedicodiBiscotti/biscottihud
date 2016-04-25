@@ -901,20 +901,20 @@
 	HUDAutoAim
 	{
 
-	}	
+	}
 	
 	HudHDRDemo
 	{
 
 	}
-
+	
 	WinPanel
 	{
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-146"
-		"ypos"					"258"					// 215
+		"ypos"					"258"
 		"wide"					"292"
 		"tall"					"206"
 		"zpos"					"4"

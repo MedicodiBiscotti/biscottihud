@@ -12,27 +12,33 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"0"
 			"ypos"			"16"
 			"wide"			"147"
 			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"color_panel_blu"
+			
+			"border"		"TFFatLineBorderBlueBGMoreOpaque"
 		}
 		"RedScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"RedScoreBG"
 			"xpos"			"147"
-			"ypos"			"14"
+			"ypos"			"16"
 			"wide"			"147"
 			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"color_panel_red"
+
+			"border"		"TFFatLineBorderRedBGMoreOpaque"
 		}
 		"BlueTeamLabel"
 		{
@@ -43,13 +49,14 @@
 			"textAlignment"		"west"
 			"xpos"			"12"
 			"ypos"			"22"
-			"zpos"			"3"
+			"zpos"			"10"
 			"wide"			"100"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor"		"TanLight"
 		}
 		"BlueTeamLabelShadow"
 		{
@@ -141,13 +148,14 @@
 			"textAlignment"		"east"
 			"xpos"			"180"
 			"ypos"			"22"
-			"zpos"			"3"
+			"zpos"			"10"
 			"wide"			"100"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor"		"TanLight"
 		}
 		"RedTeamLabelShadow"
 		{
@@ -233,18 +241,35 @@
 			"bgcolor_override"	"117 107 94 255"
 		}
 	}
-	"WinPanelBG"
+	
+	"WinPanelBGTopBorder"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"WinPanelBG"
-		"xpos"			"-150"
-		"ypos"			"11"
+		"fieldName"			"WinPanelBGTopBorder"
+		"xpos"				"0"
+		"ypos"				"46"
+		"zpos"				"1"
+		"wide"				"292"
+		"tall"				"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"TanLight"
+	}
+
+	"WinPanelBGBorder"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
+		"xpos"			"0"
+		"ypos"			"47"
 		"zpos"			"0"
-		"wide"			"600"
-		"tall"			"300"
+		"wide"			"292"
+		"tall"			"160"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
+		"border"		"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
 	}
 	"WinningTeamLabel"
 	{	
