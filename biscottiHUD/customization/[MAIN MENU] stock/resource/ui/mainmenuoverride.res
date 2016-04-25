@@ -4440,7 +4440,7 @@
 					}
 					"5"
 					{
-						"item"		"Taunt: Aerobic Taunt"
+						"item"		"Taunt: Mannrobics"
 						"show_market"	"0"
 					}
 					
