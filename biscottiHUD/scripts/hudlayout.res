@@ -914,7 +914,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-146"
-		"ypos"					"258"
+		"ypos"					"215"
 		"wide"					"292"
 		"tall"					"206"
 		"zpos"					"4"
