@@ -347,6 +347,93 @@
 		}
 	}
 	
+	"AvatarImage"
+    {
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"		"AvatarImage"
+		"xpos"			"c-295"
+		"ypos"			"45"
+		"zpos"			"0"
+		"wide"			"48"
+		"tall"			"48"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"
+		"color_outline"	"0 89 140 255"
+    }
+	"TopLeftDataPanel"
+	{
+		"ControlName" "EditablePanel"
+		"fieldName" "TopLeftDataPanel"
+		"xpos" "c-295"
+		"ypos" "6"
+		"zpos" "10"
+		"wide" "285"
+		"tall" "36"
+		"visible" "1"
+
+		"WelcomeLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"	"WelcomeLabel"
+			"font"	"HudFontMediumSmallSecondary"
+			"labelText"	"#WelcomeBack"
+			"textAlignment"	"west"
+			"xpos"	"0"
+			"ypos"	"0"
+			"wide"	"285"
+			"tall"	"36"
+			"autoResize"	"0"
+			"pinCorner"	"0"
+			"visible"	"0"
+			"enabled"	"1"
+			"wrap"		"1"
+		}
+	}
+	
+	"BrailleHello"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BrailleHello"
+		"xpos"			"r200"
+		"ypos"			"r14"
+		"wide"			"200"
+		"tall"			"14"
+		"font"			"Braille16"
+		"labelText"		"Hello Sweetie!"
+		"textAlignment"	"east"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	"ShadedBG0"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ShadedBG0"
+		"xpos"			"c-245"
+		"ypos"			"65"
+		"zpos"			"-61"
+		"wide"			"82"
+		"tall"			"28"
+		"visible"		"1"
+		"enabled"		"1"
+	
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"82"
+			"tall"			"28"
+			"visible"		"0"
+			"enabled"		"1"
+			"defaultBgColor_Override"		"0 0 0 200"
+			"armedBgColor_Override"			"0 0 0 200"
+			"paintbackgroundtype"	"0"
+		}
+	}
+	
 	"Version"
 	{
 		"ControlName"	"EditablePanel"
@@ -395,7 +482,73 @@
 			"ypos"		"315"
 		}
 	}
+	
+	"DemoUIButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"DemoUIButton"
+		"xpos"			"c-34"
+		"ypos"			"377"
+		"zpos"			"11"
+		"wide"			"38"
+		"tall"			"40"
+		"visible"		"1"
+		"paintbackground"	"2"
+
+		"navUp"			"SteamWorkshopButton"
+		"navDown"		"VRModeButton"
+		"navRight"		"ConsoleButton"
+		"navToRelay"	"SubButton"
 		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"38"
+			"tall"			"40"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsety"	"25"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallestBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"MainMenuButtonDefault"
+			"border_armed"		"MainMenuButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"9"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+	
 	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -823,12 +976,12 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 				
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			"image_drawcolor"	"235 226 202 255"
