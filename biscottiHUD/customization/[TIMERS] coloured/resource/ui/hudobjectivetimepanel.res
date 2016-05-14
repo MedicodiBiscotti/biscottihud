@@ -10,39 +10,14 @@
 		"zpos"			"2"
 		"wide"			"78"
 		"wide_minmode"	"38"
-		"tall"			"4"
-		"tall_minmode"	"2"
+		"tall"			"32"
+		"tall_minmode"	"15"	// 23
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"
 		"scaleImage"		"1"	
 		"src_corner_height"		"3"				// pixels inside the image
 		"src_corner_width"		"3"
-		
-		if_comp
-		{
-			"visible"	"0"
-		}
-
-	}
-	
-	"MainBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"MainBG"
-		"xpos"			"16"
-		"xpos_minmode"	"36"
-		"ypos"			"4"
-		"ypos_minmode"	"2"
-		"zpos"			"2"
-		"wide"			"78"
-		"wide_minmode"	"38"
-		"tall"			"28"
-		"tall_minmode"	"13"	// 23
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"fillcolor"		"0 0 0 175"
 		
 		if_comp
 		{

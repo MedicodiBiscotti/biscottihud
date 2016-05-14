@@ -18,7 +18,7 @@
 
 		if_comp
 		{
-			"ypos"	"20"
+			"ypos"	"26"
 		}
 
 		"src_corner_height"	"16"				// pixels inside the image
@@ -48,7 +48,7 @@
 
 		if_comp
 		{
-			"ypos"	"27"
+			"ypos"	"28"
 		}
 	}
 
@@ -67,7 +67,7 @@
 
 		if_comp
 		{
-			"ypos"	"11"
+			"ypos"	"26"
 		}
 
 		"TimePanelValue"
@@ -113,7 +113,7 @@
 
 		if_comp
 		{
-			"ypos"	"21"
+			"ypos"	"26"
 		}
 	}
 	"StopWatchPointsLabel"
@@ -137,7 +137,7 @@
 
 		if_comp
 		{
-			"ypos"	"24"
+			"ypos"	"26"
 		}
 	}
 
@@ -162,7 +162,7 @@
 
 		if_comp
 		{
-			"ypos"	"20"
+			"ypos"	"26"
 		}
 	}
 
@@ -183,7 +183,7 @@
 
 		if_comp
 		{
-			"ypos"	"42"
+			"ypos"	"26"
 		}
 	}
 
@@ -207,7 +207,7 @@
 
 		if_comp
 		{
-			"ypos"	"38"
+			"ypos"	"26"
 		}
 	}
 }

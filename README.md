@@ -1,5 +1,5 @@
 # biscottiHUD
-v. 1.67
+v. 1.68
 
 This is my custom HUD for Team Fortress 2 (TF2).
 
@@ -78,7 +78,7 @@ Similarly, there are two **colour schemes** for flashing the meter when you **Ü
 
 There are currently 2 (and ½) different designs for **spectating HP**. One that's the original **cross design**, and one that's a **rectangular bar** that you'll also see in tournament mode. The third design is a slimmer version of the rectangle. While the rectangular design is the one enabled by default, it does have some issues such as looking weird when using floating target HP (where the health appears over the target's head instead of on the bar in the center of the screen ) and when being revived in Mann vs. Machine (MvM). If these are things that you use, consider using the cross design.
 
-There are also a bigger design for the **item meters** as opposed to the smaller ones that are enabled by default.
+There are also both a bigger and a smaller design for the **item meters** as opposed to the ones that are enabled by default.
 
 I've also added the option for a **hitmarker** to show when you damage an enemy. There's a **white circle** that appears around the crosshair and I also added the **KonrWings** as a hitmarker as well. You can tweak the positioning, style, colour, and size of the hitmarker in `scripts/hudlayout.res` but keep in mind you also have to manually make the same edit to the `scripts/hudlayout.res` files in the `incognito/` and `incognito_revert/` folders as described previously. To make the KonrWingsHitmarker larger or smaller, change the number at the end of the `font` name to one defined in `clientscheme` (currently 16, 20, 24, 28, 32, 36, 40, 44, and 48). 28 is the default value for the KonrWingsHitMarker, but hitmarkers are disabled entirely by default.
 
