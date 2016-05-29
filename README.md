@@ -146,6 +146,10 @@ I also have a [YouTube channel](https://www.youtube.com/user/SuperKavv "Medico d
 
 [Imgur album](http://imgur.com/a/4ipiu "biscottiHUD on Imgur")
 
-[huds.tf page](http://huds.tf/biscottihud/ "biscottiHUD on huds.tf")
+[huds.tf page](http://huds.tf/forum/showthread.php?tid=236 "biscottiHUD on huds.tf")
+
+[teamfortress.tv thread](http://www.teamfortress.tv/32405/biscottihud "biscottiHUD on teamfortress.tv")
+
+[DOWNLOAD](https://github.com/MedicodiBiscotti/biscottiHUD/archive/master.zip "DOWNLOAD")
 
 [Steam profile](http://www.steamcommunity.com/profiles/76561198020028851 "Medico di Biscotti on Steam"). Feel free to contact me but if you just add me, I'll probably ignore it. See how to get my attention in the bio.
