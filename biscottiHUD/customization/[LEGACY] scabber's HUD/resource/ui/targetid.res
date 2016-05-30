@@ -5,7 +5,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
-		"ypos"			"6"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"50"
@@ -24,15 +24,15 @@
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
-		"ypos"			"6"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
@@ -46,15 +46,15 @@
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
-		"ypos"			"6"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
@@ -68,26 +68,29 @@
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
 	
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"TFFontLarge"
-		"xpos"			"30"
-		"ypos"			"6"
+		"font"			"HudFontSmall"
+		"font_minmode"	"TFFontLarge"
+		"xpos"			"8"
+		"xpos_minmode"	"30"
+		"ypos"			"5"
+		"ypos_minmode"	"5"
 		"zpos"			"1"
-		"wide"			"-640"
-		"tall"			"12"
+		"wide"			"640"
+		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"		"West"
+		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -95,20 +98,23 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"DefaultVerySmall"
-		"xpos"			"35"
-		"ypos"			"18"	[$WIN32]
+		"font"			"FontStoreOriginalPrice"
+		"font_minmode"	"DefaultVerySmall"
+		"xpos"			"8"
+		"xpos_minmode"	"30"
+		"ypos"			"17"	[$WIN32]
+		"ypos_minmode"	"12"	[$WIN32]
 		"ypos"			"22"	[$X360]
 		"ypos_hidef"		"25"	[$X360]
 		"zpos"			"1"
-		"wide"			"120"
-		"tall"			"10"
+		"wide"			"280"
+		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"textAlignment"		"left"
+		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -118,8 +124,8 @@
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"12"
-		"tall"			"28"
+		"wide"			"32"
+		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
@@ -133,8 +139,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"20"
-		"ypos"			"19"
+		"xpos"			"40"
+		"xpos_minmode"	"38"
+		"ypos"			"20"
+		"ypos_minmode"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -148,8 +156,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"18"
-		"ypos"			"19"
+		"xpos"			"10"
+		"xpos_minmode"	"30"
+		"ypos"			"20"
+		"ypos_minmode"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -180,52 +190,11 @@
 			"zpos"			"0"
 			"wide"			"10"
 			"tall"			"36"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_alert_background_tall_nocolor"
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
-		}
-		
-		"MoveableIconBG2"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MoveableIconBG2"
-			"xpos"			"5"
-			"ypos"			"6"
-			"zpos"			"0"
-			"wide"			"20"
-			"tall"			"22"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"0 0 0 175"
-		}
-		
-		"MoveableIconBG3"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"			"MoveableIconBG3"
-			"xpos"				"5"
-			"ypos"				"24"
-			"zpos"				"0"
-			"wide"				"20"
-			"tall"	 			"4"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"0"
-			"enabled"			"1"
-			"image"				"../hud/color_panel_brown"
-			"scaleImage"		"1"
-			"teambg_1"			"../hud/color_panel_brown"
-			"teambg_2"			"../hud/color_panel_red"
-			"teambg_3"			"../hud/color_panel_blu"
-			
-			"src_corner_height"		"15"
-			"src_corner_width"		"15"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-			
-			"alpha"				"175"
 		}
 		
 		"MoveableIcon"
@@ -266,7 +235,7 @@
 			"font"			"TFFontMedium"
 			"font_minmode"	"DefaultVerySmall"
 			"xpos"			"0"
-			"ypos"			"28"
+			"ypos"			"22"
 			"zpos"			"1"
 			"wide"			"640"
 			"tall"			"24"
@@ -285,7 +254,8 @@
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
-		"ypos"			"12"	[$WIN32]
+		"xpos_minmode"	"6"
+		"ypos"			"6"	[$WIN32]
 		"ypos"			"0"	[$X360]
 		"zpos"			"99"
 		"wide"			"11"

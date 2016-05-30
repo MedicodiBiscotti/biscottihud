@@ -21,8 +21,8 @@
 		"teambg_3"		"../hud/color_panel_blu"
 		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"15"				// pixels inside the image
-		"src_corner_width"		"15"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
@@ -43,8 +43,8 @@
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"15"				// pixels inside the image
-		"src_corner_width"		"15"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
@@ -65,8 +65,8 @@
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
 		
-		"src_corner_height"		"15"				// pixels inside the image
-		"src_corner_width"		"15"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
