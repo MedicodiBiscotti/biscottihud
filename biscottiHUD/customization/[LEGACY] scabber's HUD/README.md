@@ -26,6 +26,7 @@ That's right, simply copy in the files in this folder and delete all the other f
 OPTIONAL:
 
 * hudarenawinpanel.res
+* hudinspectpanel.res
 * itemquickswitch.res
 * hudstopwatch.res
 * mvmcreditspendpanel

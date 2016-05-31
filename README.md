@@ -1,5 +1,5 @@
 # biscottiHUD
-v. 1.69
+v. 1.69a
 
 This is my custom HUD for Team Fortress 2 (TF2).
 
@@ -18,11 +18,11 @@ I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercia
 * [See it in action! YouTube!](#see-it-in-action-youtube)
 
 # [^](#top "Back to Top")Compatibility
-| Operating System | Compatible?   |
-|:----------------:|:-------------:|
-| Windows          | Yes!          |
-| Mac              | Probably not. |
-| Linux            | No idea.      |
+| Operating System	| Compatible?	|
+|:-----------------:|:-------------:|
+| Windows			| Yes!			|
+| Mac				| Probably not.	|
+| Linux				| Yes!			|
 
 | Resolution | Compatible? |
 |:----------:|:-----------:|
