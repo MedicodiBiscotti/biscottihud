@@ -536,7 +536,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MenuBGMainBottom"
 		"xpos"			"c-295"
-		"ypos"			"168"
+		"ypos"			"216"
 		"zpos"			"-61"
 		"wide"			"285"
 		"tall"			"100"
