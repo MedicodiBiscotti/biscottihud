@@ -172,7 +172,7 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../console/title_team_tough_break"
+		"image"			""
 		"scaleImage"	"1"
 				
 		if_halloween_0
@@ -406,15 +406,42 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"ShadedBG0"
+	"MenuBGHeaderAtMenu"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ShadedBG0"
-		"xpos"			"c-245"
-		"ypos"			"65"
+		"fieldName"		"MenuBGHeaderAtMenu"
+		"xpos"			"c-295"
+		"ypos"			"3"
 		"zpos"			"-61"
-		"wide"			"82"
-		"tall"			"28"
+		"wide"			"285"
+		"tall"			"90"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"285"
+			"tall"			"90"
+			"visible"		"0"
+			"enabled"		"1"
+			"defaultBgColor_Override"		"bBlackBGMenu"
+			"armedBgColor_Override"			"bBlackBGMenu"
+			"paintbackgroundtype"	"0"
+		}
+	}
+	"MenuBGHeaderInGame"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MenuBGHeaderInGame"
+		"xpos"			"c-295"
+		"ypos"			"45"
+		"zpos"			"-61"
+		"wide"			"285"
+		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
 	
@@ -424,12 +451,12 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"82"
-			"tall"			"28"
+			"wide"			"285"
+			"tall"			"48"
 			"visible"		"0"
 			"enabled"		"1"
-			"defaultBgColor_Override"		"0 0 0 200"
-			"armedBgColor_Override"			"0 0 0 200"
+			"defaultBgColor_Override"		"bBlackBGMenu"
+			"armedBgColor_Override"			"bBlackBGMenu"
 			"paintbackgroundtype"	"0"
 		}
 	}
