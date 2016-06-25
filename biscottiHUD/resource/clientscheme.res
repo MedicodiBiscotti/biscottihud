@@ -1,3 +1,7 @@
+#base	"scheme_colourscheme.res"
+#base	"scheme_transparency_box.res"
+#base	"scheme_transparency_misc.res"
+
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -10,7 +14,7 @@
 //
 Scheme
 {
-	//Name - currently overriden in code
+	//Name - currently overridden in code
 	//{
 	//	"Name"	"ClientScheme"
 	//}
@@ -18,89 +22,24 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-		// base colors
-		"Orange"			"178 82 22 255"
-		"OrangeDim"			"178 82 22 120"
-		"LightOrange"		"188 112 0 128"
-		"GoalOrange"		"255 133 0 255"
-		"TFOrange"			"145 73 59 255"
-
-		"QuestGold"			"208 147 75 255"
-		"HalloweenThemeColor2015_Light"	"238 126 17 255"
-		"HalloweenThemeColor2015"		"135 54 16 255"
-		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
-		"QuestStandardHighlight"	"0 255 0 255"
-		"QuestBonusHighlight"		"150 160 255 255"
-	
-		"White"				"235 235 235 255"
-		"Red"				"192 28 0 140"
-		"RedSolid"			"192 28 0 255"
-		"Blue"				"0 28 162 140"
-		"Yellow"			"251 235 202 255"
-		"TransparentYellow"	"251 235 202 140"
-		"BrightYellow"		"251 235 0 255"
-		"BlackSolid"		"0 0 0 255"
-		"GreenSolid"		 "76 107 34 255"
-		
-		"Black"				"46 43 42 255"
-		"TransparentBlack"	"0 0 0 196"
-		"TransparentLightBlack"	"0 0 0 90"
-		"FooterBGBlack"		"52 48 55 255"
-		
-		"HUDBlueTeam"		"104 124 155 127"
-		"HUDRedTeam"		"180 92 77 127"
-		"HUDSpectator"		"124 124 124 127"
-		"HUDBlueTeamSolid"	"104 124 155 255"
-		"HUDRedTeamSolid"	"180 92 77 255"
-		"HUDDeathWarning"	"255 0 0 255"
-		"HudWhite"			"255 255 255 255"
-		"HudOffWhite"		"200 187 161 255"
-		"HudBlack"			"65 65 65 255"
-		"ProgressBarBlue"	"91 122 142 255"
-		
-		"CreditsGreen"		"94 150 49 255"
-		
-		"Gray"				"178 178 178 255"
-
-		"Blank"				"0 0 0 0"
-		"ForTesting"		"255 0 0 32"
-		"ForTesting_Magenta"	"255 0 255 255"
-		"ForTesting_MagentaDim"	"255 0 255 120"
-
-		"HudPanelForeground"		"123 110 59 184"
-		"HudPanelBackground"		"123 110 59 184"
-		"HudPanelBorder"			"255 255 255 102"
-
-		"HudProgressBarActive"		"240 207 78 255"
-		"HudProgressBarInActive"	"140 120 73 255"
-		"HudProgressBarActiveLow"	"240 30 30 255"
-		"HudProgressBarInActiveLow"	"240 30 30 99"	
-
-		"HudTimerProgressActive"	"251 235 202 255"
-		"HudTimerProgressInActive"	"52 48 45 255"
-		"HudTimerProgressWarning"	"240 30 30 255"
-
-		// training
-		"HudTrainingHint"			"212 160 23 255"
-		
-		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
-		"TanDarker"				"46 43 42 255"
-		
-		"StoreDarkTan"			"131 121 104 255"
-		"StoreGreen"			"76 107 34 255"
-		
-		// Building HUD Specific
-		"HealthBonus"		"61 171 255 255"
-		"HealthDying"		"255 50 50 255"
-		"AmmoLow"			"255 50 50 255"
-		"UberReady"			"255 30 255 255"
-		"UberReadyLight"	"255 70 255 255"
-		"UberReadyTrans"		"255 30 255 175"
-		"UberReadyLightTrans"	"255 70 255 175"
-		"SlinFire1"			"255 137 0 255"
-		"SlinFire2"			"255 30 0 255"
-		"color_panel_brown"	"51 48 45 200"
+		// CUSTOM COLOURS		
+		"bGoalOrange"			"255 133 0 255"
+		"bBlackSolid"			"0 0 0 255"
+		"bBlackTrans175"		"0 0 0 175"
+		"bBlackTrans225"		"0 0 0 225"
+		"bBlue"					"61 171 255 255"
+		"bRed"					"255 50 50 255"
+		"bMagenta"				"255 30 255 255"
+		"bMagentaLight"			"255 70 255 255"
+		"SlinFire1"				"255 137 0 255"
+		"SlinFire2"				"255 30 0 255"
+		"bBrightBlue"			"31 141 225 255"
+		"bBrightRed"			"200 36 0 255"
+		"bDarkGray"				"50 50 50 200"
+		"bGreen"				"0 175 0 255"
+		"bOrange"				"200 66 10 255"
+		"bWhite"				"235 235 235 255"
+		"color_panel_brown"		"51 48 45 200"
 		"color_panel_brownLighter"	"71 68 65 200"
 		"color_panel_brownSolid"	"51 48 45 255"
 		"color_panel_brownSolidLighter"	"81 78 75 255"
@@ -108,103 +47,6 @@ Scheme
 		"color_panel_bluLighter"	"97 136 159 175"
 		"color_panel_red"	"184 59 59 175"
 		"color_panel_redLighter"	"204 79 79 175"
-		"BrightBlue"		"31 141 225 255"
-		"BrightBlueLight"	"51 161 225 255"
-		"BrightRed"			"200 36 0 255"
-		"BrightRedLight"	"220 56 20 255"
-		"DarkGray"			"50 50 50 200"
-		"TransBlack"		"0 0 0 175"
-		"OverhealGreen"		"0 175 0 225"
-		"OverhealGreenLight"	"20 195 20 225"
-		"HurtOrange"		"200 66 10 255"
-		"HurtOrangeLight"	"220 86 30 255"
-		
-		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
-		"ProgressBackground"	"250 234 201 51"
-		"HealthBgGrey"		"72 71 69 255"
-		
-		"ProgressOffWhiteTransparent"	"251 235 202 128"
-		
-		"LabelDark"			"48 43 42 255"
-		"LabelTransparent"	"109 96 80 180"
-		
-		"BuildMenuActive"	"248 231 198 255"
-		
-		"DisguiseMenuIconRed"	"192 56 63 255"
-		"DisguiseMenuIconBlue"	"92 128 166 255"
-
- 		"MatchmakingDialogTitleColor"			"200 184 151 255"
- 		"MatchmakingMenuItemBackground"			"46 43 42 255"
- 		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
-		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
-		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
-		
-		"HTMLBackground"						"95 92 101 255"
-		
-		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"235 226 202 255"
-		"ItemAttribPositive"					"153 204 255 255"
-		"ItemAttribNegative"					"255 64 64 255"
-
-		"ItemSetName"							"225 255 15 255"
-		"ItemSetItemEquipped"					"149 175 12 255"
-		"ItemSetItemMissing"					"139 137 137 255"
-		"ItemIsotope"							"225 255 15 255"
-		"ItemBundleItem"						"149 175 12 255"
-		"ItemLimitedUse"						"0 160 0 255"
-		"ItemFlags"								"117 107 94 255"
-		"ItemLimitedQuantity"					"225 209 0 255"
-		
-		"QualityColorNormal"					"178 178 178 255"
-		"QualityColorrarity1"					"77 116 85 255"
-		"QualityColorrarity2"					"141 131 75 255"
-		"QualityColorrarity3"					"204 204 250 255"
-		"QualityColorrarity4"					"134 80 172 255"
-		"QualityColorVintage"					"71 98 145 255"
-		"QualityColorUnique"					"255 215 0 255"
-		"QualityColorCommunity"					"112 176 74 255"
-		"QualityColorDeveloper"					"165 15 121 255"
-		"QualityColorSelfMade"					"112 176 74 255"
-		"QualityColorCustomized"				"71 98 145 255"
-		"QualityColorStrange"					"207 106 50 255"
-		"QualityColorCompleted"					"134 80 172 255"
-		"QualityColorHaunted"					"56 243 171 255"
-		"QualityColorCollectors"				"170 0 0 255"
-		"QualityColorPaintkitWeapon"			"250 250 250 255"
-
-		"ItemRarityDefault"						"131 126 119 255"
-		"ItemRarityCommon"						"176 195 217 255"
-		"ItemRarityUncommon"					"94 152 217 255"
-		"ItemRarityRare"						"75 105 255 255"
-		"ItemRarityMythical"					"136 71 255 255"
-		"ItemRarityLegendary"					"211 44 230 255"
-		"ItemRarityAncient"						"235 75 75 255"
-		
-		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
-		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
-		"ItemRarityUncommon_GreyedOut"			"31 50 72 255"
-		"ItemRarityRare_GreyedOut"				"25 35 85 255"
-		"ItemRarityMythical_GreyedOut"			"45 24 85 255"
-		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
-		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
-		
-		"QualityColorNormal_GreyedOut"			"44 44 44 255"
-		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
-		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
-		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
-		"QualityColorrarity4_GreyedOut"			"36 20 43 255"
-		"QualityColorVintage_GreyedOut"			"18 25 36 255"
-		"QualityColorUnique_GreyedOut"			"64 54 0  255"
-		"QualityColorCommunity_GreyedOut"		"28 44 19 255"
-		"QualityColorDeveloper_GreyedOut"		"41 4  30  255"
-		"QualityColorSelfMade_GreyedOut"		"28 44 74 255"
-		"QualityColorCustomized_GreyedOut"		"71 98 19 255"
-		"QualityColorStrange_GreyedOut"			"52 27 13 255"
-		"QualityColorCompleted_GreyedOut"		"34 20 43 255"
-		"QualityColorHaunted_GreyedOut"			"14 61 43 255"
-		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
-		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		
 		// QUALITY AND RARITY IN LIGHTER AND DARKER SHADE
 		// +30
@@ -311,6 +153,167 @@ Scheme
 		"QualityColorCollectors_GreyedOutDark"		"40 0 0 255"
 		"QualityColorPaintkitWeapon_GreyedOutDark"	"40 40 40 255"
 		//
+		
+		// BASE COLOURS
+		"Orange"			"178 82 22 255"
+		"OrangeDim"			"178 82 22 120"
+		"LightOrange"		"188 112 0 128"
+		"GoalOrange"		"255 133 0"
+		"TFOrange"			"145 73 59 255"
+
+		"QuestGold"			"208 147 75 255"
+		"HalloweenThemeColor2015_Light"	"238 126 17 255"
+		"HalloweenThemeColor2015"		"135 54 16 255"
+		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
+		"QuestStandardHighlight"	"0 255 0 255"
+		"QuestBonusHighlight"		"150 160 255 255"
+	
+		"White"				"235 235 235 255"
+		"Red"				"192 28 0 140"
+		"RedSolid"			"192 28 0 255"
+		"Blue"				"0 28 162 140"
+		"Yellow"			"251 235 202 255"
+		"TransparentYellow"	"251 235 202 140"
+		"BrightYellow"		"251 235 0 255"
+		//"Black"				"0 0 0 255"
+		//Changed black to a NTSC safe color
+		"GreenSolid"		 "76 107 34 255"
+		
+		"Black"				"46 43 42 255"
+		"TransparentBlack"	"0 0 0 196"
+		"TransparentLightBlack"	"0 0 0 90"
+		"FooterBGBlack"		"52 48 55 255"
+		
+		"HUDBlueTeam"		"104 124 155 127"
+		"HUDRedTeam"		"180 92 77 127"
+		"HUDSpectator"		"124 124 124 127"
+		"HUDBlueTeamSolid"	"104 124 155 255"
+		"HUDRedTeamSolid"	"180 92 77 255"
+		"HUDDeathWarning"	"255 0 0 255"
+		"HudWhite"			"255 255 255 255"
+		"HudOffWhite"		"200 187 161 255"
+		"HudBlack"			"65 65 65 255"
+		"ProgressBarBlue"	"91 122 142 255"
+		
+		"CreditsGreen"		"94 150 49 255"
+		
+		"Gray"				"178 178 178 255"
+
+		"Blank"				"0 0 0 0"
+		"ForTesting"		"255 0 0 32"
+		"ForTesting_Magenta"	"255 0 255 255"
+		"ForTesting_MagentaDim"	"255 0 255 120"
+
+		"HudPanelForeground"		"123 110 59 184"
+		"HudPanelBackground"		"123 110 59 184"
+		"HudPanelBorder"			"255 255 255 102"
+
+		"HudProgressBarActive"		"240 207 78 255"
+		"HudProgressBarInActive"	"140 120 73 255"
+		"HudProgressBarActiveLow"	"240 30 30 255"
+		"HudProgressBarInActiveLow"	"240 30 30 99"	
+
+		"HudTimerProgressActive"	"251 235 202 255"
+		"HudTimerProgressInActive"	"52 48 45 255"
+		"HudTimerProgressWarning"	"240 30 30 255"
+
+		// training
+		"HudTrainingHint"			"212 160 23 255"
+		
+		"TanDark"				"117 107 94 255"
+		"TanLight"				"235 226 202 255"
+		"TanDarker"				"46 43 42 255"
+		
+		"StoreDarkTan"			"131 121 104 255"
+		"StoreGreen"			"76 107 34 255"
+		
+		// Building HUD Specific
+		"LowHealthRed"		"255 0 0 255"
+		"ProgressOffWhite"	"251 235 202 255"
+		"ProgressBackground"	"250 234 201 51"
+		"HealthBgGrey"		"72 71 69 255"
+		
+		"ProgressOffWhiteTransparent"	"251 235 202 128"
+		
+		"LabelDark"			"48 43 42 255"
+		"LabelTransparent"	"109 96 80 180"
+		
+		"BuildMenuActive"	"248 231 198 255"
+		
+		"DisguiseMenuIconRed"	"192 56 63 255"
+		"DisguiseMenuIconBlue"	"92 128 166 255"
+
+ 		"MatchmakingDialogTitleColor"			"200 184 151 255"
+ 		"MatchmakingMenuItemBackground"			"46 43 42 255"
+ 		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
+		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
+		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
+		
+		"HTMLBackground"						"95 92 101 255"
+		
+		"ItemAttribLevel"						"117 107 94 255"
+		"ItemAttribNeutral"						"235 226 202 255"
+		"ItemAttribPositive"					"153 204 255 255"
+		"ItemAttribNegative"					"255 64 64 255"
+
+		"ItemSetName"							"225 255 15 255"
+		"ItemSetItemEquipped"					"149 175 12 255"
+		"ItemSetItemMissing"					"139 137 137 255"
+		"ItemIsotope"							"225 255 15 255"
+		"ItemBundleItem"						"149 175 12 255"
+		"ItemLimitedUse"						"0 160 0 255"
+		"ItemFlags"								"117 107 94 255"
+		"ItemLimitedQuantity"					"225 209 0 255"
+		
+		"QualityColorNormal"					"178 178 178 255"
+		"QualityColorrarity1"					"77 116 85 255"
+		"QualityColorrarity2"					"141 131 75 255"
+		"QualityColorrarity3"					"204 204 250 255"
+		"QualityColorrarity4"					"134 80 172 255"
+		"QualityColorVintage"					"71 98 145 255"
+		"QualityColorUnique"					"255 215 0 255"
+		"QualityColorCommunity"					"112 176 74 255"
+		"QualityColorDeveloper"					"165 15 121 255"
+		"QualityColorSelfMade"					"112 176 74 255"
+		"QualityColorCustomized"				"71 98 145 255"
+		"QualityColorStrange"					"207 106 50 255"
+		"QualityColorCompleted"					"134 80 172 255"
+		"QualityColorHaunted"					"56 243 171 255"
+		"QualityColorCollectors"				"170 0 0 255"
+		"QualityColorPaintkitWeapon"			"250 250 250 255"
+
+		"ItemRarityDefault"						"131 126 119 255"
+		"ItemRarityCommon"						"176 195 217 255"
+		"ItemRarityUncommon"					"94 152 217 255"
+		"ItemRarityRare"						"75 105 255 255"
+		"ItemRarityMythical"					"136 71 255 255"
+		"ItemRarityLegendary"					"211 44 230 255"
+		"ItemRarityAncient"						"235 75 75 255"
+		
+		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
+		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
+		"ItemRarityUncommon_GreyedOut"			"31 50 72 255"
+		"ItemRarityRare_GreyedOut"				"25 35 85 255"
+		"ItemRarityMythical_GreyedOut"			"45 24 85 255"
+		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
+		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
+		
+		"QualityColorNormal_GreyedOut"			"44 44 44 255"
+		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
+		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
+		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
+		"QualityColorrarity4_GreyedOut"			"36 20 43 255"
+		"QualityColorVintage_GreyedOut"			"18 25 36 255"
+		"QualityColorUnique_GreyedOut"			"64 54 0  255"
+		"QualityColorCommunity_GreyedOut"		"28 44 19 255"
+		"QualityColorDeveloper_GreyedOut"		"41 4  30  255"
+		"QualityColorSelfMade_GreyedOut"		"28 44 74 255"
+		"QualityColorCustomized_GreyedOut"		"71 98 19 255"
+		"QualityColorStrange_GreyedOut"			"52 27 13 255"
+		"QualityColorCompleted_GreyedOut"		"34 20 43 255"
+		"QualityColorHaunted_GreyedOut"			"14 61 43 255"
+		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
+		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		
 		"SaleGreen"								"76 107 34 255"
 		
@@ -519,7 +522,7 @@ Scheme
 		HudObjectives.FgColor		"HudPanelForeground"
 		HudObjectives.BgColor		"HudPanelBackground"
 		HudObjectives.BorderColor	"HudPanelBorder"
-				
+		
 		HudProgressBar.Active		"HudProgressBarActive"
 		HudProgressBar.InActive		"HudProgressBarInActive"
 		
@@ -589,6 +592,8 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		
+		// CUSTOM FONT INSTANCES
 		"FogCrosshairs"
 		{
 			"1"
@@ -689,6 +694,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+
 		"Braille16"
 		{
 			"1"
@@ -698,247 +704,85 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"OpenSansSemiBold8"
+
+		"CloseCaption_Normal"
 		{
 			"1"
 			{
-				"name"		"Open Sans Semibold"
-				"tall"		"8"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold10"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold12"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold14"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold16"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold18"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold20"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold22"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"22"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold24"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
+				"name"		"TF2 Secondary"	// Tahoma
 				"tall"		"24"
-				"additive"	"0"
-				"antialias"	"1"
+				"tall_hidef"	"32"
+				"weight"	"500"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias" "1"
 			}
 		}
-		"OpenSansSemiBold26"
+		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Open Sans Semibold"
-				"tall"		"26"
-				"additive"	"0"
-				"antialias"	"1"
+				"name"		"TF2 Secondary"	// Tahoma
+				"tall"		"24"
+				"tall_hidef"	"32"
+				"weight"	"500"
+				"italic"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias" "1"
 			}
 		}
-		"OpenSansSemiBold28"
+		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Open Sans Semibold"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias"	"1"
+				"name"		"TF2 Secondary"	// Tahoma
+				"tall"		"24"
+				"tall_hidef"	"32"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias" "1"
 			}
 		}
-		"OpenSansSemiBold30"
+		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Open Sans Semibold"
-				"tall"		"30"
-				"additive"	"0"
-				"antialias"	"1"
+				"name"		"TF2 Secondary"	// Tahoma
+				"tall"		"24"
+				"tall_hidef"	"32"
+				"weight"	"900"
+				"italic"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias" "1"
 			}
 		}
-		"OpenSansSemiBold32"
+		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"		"Open Sans Semibold"
-				"tall"		"32"
-				"additive"	"0"
-				"antialias"	"1"
+				"name"		"TF2 Secondary"	// Tahoma
+				"tall"		"16"
+				"tall_hidef"	"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias" "1"
 			}
 		}
-		"OpenSansSemiBold34"
+
+		TFFontSmallLabel
 		{
 			"1"
 			{
-				"name"		"Open Sans Semibold"
-				"tall"		"34"
+				"name"		"Verdana"
+				"tall"		"8"
+				"tall_hidef"	"10"
+				"tall_lodef"	"12"
+				"weight"	"0"
 				"additive"	"0"
-				"antialias"	"1"
+				"antialias" 	"1"
 			}
 		}
-		"OpenSansSemiBold36"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"36"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold38"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"38"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold40"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"40"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold42"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"42"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold44"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"44"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold46"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"46"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold48"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"48"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold50"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"50"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold52"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"52"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"OpenSansSemiBold54"
-		{
-			"1"
-			{
-				"name"		"Open Sans Semibold"
-				"tall"		"54"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		
+
+		// DEFAULT FONT INSTANCES
 		"Default"
 		{
 			"1"
@@ -1384,6 +1228,17 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontMediumSmallishBold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"22"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1857,68 +1712,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"	// Tahoma
-				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias" "1"
-			}
-		}
-		"CloseCaption_Italic"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"	// Tahoma
-				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"500"
-				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias" "1"
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"	// Tahoma
-				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias" "1"
-			}
-		}
-		"CloseCaption_BoldItalic"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"	// Tahoma
-				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"900"
-				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias" "1"
-			}
-		}
-		"CloseCaption_Small"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"	// Tahoma
-				"tall"		"16"
-				"tall_hidef"	"24"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias" "1"
-			}
-		}
 
 		// this is the symbol font
 		"Marlett"
@@ -2188,7 +1981,7 @@ Scheme
 				"additive"	"0"
 			}
 		}
-		
+
 		"ScoreboardTeamScoreNew"
  		{
 			"1"
@@ -2579,19 +2372,6 @@ Scheme
 			}
 		}		
 		
-		TFFontSmallLabel
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"12"
-				"weight"	"0"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
 		TFFontMedium
 		{
 			"1"
@@ -3001,7 +2781,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"QuestFlavorText"
 		{
 			"1"
@@ -3219,7 +2999,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"AdFont_AdText"
 		{
 			"1"
@@ -3478,7 +3258,6 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
 	}
 
 	//
@@ -3487,6 +3266,161 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+		// CUSTOM BORDERS
+		bSchemePrimeBorder1
+		{
+			"inset"	"0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+			}
+		}
+		
+		"RoundedBorder"
+		{
+			"inset"	"0 0 0 0"
+			"backgroundtype"	"2"
+		}
+		
+		TabActive
+		{
+			"inset"	"0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 1"
+				}
+				"2"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 1"
+				}
+				"3"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 1"
+				}
+				"2"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 1"
+				}
+				"3"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+				"3"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+			}
+		}
+		
+		BorderBottom3
+		{
+			"inset"	"0 0 0 0"
+			Bottom
+			{
+				"1"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+				"3"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+			}
+		}
+		
+		BorderBottom4
+		{
+			"inset"	"0 0 0 0"
+			Bottom
+			{
+				"1"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+				"3"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+				"4"
+				{
+					"color"		"bSchemePrime"
+					"offset"	"0 0"
+				}
+			}
+		}
+		
+		// BASE BORDERS
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -3602,20 +3536,122 @@ Scheme
 		ButtonBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
 		}
 
 		ButtonDepressedBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
 		}
 
 		ComboBoxBorder
@@ -5886,20 +5922,10 @@ Scheme
 		
 		"8"
 		{
-			"font" "resource/fonts/OpenSans-Semibold.ttf"
-			"name" "Open Sans Semibold"
-		}
-		"9"
-		{
-			"font" "resource/fonts/braille.ttf"
-			"name" "Braille"
-		}
-		"10"
-		{
 			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
-		"11"
+		"9"
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"

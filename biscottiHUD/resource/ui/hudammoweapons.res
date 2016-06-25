@@ -46,11 +46,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"BlackSolid"
+		"defaultBgColor_Override"		"bBlackBox"
 		"paintbackgroundtype"	"0"
 		"border_default"	"NoBorder"
 		"labelText"		""
-		"alpha"			"175"
 	}
 	"BGColoredLineH"
 	{
@@ -69,8 +68,8 @@
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		
-		"src_corner_height"		"15"
-		"src_corner_width"		"15"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
 		
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
@@ -92,8 +91,8 @@
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		
-		"src_corner_height"		"15"
-		"src_corner_width"		"15"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
 		
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"

@@ -116,7 +116,7 @@
 		"font"			"SpectatorVerySmall"
 //		"fgcolor"		"TanDark"
 	}
-		"PlayerStatusHealthValueShadow"
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"

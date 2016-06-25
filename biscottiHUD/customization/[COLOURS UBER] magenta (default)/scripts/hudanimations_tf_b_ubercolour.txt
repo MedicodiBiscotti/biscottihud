@@ -1,0 +1,37 @@
+//===========================================
+
+// Flash the medic charge hud when we have full charge
+event HudMedicCharged
+{
+//	Animate	ChargeLabel 	FgColor		"bMagenta"			Linear 0.0 0.0				// My magenta/purple flash
+//	Animate	ChargeLabel 	FgColor		"bMagentaLight"		Linear 0.0 0.5
+//	Animate	ChargeLabel 	FgColor		"bMagenta"			Linear 0.5 0.5
+	
+	Animate	MedicChargedShadedBG 	BgColor		"bMagentaBox"			Linear 0.0 0.0
+	Animate	MedicChargedShadedBG 	BgColor		"bMagentaLightBox"		Linear 0.0 0.5
+	Animate	MedicChargedShadedBG 	BgColor		"bMagentaBox"			Linear 0.5 0.5
+	
+	Animate	ChargeMeter 	FgColor		"bMagenta"			Linear 0.0 0.0
+	Animate	ChargeMeter 	FgColor		"bMagentaLight"		Linear 0.0 0.5
+	Animate	ChargeMeter 	FgColor		"bMagenta"			Linear 0.5 0.5
+	
+	RunEvent HudMedicChargedLoop	1.0
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeLabel 			FgColor		"TanLight"			Linear 0.0 0.0
+	Animate	MedicChargedShadedBG 	BgColor		"bBlackBox"			Linear 0.0 0.0
+	Animate	ChargeMeter 			FgColor		"TanLight"			Linear 0.0 0.0
+}
+
+//===========================================

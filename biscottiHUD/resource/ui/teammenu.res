@@ -39,7 +39,7 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 175"
@@ -115,7 +115,6 @@
 		"armedBgColor_override"		"color_panel_bluLighter"
 		"depressedBgColor_override"	"color_panel_blu"
 	}
-	
 	"teambutton0Shortcut"
 	{
 		"ControlName"	"CExButton"
@@ -178,7 +177,6 @@
 		"armedBgColor_override"		"color_panel_redLighter"
 		"depressedBgColor_override"	"color_panel_red"
 	}
-	
 	"teambutton1Shortcut"
 	{
 		"ControlName"	"CExButton"
@@ -240,7 +238,6 @@
 		"armedBgColor_override"		"color_panel_brownLighter"
 		"depressedBgColor_override"	"color_panel_brown"
 	}
-	
 	"teambutton2Shortcut"
 	{
 		"ControlName"	"CExButton"
@@ -299,7 +296,6 @@
 		
 		"border_default"			"NoBorder"
 	}
-	
 	"teambutton3Shortcut"
 	{
 		"ControlName"	"CExButton"
@@ -324,7 +320,7 @@
 		"font"			"HudFontSmallBold"
 		"defaultFgColor_override"		"235 235 235 185"
 	}
-		
+	
 	"CancelButton" [$WIN32] 
 	{
 		"ControlName"	"CExImageButton"
@@ -339,7 +335,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_Cancel"
+		"labelText"		"#TF_Cancel_NoKey"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -360,7 +356,32 @@
 		"armedBgColor_override"			"color_panel_brownLighter"
 		"depressedBgColor_override"		"color_panel_brown"
 	}
+	"CancelButtonShortcut" [$WIN32] 
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CancelButtonShortcut"
+		"xpos"			"c208"
+		"ypos"			"354"
+		"zpos"			"6"
+		"wide"			"96"
+		"tall"			"57"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&Q"
+		"textAlignment"	"south-west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"cancelmenu"
+		"font"			"HudFontSmallBold"
+		"paintbackground"	"0"
+		"paintborder"		"0"
 		
+		"defaultFgColor_override"		"235 235 235 185"
+	}
+	
 	"TeamMenuSelect"
 	{
 		"ControlName"	"CExLabel"

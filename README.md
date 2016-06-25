@@ -1,5 +1,5 @@
 # biscottiHUD
-v. 1.69a
+v. 1.70
 
 This is my custom HUD for Team Fortress 2 (TF2).
 
@@ -56,7 +56,7 @@ Inside `/scripts/hudanimations_tf_custom_healthcolour.txt` you will find the ani
 
 In `/scripts/hudanimations_tf_custom.txt` you can also re-enable the **shaded image** that pops up on screen when **disguising or picking of the intelligence**. This is done by uncommenting the respective lines at the top of the file. I hate that thing, though, but it's up to you.
 
-This HUD includes **multiple scoreboards** with tweaked sizes for **24**, **32**, **18**, and **12** man servers. (**Normal**, **32 man**, **Highlander**, and **6's**). To change the scoreboard, copy the contents of the one you want to use into the one just named `scoreboard.res`.
+This HUD includes **multiple scoreboards** with tweaked sizes for **24**, **32**, **18**, and **12** man servers. (**Normal**, **32 man**, **Highlander**, and **6's**). To change the scoreboard, go to `scoreboard.res` and change the number **24** to the variant that you want.
 
 If you want to make the font of the buttons different in the main menu, use a text editor like **notepad++** and replace `HudFontMediumBold` with **something else** in `/resource/ui/mainmenuoverride.res`.
 
@@ -89,10 +89,8 @@ Here's a diagram to show you how to enable customizations to the HUD.
 | \tf\custom\biscottiHUD\
 --------------------------------------
 '-> customization
-'	'-> [SPEC HP] cross
-'	'	'-> **incognito**						**CTRL+A**
-'	'	'-> **incognito_revert**				**CTRL+C**
-'	'	'-> **resource**
+'	'-> [SPEC HP] cross							**CTRL+A**
+'	'	'-> **resource**						**CTRL+C**
 '	'
 '	'-> etc.									**Go back**
 '												**Go back**
@@ -105,7 +103,7 @@ Here's a diagram to show you how to enable customizations to the HUD.
 In other words, mark and **copy (CTRL+C)** the elements inside the `customization` that you wish to use (i.e. the folders inside **[SPEC HP] cross**, then **go back two steps**, and **paste (CTRL+V)** to overwrite all the normal files in all the major folders with the new ones. This way the customization also applies to the incongito mode and the revert from incognito back to normal. See below. it follows the same procedure for enabling it as customizations do.
 
 # [^](#top "Back to Top")Incognito
-I've made an **incognito** mode designed for streamers that disables all names on the HUD. To enable it, copy the contents of the **incognito** folder into the parent folder (so that the folders match up). To disable it again, copy the contents of **incognito_revert** into the parent folder to overwrite the incognito ones. It's a similar maneuvre to how you enable customizations, only you only go back one step (up one folder) isntead of two like you do with customizations. Note that I think custom weapon names still show up.
+I've made an **incognito** mode designed for streamers that disables all names on the HUD. To enable it, copy the contents of the `incognito` folder into the parent folder (so that the folders match up). To disable it again, copy the contents of `incognito_revert` into the parent folder to overwrite the incognito ones. It's a similar maneuvre to how you enable customizations, only you only go back one step (up one folder) instead of two like you do with customizations. Note that I think custom weapon names still show up.
 
 # [^](#top "Back to Top")Close Captions
 The Close Captions were created by **Clovervidia** and edited by me.

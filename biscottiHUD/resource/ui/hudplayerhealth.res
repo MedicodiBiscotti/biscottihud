@@ -68,7 +68,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PlayerHealthShadedBG"
-		"xpos"			"54"			// 45
+		"xpos"			"54"
 		"ypos"			"41"
 		"zpos"			"1"
 		"wide"			"100"
@@ -77,11 +77,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"BlackSolid"
+		"defaultBgColor_Override"		"bBlackBox"
 		"paintbackgroundtype"	"0"
 		"border_default"	"NoBorder"
 		"labelText"		""
-		"alpha"			"175"
 	}
 	"BGColoredLineH"
 	{
@@ -100,8 +99,8 @@
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		
-		"src_corner_height"		"15"
-		"src_corner_width"		"15"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
 		
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
@@ -123,8 +122,8 @@
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		
-		"src_corner_height"		"15"
-		"src_corner_width"		"15"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
 		
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
@@ -133,8 +132,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSelf"
-		"xpos"			"56"			// 61
-		"ypos"			"41"			// 52
+		"xpos"			"56"
+		"ypos"			"41"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"50"

@@ -2,7 +2,7 @@
 {
 	"Version"
 	{
-		"label"			"biscottiHUD v. 1.69a"
+		"label"			"biscottiHUD v. 1.70"
 		"command"		"engine showconsole
 						 echo ..............................................................................................................
 						 echo ..............................................................................................................
@@ -14,7 +14,8 @@
 						 echo |______/..|__|.|_______/.....|______|.|______/......|__|........|__|.....|__|.|__|..|__|..|______/..|_______/.
 						 echo ...................................... Thank you for using biscottiHUD! ......................................
 						 echo ......................................... Made by Medico di Biscotti .........................................
-						 echo ............................................ huds.tf/biscottihud .............................................
+						 echo .................................... huds.tf/forum/showthread.php?tid=236 ....................................
+						 echo ..................................... teamfortress.tv/32405/biscottihud ......................................
 						 echo .................................. github.com/MedicodiBiscotti/biscottiHUD ...................................
 						 echo .................... Close Captions created by Clovervidia. Edited by Medico di Biscotti ....................."
 	}
@@ -24,7 +25,13 @@
 		"command"		"engine"
 		"OnlyAtMenu"	"1"
 	}
-	"ShadedBG0"
+	"MenuBGHeaderAtMenu"
+	{
+		"label"			""
+		"command"		"engine"
+		"OnlyAtMenu"	"1"
+	}
+	"MenuBGHeaderInGame"
 	{
 		"label"			""
 		"command"		"engine"

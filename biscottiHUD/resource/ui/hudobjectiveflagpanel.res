@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
+{
 	"ObjectiveStatusFlagPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -185,7 +185,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 	
 	"RedScore"
 	{
@@ -223,7 +223,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 	
 	"RedScoreShadow"
 	{
@@ -261,7 +261,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 	
 	"OutlineImage"
 	{
@@ -277,7 +277,7 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
-	}		
+	}
 	
 	"CarriedImage"
 	{
@@ -304,7 +304,7 @@
 		{
 			"visible"	"r142"
 		}
-	}		
+	}
 	
 	"PlayingTo"
 	{
@@ -338,7 +338,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 	
 	"PlayingToBG"
 	{
@@ -352,7 +352,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"color_panel_brown"
-				
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -367,7 +367,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 	
 	"BlueFlag"
 	{
@@ -381,7 +381,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-				
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -421,7 +421,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-				
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -447,7 +447,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 	
 	"CaptureFlag"
 	{
@@ -519,5 +519,5 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
-	}			
+	}	
 }

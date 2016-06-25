@@ -1285,10 +1285,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}												
-		"Kills"
+		"Kills1"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Kills"
+			"fieldName"		"Kills1"
 			"font"			"HudFontMediumBigBold"
 			"labelText"		"%kills%"
 			"textAlignment"		"east"
@@ -1301,6 +1301,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"bGreen"
 		}				
 		"Dash"
 		{
@@ -1320,10 +1321,10 @@
 			"enabled"		"1"
 			"fgcolor"		"TanLight"
 		}
-		"Deaths"
+		"Deaths1"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Deaths"
+			"fieldName"		"Deaths1"
 			"font"			"HudFontMediumBigBold"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
@@ -1336,6 +1337,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"bRed"
 		}	
 		"GameType"
 		{

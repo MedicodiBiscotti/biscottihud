@@ -6,15 +6,15 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.2			// White	Cross
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.2 0.4
 	
-	Animate	PlayerHealthBonusShadedBGTournament		Alpha		"230"				Linear 0.0 0.0		// Coloured	Box	Tournament
-	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"BrightBlue"		Linear 0.0 0.0		// Coloured	Box	Tournament
-	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"BrightBlueLight"	Linear 0.0 0.2		// Coloured	Box	Tournament
-	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"BrightBlue"		Linear 0.2 0.2		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament		Alpha		"255"					Linear 0.0 0.0		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"bBrightBlueBox"			Linear 0.0 0.0		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"bBrightBlueLightBox"	Linear 0.0 0.2		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"bBrightBlueBox"			Linear 0.2 0.2		// Coloured	Box	Tournament
 	
-	Animate BlackFilter						Alpha		"0"				Linear 0.0 0.0
+	Animate BlackFilter								Alpha		"0"						Linear 0.0 0.0
 	
-	Animate PlayerStatusHealthValue		FgColor		"HealthBonus"		Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSelf	FgColor		"HealthBonus"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValue		FgColor		"bBlue"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSelf	FgColor		"bBlue"		Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -30,8 +30,8 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
-	Animate	PlayerHealthBonusShadedBGTournament		Alpha		"0"		Linear 0.0 0.0		// Coloured	Box	Tournament
-	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"BrightBlue"		Linear 0.0 0.0		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament		Alpha		"0"					Linear 0.0 0.0		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"bBrightBlueBox"		Linear 0.0 0.0		// Coloured	Box	Tournament
 	
 	Animate BlackFilter					Alpha		"255"				Linear 0.0 0.0
 
@@ -47,8 +47,8 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.075		// White	Cross
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.125 0.075
 	
-	Animate PlayerStatusHealthValue			FgColor		"HealthDying"	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSelf		FgColor		"HealthDying"	Linear 0.0 0.0			// Red Text
+	Animate PlayerStatusHealthValue			FgColor		"bRed"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSelf		FgColor		"bRed"	Linear 0.0 0.0			// Red Text
 
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -75,8 +75,8 @@ event HudLowAmmoPulse
 //	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 //	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 
-	Animate AmmoInClip					FgColor		"AmmoLow"	Linear 0.0 0.0				// Red Text
-	Animate AmmoInReserve				FgColor		"AmmoLow"	Linear 0.0 0.0
+	Animate AmmoInClip					FgColor		"bRed"	Linear 0.0 0.0				// Red Text
+	Animate AmmoInReserve				FgColor		"bRed"	Linear 0.0 0.0
 
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
