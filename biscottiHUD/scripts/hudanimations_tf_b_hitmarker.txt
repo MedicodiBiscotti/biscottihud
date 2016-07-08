@@ -2,7 +2,8 @@
 
 event DamagedPlayer
 {
-	// empty
+	Animate Garm3nFontKonrWingsHitMarker		Alpha		"100"		Linear	0.0 0.0
+	Animate Garm3nFontKonrWingsHitMarker		Alpha		"0"			Accel	0.3 0.075
 }
 
 //===========================================

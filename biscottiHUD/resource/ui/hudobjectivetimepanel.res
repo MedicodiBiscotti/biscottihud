@@ -19,7 +19,7 @@
 		"src_corner_height"		"3"				// pixels inside the image
 		"src_corner_width"		"3"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -44,7 +44,7 @@
 		
 		"fillcolor"		"bBlackBG"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -69,7 +69,7 @@
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -95,12 +95,13 @@
 		"wrap"			"0"
 		"font"			"ClockSubTextTiny"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"0"
 			"ypos"					"21"
 			"ypos_minmode"			"21"
+			"wide"					"130"
 			"font"					"HudFontSmallestBold"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
@@ -124,7 +125,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -150,12 +151,13 @@
 		"wrap"			"0"
 		"font"			"ClockSubText"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"0"
 			"ypos"					"21"
 			"ypos_minmode"			"21"
+			"wide"					"130"
 			"font"					"HudFontSmallestBold"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
@@ -179,7 +181,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -207,12 +209,13 @@
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"0"
 			"ypos"					"21"
 			"ypos_minmode"			"21"
+			"wide"					"130"
 			"font"					"HudFontSmallestBold"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
@@ -235,7 +238,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -262,12 +265,13 @@
 		"font"			"ClockSubText"
 		"font_minmode"	"ClockSubTextSuddenDeath"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"0"
 			"ypos"					"21"
 			"ypos_minmode"			"21"
+			"wide"					"130"
 			"font"					"HudFontSmallestBold"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
@@ -290,7 +294,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -317,12 +321,13 @@
 		"font"			"ClockSubText"
 		"font_minmode"	"ClockSubTextSuddenDeath"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"0"
 			"ypos"					"21"
 			"ypos_minmode"			"21"
+			"wide"					"130"
 			"font"					"HudFontSmallestBold"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
@@ -346,7 +351,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}

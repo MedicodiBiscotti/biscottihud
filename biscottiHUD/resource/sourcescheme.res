@@ -1,4 +1,5 @@
-#base	"scheme_colourscheme.res"
+#base	"schemes/scheme_frameborder.res"
+#base	"schemes/scheme_colourscheme.res"
 #base	"SourceSchemeBase.res"
 
 Scheme
@@ -223,7 +224,7 @@ Scheme
 			}
 		}
 		
-				
+		
 		AchievementItemTitle	[$WIN32]
 		{
 			"1"
@@ -260,71 +261,6 @@ Scheme
 				"tall"			"14" [!$OSX]
 				"tall"			"12" [$OSX]
 				"antialias"		"1" [!$OSX]
-			}
-		}
-	}
-	
-	Borders
-	{
-		FrameBorder
-		{
-			// rounded corners for frames
-			//"backgroundtype" "2"
-
-			Left
-			{
-				"1"
-				{
-					"color" "TFDarkbrown"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "TFDarkbrown"
-					"offset" "1 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "TFDarkBrown"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "TFDarkBrown"
-					"offset" "1 1"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "TFDarkBrown"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "TFDarkBrown"
-					"offset" "1 1"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "TFDarkBrown"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "TFDarkBrown"
-					"offset" "1 1"
-				}
 			}
 		}
 	}

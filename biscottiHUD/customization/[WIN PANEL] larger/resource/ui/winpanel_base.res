@@ -355,18 +355,18 @@
 		"fieldName"		"WinReasonLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"0"
-		"ypos"			"58"							// 89
+		"ypos"			"58"
 		"zpos"			"1"
 		"wide"			"292"
 		"tall"			"20"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%WinReasonLabel%"
-		"textAlignment"		"Center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
+		"centerwrap"	"1"
 	}
 	"DetailsLabel"
 	{
@@ -460,10 +460,10 @@
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}
-	"Player1Medal"
+	"Player1Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Player1Medal"
+		"ControlName"	"CTFBadgePanel"
+		"fieldName"		"Player1Badge"
 		"xpos"			"17"
 		"ypos"			"103"							// 136
 		"zpos"			"3"
@@ -543,10 +543,10 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	"Player2Medal"
+	"Player2Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Player2Medal"
+		"ControlName"	"CTFBadgePanel"
+		"fieldName"		"Player2Badge"
 		"xpos"			"17"
 		"ypos"			"120"						// 158
 		"zpos"			"3"
@@ -626,10 +626,10 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	"Player3Medal"
+	"Player3Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Player3Medal"
+		"ControlName"	"CTFBadgePanel"
+		"fieldName"		"Player3Badge"
 		"xpos"			"17"
 		"ypos"			"137"						// 180
 		"zpos"			"3"
@@ -766,10 +766,10 @@
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}
-	"KillStreakPlayer1Medal"
+	"KillStreakPlayer1Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"KillStreakPlayer1Medal"
+		"ControlName"	"CTFBadgePanel"
+		"fieldName"		"KillStreakPlayer1Badge"
 		"xpos"			"17"
 		"ypos"			"174"					// 217
 		"zpos"			"3"

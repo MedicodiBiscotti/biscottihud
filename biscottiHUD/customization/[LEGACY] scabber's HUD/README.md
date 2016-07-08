@@ -1,7 +1,7 @@
 # scabber's HUD
 v. 1.00
 
-This is a customization for the old design of my HUD, from back when I went by the alias **sgt. scabberdaddle**. It's the ressurection of **scabber's HUD**!
+This is a customization for the old design of my HUD, from back when I went by the alias **sgt. scabberdaddle**. It's the resurrection of **scabber's HUD**!
 
 Basically it's much, MUCH closer to the design of the stock TF2 HUD, so it's actually really simple to accomplish.
 
