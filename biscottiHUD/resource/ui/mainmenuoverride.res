@@ -1528,11 +1528,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"VRModeButton"
-		"xpos"			"c-285"
-		"ypos"			"379"
-		"zpos"			"-60"
+		"xpos"			"c47"
+		"ypos"			"62"
+		"zpos"			"11"
 		"wide"			"270"
-		"tall"			"36"
+		"tall"			"32"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 

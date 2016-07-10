@@ -914,7 +914,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-146"
-		"ypos"					"215"
+		"ypos"					"258"					// 215
 		"wide"					"292"
 		"tall"					"206"
 		"zpos"					"4"
@@ -1339,10 +1339,10 @@
 		"fieldName"				"ItemQuickSwitchPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"			"c-125"
-		"ypos"			"280"
-		"wide"			"250"
-		"tall"			"160"
+		"xpos"			"r300"
+		"ypos"			"160"
+		"wide"			"275"
+		"tall"			"220"
 	}
 	
 	ReplayReminder
