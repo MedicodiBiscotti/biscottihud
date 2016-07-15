@@ -10,7 +10,7 @@
 		"wide"			"124"
 		"tall"			"32"
 		"tall_minmode"	"15"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -18,13 +18,13 @@
 
 		if_comp
 		{
-			"ypos"	"26"
+			"ypos"	"36"
 		}
 
-		"src_corner_height"	"16"				// pixels inside the image
-		"src_corner_width"	"16"
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
 
@@ -48,7 +48,7 @@
 
 		if_comp
 		{
-			"ypos"	"28"
+			"ypos"	"38"
 		}
 	}
 
@@ -67,7 +67,7 @@
 
 		if_comp
 		{
-			"ypos"	"26"
+			"ypos"	"36"
 		}
 
 		"TimePanelValue"
@@ -113,7 +113,7 @@
 
 		if_comp
 		{
-			"ypos"	"26"
+			"ypos"	"36"
 		}
 	}
 	"StopWatchPointsLabel"
@@ -137,7 +137,7 @@
 
 		if_comp
 		{
-			"ypos"	"26"
+			"ypos"	"36"
 		}
 	}
 
@@ -162,7 +162,7 @@
 
 		if_comp
 		{
-			"ypos"	"26"
+			"ypos"	"36"
 		}
 	}
 
@@ -183,7 +183,7 @@
 
 		if_comp
 		{
-			"ypos"	"26"
+			"ypos"	"36"
 		}
 	}
 
@@ -207,7 +207,7 @@
 
 		if_comp
 		{
-			"ypos"	"26"
+			"ypos"	"36"
 		}
 	}
 }

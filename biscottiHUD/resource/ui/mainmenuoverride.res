@@ -566,7 +566,7 @@
 		"textAlignment"	"west"
 		"xpos"			"c-278"
 		"ypos"			"93"
-		"wide"			"140"
+		"auto_wide_tocontents"	"1"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1726,6 +1726,22 @@
 					"desc_token"		"#MMenu_PlayList_Training_Desc"
 				}
 
+				"CreateServerEntry"
+				{
+					"ControlName"	"CMainMenuPlayListEntry"
+					"fieldName"		"CreateServerEntry"
+					"xpos"			"0"
+					"ypos"			"253"
+					"tall"			"45"
+					"wide"			"p1"
+					"proportionaltoparent"	"1"
+
+					"image_name"		"main_menu/main_menu_button_custom_server"
+					"button_token"		"#MMenu_PlayList_CreateServer_Button"
+					"button_command"	"OpenCreateMultiplayerGameDialog"
+					"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
+				}
+
 				"ScrollBar"
 				{
 					"ControlName"	"ScrollBar"
@@ -2604,11 +2620,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c-116"
+		"xpos"			"c-25"
 		"ypos"			"98"
 		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 
 		"navLeft"		"ResumeGameButton"
@@ -2671,11 +2687,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-96"
+		"xpos"			"c0"
 		"ypos"			"98"
 		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 
 		"navLeft"		"ReportPlayerButton"
@@ -2737,11 +2753,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-76"
-		"ypos"			"98"
+		"xpos"			"c-25"
+		"ypos"			"123"
 		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 
 		"navLeft"		"CallVoteButton"
@@ -2804,11 +2820,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c-56"
-		"ypos"			"98"
+		"xpos"			"c0"
+		"ypos"			"123"
 		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 
 		"navLeft"		"MutePlayersButton"

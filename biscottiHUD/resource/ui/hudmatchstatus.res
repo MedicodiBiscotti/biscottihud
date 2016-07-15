@@ -56,38 +56,6 @@
 				"sequence"		"outro"
 			}
 		}
-	}	
-
-	"RoundCounter"
-	{
-		"fieldName"		"RoundCounter"
-		"xpos"			"cs-0.5"
-		"ypos"			"-2"
-		"zpos"			"1"		
-		"wide"			"300"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-
-	"BGFrame"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
-		"ypos"				"-5"
-		"zpos"				"0"
-		"wide"				"365"
-		"tall"				"28"
-		"visible"			"0"
-
-		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
-		
-		if_match
-		{
-			"visible"		"1"
-		}
 	}
 
 	"CountdownLabel"
@@ -227,6 +195,72 @@
 		}
 	}
 
+	"RoundCounter"
+	{
+		"fieldName"		"RoundCounter"
+		"xpos"			"cs-0.5"
+		"ypos"			"-2"
+		"zpos"			"1"		
+		"wide"			"300"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"BGFrame"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BGFrame"
+		"xpos"				"cs-0.5"
+		"ypos"				"-5"
+		"zpos"				"0"
+		"wide"				"365"
+		"tall"				"28"
+		"visible"			"0"
+
+		"proportionaltoaparent"	"1"
+		"border"			"TFFatLineBorder"
+	}
+	
+	"RoundTimerBGBlue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RoundTimerBGBlue"
+		"xpos"				"c-36"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"30"
+		"tall"				"8"
+		"visible"			"0"
+		"enabled"			"1"
+		
+		"fillcolor"			"bBlackBG"
+		
+		if_match
+		{
+			"visible"		"1"
+		}
+	}
+	"RoundTimerBGRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RoundTimerBGRed"
+		"xpos"				"c6"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"30"
+		"tall"				"8"
+		"visible"			"0"
+		"enabled"			"1"
+		
+		"fillcolor"			"bBlackBG"
+		
+		if_match
+		{
+			"visible"		"1"
+		}
+	}
+
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -252,19 +286,10 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
-
+		
 		if_match
 		{
-			"xpos"					"cs-0.5"
-			"wide"					"130"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"ypos"			"10"
 		}
 		
 		"TimePanelValue"
@@ -288,19 +313,14 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
+			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"cs-0.5"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"10"
-				"tall_minmode"	"10"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+				"xpos"		"36"
+				"ypos"		"2"
+				"wide"		"38"
+				"tall"		"14"
+				"font"		"HudFontSmall"
 			}
 		}
 	}

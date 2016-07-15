@@ -1,13 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
-{	
-	"HudKothTimeStatus"
-	{
-		if_match
-		{
-			"zpos"		"5"
-		}
-	}
-	
+{
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
@@ -31,18 +23,8 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"			"20"
+			"ypos"			"10"
 		}
 		
 		"TimePanelValue"
@@ -74,20 +56,11 @@
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"15"
-				"xpos_minmode"	"15"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"10"
-				"tall_minmode"	"10"
-				"wide"			"35"
-				"wide_minmode"	"35"
+				"xpos"			"36"
+				"ypos"			"2"
+				"wide"			"38"
+				"tall"			"14"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
 			}
 		}	
 	}
@@ -115,18 +88,8 @@
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"			"70"
+			"ypos"			"10"
 		}
 		
 		"TimePanelValue"
@@ -158,20 +121,11 @@
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"rs1-15"
-				"xpos_minmode"	"rs1-15"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"tall"			"10"
-				"tall_minmode"	"10"
+				"xpos"			"36"
+				"ypos"			"2"
+				"wide"			"38"
+				"tall"			"14"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
 			}
 		}	
 	}
@@ -195,6 +149,13 @@
 //		"image"				"../hud/objectives_timepanel_active_bg"
 		"fillcolor"			"255 255 255 255"
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
+		
+		if_match
+		{
+			"ypos"			"10"
+			"wide"			"38"
+			"tall"			"15"
+		}
 	}
 }
