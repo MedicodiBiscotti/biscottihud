@@ -67,7 +67,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"tall"			"f0"
-			"wide"			"5" // This gets slammed from client schme.  GG.
+			"wide"			"5" // This gets slammed from clientscheme.  GG.
 			"zpos"			"1000"
 			"nobuttons"		"1"
 			"proportionaltoparent"	"1"

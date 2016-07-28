@@ -3308,13 +3308,13 @@ Scheme
 			}
 		}
 		
-		"RoundedBorder"
+		bRoundedBorder
 		{
 			"inset"	"0 0 0 0"
 			"backgroundtype"	"2"
 		}
 		
-		TabActive
+		bTabActive
 		{
 			"inset"	"0 0 0 0"
 			Left
@@ -3373,7 +3373,7 @@ Scheme
 			}
 		}
 		
-		BorderBottom3
+		bBorderBottom3
 		{
 			"inset"	"0 0 0 0"
 			Bottom
@@ -3396,7 +3396,7 @@ Scheme
 			}
 		}
 		
-		BorderBottom4
+		bBorderBottom4
 		{
 			"inset"	"0 0 0 0"
 			Bottom

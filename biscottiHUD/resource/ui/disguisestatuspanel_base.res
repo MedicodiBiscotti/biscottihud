@@ -32,11 +32,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"0"
-		"ypos"			"6"
 		"zpos"			"-1"
-		"wide"			"150"
-		"tall"	 		"22"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -49,9 +45,30 @@
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+		
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
+	}
+	"BlackBG1"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BlackBG1"
+		"xpos"				"0"
+		"ypos"				"6"
+		"zpos"				"-2"
+		"tall"				"22"
+		"fillcolor"			"0 0 0 175"
+		"enabled"			"1"
+	}
+	"BlackBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BlackBG2"
+		"ypos"				"6"
+		"zpos"				"-2"
+		"tall"				"20"
+		"fillcolor"			"0 0 0 175"
+		"enabled"			"1"
 	}
 
 	"DisguiseNameLabel"
@@ -98,10 +115,6 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"20"
-		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"

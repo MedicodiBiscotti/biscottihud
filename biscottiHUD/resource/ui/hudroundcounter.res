@@ -64,4 +64,54 @@
 		"image"					"../hud/comp_round_timer"
 		"scaleimage"			"1"
 	}
+	
+	"BGAnchor"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGAnchor"
+		"xpos"			"150"
+		"ypos"			"2"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		"fillcolor"		"0 0 0 0"
+	}
+	"BGBlue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BGBlue"
+		"xpos"				"6"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"30"
+		"tall"				"8"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"fillcolor"			"bBlackBG"
+		
+		"pin_to_sibling"	"BGAnchor"
+		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+	}
+	"BGRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BGRed"
+		"xpos"				"6"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"30"
+		"tall"				"8"
+		"visible"			"1"
+		"enabled"			"1"
+		
+		"fillcolor"			"bBlackBG"
+		
+		"pin_to_sibling"	"BGAnchor"
+		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+	}
 }

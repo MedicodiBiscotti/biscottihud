@@ -2,7 +2,7 @@
 {
 	FogCrosshairs
 	{
-		"controlName" "CExLabel"
+		"ControlName" "CExLabel"
 		"fieldName" "FogCrosshairs"
 		"visible" "0"
 		"enabled" "1"
@@ -17,7 +17,7 @@
 	}
 	Garm3nFontKonrWings
 	{
-		"controlName" "CExLabel"
+		"ControlName" "CExLabel"
 		"fieldName" "Garm3nFontKonrWings"
 		"visible" "0"
 		"enabled" "1"
@@ -32,7 +32,7 @@
 	}
 	Garm3nFontKonrWingsHitMarker
 	{
-		"controlName" "CExLabel"
+		"ControlName" "CExLabel"
 		"fieldName" "Garm3nFontKonrWingsHitMarker"
 		"visible" "1"
 		"enabled" "1"
@@ -49,7 +49,7 @@
 	}
 	WhiteCircleHitMarker
 	{
-		"controlname" "ImagePanel"
+		"Controlname" "ImagePanel"
 		"fieldname" "WhiteCircleHitMarker"
 		"visible" "1"
 		"enabled" "1"
@@ -78,8 +78,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c115"	[$WIN32]
-		"xpos_minmode"	"c165"	[$WIN32]		// +50 from minmode 0
+		"xpos"	"c113"	[$WIN32]
+		"xpos_minmode"	"c164"	[$WIN32]		// +50 from minmode 0
 		"ypos"	"c64"	[$WIN32]
 		"ypos_minmode"	"c144"	[$WIN32]		// +80 from minmode 0
 		"xpos"	"r131"	[$X360]
@@ -140,12 +140,12 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-125"	[$WIN32]
-		"ypos"			"c60"	[$WIN32]
+		"xpos"			"c-120"	[$WIN32]
+		"ypos"			"c24"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
-		"wide"			"400"
-		"tall"			"286"
+		"wide"			"395"
+		"tall"			"177"
 	}
 
 	HudDemomanCharge

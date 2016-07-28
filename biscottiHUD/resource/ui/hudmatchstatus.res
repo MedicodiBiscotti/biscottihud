@@ -104,7 +104,6 @@
 		"textAlignment"	"center"
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
-
 	
 		if_readymode
 		{
@@ -220,45 +219,6 @@
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
-	}
-	
-	"RoundTimerBGBlue"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"RoundTimerBGBlue"
-		"xpos"				"c-36"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"30"
-		"tall"				"8"
-		"visible"			"0"
-		"enabled"			"1"
-		
-		"fillcolor"			"bBlackBG"
-		
-		if_match
-		{
-			"visible"		"1"
-		}
-	}
-	"RoundTimerBGRed"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"RoundTimerBGRed"
-		"xpos"				"c6"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"30"
-		"tall"				"8"
-		"visible"			"0"
-		"enabled"			"1"
-		
-		"fillcolor"			"bBlackBG"
-		
-		if_match
-		{
-			"visible"		"1"
-		}
 	}
 
 	"ObjectiveStatusTimePanel"

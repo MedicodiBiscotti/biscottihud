@@ -4,11 +4,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"0"
-		"ypos"			"6"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"50"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -23,19 +19,15 @@
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+		
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"0"
-		"ypos"			"6"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -45,7 +37,7 @@
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+		
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
@@ -53,11 +45,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"0"
-		"ypos"			"6"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -67,9 +55,30 @@
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+		
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
+	}
+	"BlackBG1"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BlackBG1"
+		"xpos"				"0"
+		"ypos"				"6"
+		"zpos"				"-2"
+		"tall"				"22"
+		"fillcolor"			"0 0 0 175"
+		"enabled"			"1"
+	}
+	"BlackBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BlackBG2"
+		"ypos"				"6"
+		"zpos"				"-2"
+		"tall"				"20"
+		"fillcolor"			"0 0 0 175"
+		"enabled"			"1"
 	}
 	
 	"TargetNameLabel"
@@ -117,17 +126,13 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"20"
-		"tall"			"28"
-		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}	
+	}
 	
 	"AmmoIcon"
 	{
@@ -295,5 +300,5 @@
 		"image"			""
 		"scaleImage"	"1"	
 		"color_outline"	"52 48 45 255"
-	}	
+	}
 }

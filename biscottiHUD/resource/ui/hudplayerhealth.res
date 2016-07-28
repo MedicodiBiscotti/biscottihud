@@ -1,12 +1,12 @@
 "Resource/UI/HudPlayerHealth.res"
-{	
+{
 	// player health data
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-275"		[$WIN32]
-		"xpos_minmode"	"c-325"		[$WIN32]			// -50 from minmode 0
+		"xpos"			"c-273"		[$WIN32]
+		"xpos_minmode"	"c-324"		[$WIN32]			// -50 from minmode 0
 		"ypos"			"c25"	[$WIN32]
 		"ypos_minmode"	"c105"	[$WIN32]				// +80 from minmode 0
 		"xpos"			"32"	[$X360]
@@ -19,7 +19,7 @@
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-	}	
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -33,7 +33,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-	}		
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -48,7 +48,7 @@
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
-	}	
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -77,7 +77,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"bBlackBox"
+		"defaultBgColor_Override"		"bHPBoxNorm"
 		"paintbackgroundtype"	"0"
 		"border_default"	"NoBorder"
 		"labelText"		""
@@ -86,12 +86,12 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BGColoredLineH"
-		"xpos"			"54"
-		"ypos"			"89"
-		"zpos"			"2"		
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"	"1"
@@ -104,17 +104,21 @@
 		
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
+		
+		"pin_to_sibling"	"PlayerHealthShadedBG"
+		"pin_to_sibling_corner"	"2"
+		"pin_corner_to_sibling"	"2"
 	}
 	"BGColoredLineV"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"BGColoredLineV"
-		"xpos"			"54"
-		"ypos"			"41"
-		"zpos"			"2"		
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
 		"wide"			"2"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"	"1"
@@ -127,6 +131,10 @@
 		
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
+		
+		"pin_to_sibling"	"PlayerHealthShadedBG"
+		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"0"
 	}
 	"PlayerStatusHealthValueSelf"
 	{
@@ -142,7 +150,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"		"center"	
 		"font"			"HudFontGiantBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"bHPSelfNorm"
 	}
 	"PlayerStatusHealthValueSelfShadow"
 	{

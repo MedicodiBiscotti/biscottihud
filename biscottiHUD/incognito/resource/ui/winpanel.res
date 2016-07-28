@@ -1,3 +1,4 @@
+#base	"winpanel_background.res"
 #base	"winpanel_base.res"
 
 "Resource/UI/winpanel.res"

@@ -29,7 +29,7 @@
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
-
+		
 		"NavToRelay"			"BackButton"
 	}
 	
@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"fillcolor"		"15 15 15 255"
 		"border"		"NoBorder"
-	}				
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -59,7 +59,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"15 15 15 255"
-	}				
+	}
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -73,7 +73,7 @@
 		"enabled"		"1"
 		"fillcolor"		"bSchemePrime"
 		"scaleImage"	"1"
-	}				
+	}
 	
 	"Sheet"
 	{
@@ -97,8 +97,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"Blank"
-			"border"		"BorderBottom3"
-		}				
+			"border"		"bBorderBottom3"
+		}
 		
 		"tabskv"
 		{
@@ -110,11 +110,11 @@
 			"armedBgColor_override" "46 43 42 255"
 			"selectedBgColor_override" "46 43 42 255"
 			"paintbackground"	"1"
-			"activeborder_override"	"TabActive"
-			"normalborder_override" "BorderBottom4"
+			"activeborder_override"	"bTabActive"
+			"normalborder_override" "bBorderBottom4"
 		}
 	}
-
+	
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -134,14 +134,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"back"
-
+		
 		"NavUp"			"PlayNowButton"
 		"NavRight"		"LearnMoreButton"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
+	
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"
@@ -154,7 +154,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-
+	
 	"MatchmakingBanPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -168,7 +168,7 @@
 		"enabled"		"1"
 		"mouseinputenabled"	"0"
 		"bgcolor_override"	"Black"
-
+		
 		"MatchmakingBanDurationLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -188,8 +188,7 @@
 			"pinCorner"		"0"
 		}
 	}
-
-
+	
 	"NextButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -209,15 +208,15 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"next"
-
+		
 		"NavUp"			"StartPartyButton"
 		"NavDown"		"LearnMoreButton"
 		"NavLeft"		"LearnMoreButton"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
+	
 	"StartPartyButton"
 	{
 		"ControlName"	"CExButton"
@@ -239,11 +238,11 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"start_party"
-
+		
 		"NavUp"			"Sheet"
 		"NavDown"		"NextButton"
 		"NavLeft"		"PracticeButton"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

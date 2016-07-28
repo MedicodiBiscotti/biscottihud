@@ -1,0 +1,117 @@
+//===========================================
+
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.2			// White	Cross
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.2 0.4
+	
+//	Animate	PlayerHealthShadedBG 			BgColor		"bHPBoxBuff"			Linear 0.0 0.0		// Coloured	Box
+//	Animate	PlayerHealthShadedBG 			BgColor		"bHPBoxBuffLight"		Linear 0.0 0.2		// Coloured	Box
+//	Animate	PlayerHealthShadedBG 			BgColor		"bHPBoxBuff"			Linear 0.2 0.2		// Coloured	Box
+	
+	Animate	PlayerHealthBonusShadedBGTournament		Alpha		"255"				Linear 0.0 0.0		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"bHPBoxBuff"		Linear 0.0 0.0		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"bHPBoxBuffLight"	Linear 0.0 0.2		// Coloured	Box	Tournament
+	Animate	PlayerHealthBonusShadedBGTournament 	BgColor		"bHPBoxBuff"		Linear 0.2 0.2		// Coloured	Box	Tournament
+	
+	Animate BlackFilter								Alpha		"0"				Linear 0.0 0.0
+	
+	Animate PlayerStatusHealthValue			FgColor		"bHPSpecBuff"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSelf		FgColor		"bHPSelfBuff"		Linear 0.0 0.0
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+	
+	Animate	PlayerHealthShadedBG 					BgColor		"bBoxNorm"			Linear 0.0 0.0		// Coloured	Box
+	Animate	PlayerHealthBonusShadedBGTournament		Alpha		"0"					Linear 0.0 0.0		// Coloured	Box	Tournament
+	
+	Animate BlackFilter								Alpha		"255"				Linear 0.0 0.0
+
+	Animate PlayerStatusHealthValue			FgColor		"bHPSpecNorm"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSelf		FgColor		"bHPSelfNorm"	Linear 0.0 0.0
+}
+
+//===========================================
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.075		// White	Cross
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.125 0.075
+	
+//	Animate	PlayerHealthShadedBG 			BgColor		"bHPBoxHurt"		Linear 0.0 0.0			// Coloured Box
+//	Animate	PlayerHealthShadedBG 			BgColor		"bHPBoxHurtLight"	Linear 0.0 0.075		// Coloured Box
+//	Animate	PlayerHealthShadedBG 			BgColor		"bHPBoxHurt"		Linear 0.125 0.075		// Coloured Box
+	
+	Animate PlayerStatusHealthValue			FgColor		"bHPSpecHurt"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSelf		FgColor		"bHPSelfHurt"	Linear 0.0 0.0			// Red Text
+
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+
+// call to loop HudHealthDyingPulse
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+	
+	Animate	PlayerHealthShadedBG 			BgColor		"bHPBoxNorm"	Linear 0.0 0.0			// Coloured Box
+
+	Animate PlayerStatusHealthValue			FgColor		"bHPSpecNorm"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSelf		FgColor		"bHPSelfNorm"	Linear 0.0 0.0			// Text Reset
+}
+
+//===========================================
+
+event HudLowAmmoPulse
+{
+//	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
+//	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
+
+//	Animate HudWeaponAmmoShadedBG		BgColor		"bAmmoBoxLow"		Linear 0.0 0.0				// Coloured	Box
+//	Animate HudWeaponAmmoShadedBG		BgColor		"bAmmoBoxLowLight"	Linear 0.0 0.075			// Coloured	Box
+//	Animate HudWeaponAmmoShadedBG		BgColor		"bAmmoBoxLow"		Linear 0.125 0.075			// Coloured	Box
+
+	Animate AmmoInClip					FgColor		"bClipLow"		Linear 0.0 0.0				// Red Text
+	Animate AmmoInReserve				FgColor		"bReserveLow"	Linear 0.0 0.0
+	Animate AmmoNoClip					FgColor		"bNoClipLow"	Linear 0.0 0.0
+
+	RunEvent HudLowAmmoPulseLoop	0.25
+}
+
+// call to loop HudLowAmmoPulse
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+
+	Animate HudWeaponAmmoShadedBG		BgColor		"bAmmoBoxNorm"		Linear 0.0 0.0				// Coloured	Box	
+	
+	Animate AmmoInClip					FgColor		"bClipNorm"		Linear 0.0 0.0
+	Animate AmmoInReserve				FgColor		"bReserveNorm"	Linear 0.0 0.0
+	Animate AmmoNoClip					FgColor		"bNoClipNorm"	Linear 0.0 0.0
+}
+
+//===========================================

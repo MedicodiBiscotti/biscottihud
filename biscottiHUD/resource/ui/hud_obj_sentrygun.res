@@ -99,7 +99,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fillcolor"				"0 0 0 175"
+			"fillcolor"				"bBlackBG"
 			"PaintBackgroundType"	"0"
 		}
 		

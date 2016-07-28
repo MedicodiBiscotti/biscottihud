@@ -114,7 +114,7 @@
 		"labelText"		"%health%"
 		"textAlignment"	"center"
 		"font"			"SpectatorVerySmall"
-//		"fgcolor"		"TanDark"
+		"fgcolor"		"bHPSpecNorm"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
@@ -132,8 +132,6 @@
 		"font"			"SpectatorVerySmall"
 		"fGcolor"		"Black"
 	}
-
-
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"

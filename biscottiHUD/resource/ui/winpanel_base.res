@@ -29,8 +29,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"RedScoreBG"
-			"xpos"			"147"
-			"ypos"			"16"
+			"xpos"			"0"
+			"ypos"			"0"
 			"wide"			"147"
 			"tall"			"30"
 			"autoResize"	"0"
@@ -39,6 +39,10 @@
 			"enabled"		"1"
 
 			"border"		"TFFatLineBorderRedBGMoreOpaque"
+			
+			"pin_to_sibling"	"BlueScoreBG"
+			"pin_to_sibling_corner"	"1"
+			"pin_corner_to_sibling"	"0"
 		}
 		"BlueTeamLabel"
 		{
@@ -261,15 +265,35 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"WinPanelBGBorder"
 		"xpos"			"0"
-		"ypos"			"47"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"292"
-		"tall"			"160"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
 		"border"		"TFFatLineBorderBlueBG"
 		"proportionaltoparent"	"1"
+		
+		"pin_to_sibling"	"WinPanelBGTopBorder"
+		"pin_to_sibling_corner"	"2"
+		"pin_corner_to_sibling"	"0"
+	}
+	"BlackBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlackBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"292"
+		"tall"			"142"
+		"enabled"		"1"
+		
+		"fillcolor"		"0 0 0 175"
+		
+		"pin_to_sibling"	"WinPanelBGBorder"
+		"pin_to_sibling_corner"	"2"
+		"pin_corner_to_sibling"	"0"
 	}
 	"WinningTeamLabel"
 	{	
