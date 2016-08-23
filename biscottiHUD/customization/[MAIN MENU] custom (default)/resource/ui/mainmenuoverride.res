@@ -268,7 +268,7 @@
 		"zpos"			"1"
 		"wide"			"256"
 		"tall"			"64"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
@@ -404,7 +404,7 @@
 		"ReportPlayerButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"ReportPlayerButton"
+			"fieldName"		"ReportPlayerButton"
 			"xpos"			"14"
 			"ypos"			"2"
 			"zpos"			"12"
@@ -468,7 +468,7 @@
 		"CallVoteButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"CallVoteButton"
+			"fieldName"		"CallVoteButton"
 			"xpos"			"53"
 			"ypos"			"2"
 			"zpos"			"12"
@@ -533,7 +533,7 @@
 		"MutePlayersButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"MutePlayersButton"
+			"fieldName"		"MutePlayersButton"
 			"xpos"			"77"
 			"ypos"			"2"
 			"zpos"			"12"
@@ -598,7 +598,7 @@
 		"RequestCoachButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"RequestCoachButton"
+			"fieldName"		"RequestCoachButton"
 			"xpos"			"101"
 			"ypos"			"2"
 			"zpos"			"12"
@@ -714,7 +714,7 @@
 		"CasualButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"CasualButton"
+			"fieldName"		"CasualButton"
 			"xpos"			"10"
 			"ypos"			"2"
 			"zpos"			"11"
@@ -780,7 +780,7 @@
 		"ResumeGameButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"ResumeGameButton"
+			"fieldName"		"ResumeGameButton"
 			"xpos"			"10"
 			"ypos"			"2"
 			"zpos"			"11"
@@ -846,7 +846,7 @@
 		"CasualChangeButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"CasualChangeButton"
+			"fieldName"		"CasualChangeButton"
 			"xpos"			"10"
 			"ypos"			"26"
 			"zpos"			"11"
@@ -912,7 +912,7 @@
 		"MvMButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"MvMButton"
+			"fieldName"		"MvMButton"
 			"xpos"			"10"
 			"ypos"			"26"
 			"zpos"			"11"
@@ -977,7 +977,7 @@
 		"CompetitiveButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"CompetitiveButton"
+			"fieldName"		"CompetitiveButton"
 			"xpos"			"10"
 			"ypos"			"50"
 			"zpos"			"11"
@@ -1044,7 +1044,7 @@
 		"ServerBrowserButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"ServerBrowserButton"
+			"fieldName"		"ServerBrowserButton"
 			"xpos"			"10"
 			"ypos"			"74"
 			"zpos"			"11"
@@ -1123,7 +1123,7 @@
 		"CreateServerButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"CreateServerButton"
+			"fieldName"		"CreateServerButton"
 			"xpos"			"2"
 			"ypos"			"2"
 			"zpos"			"12"
@@ -1189,7 +1189,7 @@
 		"TrainingButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"TrainingButton"
+			"fieldName"		"TrainingButton"
 			"xpos"			"2"
 			"ypos"			"26"
 			"zpos"			"12"
@@ -1269,7 +1269,7 @@
 		"CharacterSetupButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"CharacterSetupButton"
+			"fieldName"		"CharacterSetupButton"
 			"xpos"			"10"
 			"ypos"			"2"
 			"zpos"			"11"
@@ -1334,7 +1334,7 @@
 		"GeneralStoreButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"GeneralStoreButton"
+			"fieldName"		"GeneralStoreButton"
 			"xpos"			"10"
 			"ypos"			"26"
 			"zpos"			"11"
@@ -1429,7 +1429,7 @@
 		"DemoUIButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"DemoUIButton"
+			"fieldName"		"DemoUIButton"
 			"xpos"			"2"
 			"ypos"			"1"
 			"zpos"			"11"
@@ -1508,7 +1508,7 @@
 		"ConsoleButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"ConsoleButton"
+			"fieldName"		"ConsoleButton"
 			"xpos"			"8"
 			"ypos"			"1"
 			"zpos"			"11"
@@ -1557,7 +1557,7 @@
 		"MinmodeButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"MinmodeButton"
+			"fieldName"		"MinmodeButton"
 			"xpos"			"8"
 			"ypos"			"21"
 			"zpos"			"11"
@@ -3162,7 +3162,7 @@
 	"VRModeButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"VRModeButton"
+		"fieldName"		"VRModeButton"
 		"xpos"			"c47"
 		"ypos"			"62"
 		"zpos"			"11"
@@ -3471,7 +3471,7 @@
 	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"EventPromo"
+		"fieldName"		"EventPromo"
 		"xpos"			"c45"
 		"ypos"			"265"
 		"zpos"			"-50"
@@ -3482,7 +3482,7 @@
 		"Background"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
+			"fieldName"		"Background"
 			"xpos"			"0"
 			"ypos"			"20"
 			"zpos"			"0"
@@ -3537,7 +3537,7 @@
 			"ViewDetailsButton"
 			{
 				"ControlName"	"EditablePanel"
-				"fieldname"		"ViewDetailsButton"
+				"fieldName"		"ViewDetailsButton"
 				"xpos"			"p0.02"
 				"ypos"			"27"
 				"zpos"			"11"
@@ -3607,7 +3607,7 @@
 			"ViewWarButton"
 			{
 				"ControlName"	"EditablePanel"
-				"fieldname"		"ViewWarButton"
+				"fieldName"		"ViewWarButton"
 				"xpos"			"p0.5"
 				"ypos"			"27"
 				"zpos"			"11"
@@ -3709,7 +3709,7 @@
 	"SafeMode"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"SafeMode"
+		"fieldName"		"SafeMode"
 		"xpos"			"c-290"
 		"ypos"			"210"
 		"zpos"			"-50"
@@ -3720,7 +3720,7 @@
 		"Background"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
+			"fieldName"		"Background"
 			"xpos"			"0"
 			"ypos"			"20"
 			"zpos"			"0"
@@ -3871,7 +3871,7 @@
 	"FindAGameButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"FindAGameButton"
+		"fieldName"		"FindAGameButton"
 		"xpos"			"c-285"
 		"ypos"			"120"
 		"zpos"			"11"
@@ -3938,7 +3938,7 @@
 	"FindAGameButtonHalfWidth"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"FindAGameButtonHalfWidth"
+		"fieldName"		"FindAGameButtonHalfWidth"
 		"xpos"			"c-285"
 		"ypos"			"120"
 		"zpos"			"11"
@@ -4110,7 +4110,7 @@
 		"TutorialHighlightButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"TutorialHighlightButton"
+			"fieldName"		"TutorialHighlightButton"
 			"xpos"			"10"
 			"ypos"			"85"
 			"wide"			"230"
@@ -4279,7 +4279,7 @@
 		"PracticeHighlightButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"PracticeHighlightButton"
+			"fieldName"		"PracticeHighlightButton"
 			"xpos"			"10"
 			"ypos"			"85"
 			"wide"			"230"

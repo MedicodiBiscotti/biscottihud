@@ -172,7 +172,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../console/background_upward"
+		"image"			""
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 
@@ -233,30 +233,30 @@
 //			"image"		"../console/title_invasion"
 //		}
 
-//		if_meet_your_match_0
-//		{
-//			"xpos"		"rs1"
-//			"image"		"../console/title_team_heavy01_blu_widescreen"
-//		}
-//		if_meet_your_match_1
-//		{
-//			"xpos"		"rs1"
-//			"image"		"../console/title_team_heavy01_red_widescreen"
-//		}
-//		if_meet_your_match_2
-//		{
-//			"xpos"		"rs1"
-//			"image"		"../console/title_team_pyro01_blu_widescreen"
-//		}
-//		if_meet_your_match_3
-//		{
-//			"xpos"		"rs1"
-//			"image"		"../console/title_team_pyro01_red_widescreen"
-//		}
-//		if_meet_your_match_4
-//		{
-//			"image"		"../console/title_team_competitive_widescreen"
-//		}
+		if_meet_your_match_0
+		{
+			"xpos"		"rs1"
+			"image"		"../console/title_team_heavy01_blu_widescreen"
+		}
+		if_meet_your_match_1
+		{
+			"xpos"		"rs1"
+			"image"		"../console/title_team_heavy01_red_widescreen"
+		}
+		if_meet_your_match_2
+		{
+			"xpos"		"rs1"
+			"image"		"../console/title_team_pyro01_blu_widescreen"
+		}
+		if_meet_your_match_3
+		{
+			"xpos"		"rs1"
+			"image"		"../console/title_team_pyro01_red_widescreen"
+		}
+		if_meet_your_match_4
+		{
+			"image"		"../console/title_team_competitive_widescreen"
+		}
 	}
 	
 	"TFLogoImage"
@@ -381,7 +381,7 @@
 	"DemoUIButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"DemoUIButton"
+		"fieldName"		"DemoUIButton"
 		"xpos"			"c-34"
 		"ypos"			"377"
 		"zpos"			"11"
@@ -390,8 +390,10 @@
 		"visible"		"1"
 		"paintbackground"	"2"
 
-		"navDown"		"VRModeButton"
-		"navRight"		"ConsoleButton"
+		"navUp"			"GeneralStoreButton"
+		"navDown"		"QuitButton"
+		"navLeft"		"MinmodeButton"
+		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 		
 		"SubButton"
@@ -446,7 +448,7 @@
 	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ConsoleButton"
+		"fieldName"		"ConsoleButton"
 		"xpos"			"c-285"
 		"ypos"			"377"
 		"zpos"			"11"
@@ -455,7 +457,9 @@
 		"visible"		"1"
 		"paintbackground"	"2"
 
-		"navDown"		"ShowPromoCodesButton"
+		"navUp"			"GeneralStoreButton"
+		"navDown"		"QuitButton"
+		"navRight"		"MinmodeButton"
 		"navToRelay"	"SubButton"
 		
 		"SubButton"
@@ -494,7 +498,7 @@
 	"MinmodeButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"MinmodeButton"
+		"fieldName"		"MinmodeButton"
 		"xpos"			"c-160"
 		"ypos"			"377"
 		"zpos"			"11"
@@ -503,9 +507,10 @@
 		"visible"		"1"
 		"paintbackground"	"2"
 
+		"navUp"			"GeneralStoreButton"
 		"navDown"		"VRModeButton"
 		"navLeft"		"ConsoleButton"
-		"navRight"		"Notifications_ShowButtonPanel"
+		"navRight"		"DemoUIButton"
 		"navToRelay"	"SubButton"
 		
 		"SubButton"
@@ -1527,7 +1532,7 @@
 	"VRModeButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"VRModeButton"
+		"fieldName"		"VRModeButton"
 		"xpos"			"c47"
 		"ypos"			"62"
 		"zpos"			"11"
@@ -1835,7 +1840,7 @@
 		"CharacterSetupButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"CharacterSetupButton"
+			"fieldName"		"CharacterSetupButton"
 			"xpos"			"5"
 			"ypos"			"28"
 			"zpos"			"11"
@@ -1918,7 +1923,7 @@
 		"GeneralStoreButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"GeneralStoreButton"
+			"fieldName"		"GeneralStoreButton"
 			"xpos"			"130"
 			"ypos"			"28"
 			"zpos"			"11"
@@ -1986,7 +1991,7 @@
 	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"EventPromo"
+		"fieldName"		"EventPromo"
 		"xpos"			"c-290"
 		"ypos"			"210"
 		"zpos"			"-50"
@@ -1997,7 +2002,7 @@
 		"Background"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
+			"fieldName"		"Background"
 			"xpos"			"0"
 			"ypos"			"20"
 			"zpos"			"0"
@@ -2050,7 +2055,7 @@
 			"ViewDetailsButton"
 			{
 				"ControlName"	"EditablePanel"
-				"fieldname"		"ViewDetailsButton"
+				"fieldName"		"ViewDetailsButton"
 				"xpos"			"p0.02"
 				"ypos"			"27"
 				"zpos"			"11"
@@ -2120,7 +2125,7 @@
 			"ViewWarButton"
 			{
 				"ControlName"	"EditablePanel"
-				"fieldname"		"ViewWarButton"
+				"fieldName"		"ViewWarButton"
 				"xpos"			"p0.5"
 				"ypos"			"27"
 				"zpos"			"11"
@@ -2222,7 +2227,7 @@
 	"SafeMode"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"SafeMode"
+		"fieldName"		"SafeMode"
 		"xpos"			"c-290"
 		"ypos"			"210"
 		"zpos"			"-50"
@@ -2233,7 +2238,7 @@
 		"Background"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
+			"fieldName"		"Background"
 			"xpos"			"0"
 			"ypos"			"20"
 			"zpos"			"0"
@@ -2384,7 +2389,7 @@
 	"FindAGameButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"FindAGameButton"
+		"fieldName"		"FindAGameButton"
 		"xpos"			"c-285"
 		"ypos"			"120"
 		"zpos"			"11"
@@ -2451,7 +2456,7 @@
 	"FindAGameButtonHalfWidth"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"FindAGameButtonHalfWidth"
+		"fieldName"		"FindAGameButtonHalfWidth"
 		"xpos"			"c-285"
 		"ypos"			"120"
 		"zpos"			"11"
@@ -2518,7 +2523,7 @@
 	"ResumeGameButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ResumeGameButton"
+		"fieldName"		"ResumeGameButton"
 		"xpos"			"c-160"
 		"ypos"			"120"
 		"zpos"			"11"
@@ -2585,7 +2590,7 @@
 	"ReportPlayerButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ReportPlayerButton"
+		"fieldName"		"ReportPlayerButton"
 		"xpos"			"c-25"
 		"ypos"			"98"
 		"zpos"			"12"
@@ -2595,7 +2600,7 @@
 
 		"navLeft"		"ResumeGameButton"
 		"navRight"		"CallVoteButton"
-		"navDown"		"QuickplayChangeButton"
+		"navDown"		"MutePlayersButton"
 		"navToRelay"	"SubButton"
 
 		"SubButton"
@@ -2652,7 +2657,7 @@
 	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"CallVoteButton"
+		"fieldName"		"CallVoteButton"
 		"xpos"			"c0"
 		"ypos"			"98"
 		"zpos"			"12"
@@ -2662,7 +2667,7 @@
 
 		"navLeft"		"ReportPlayerButton"
 		"navDown"		"QuickplayChangeButton"
-		"navRight"		"MutePlayersButton"
+		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
 		"SubButton"
@@ -2718,7 +2723,7 @@
 	"MutePlayersButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"MutePlayersButton"
+		"fieldName"		"MutePlayersButton"
 		"xpos"			"c-25"
 		"ypos"			"123"
 		"zpos"			"12"
@@ -2726,7 +2731,8 @@
 		"tall"			"20"
 		"visible"		"1"
 
-		"navLeft"		"CallVoteButton"
+		"navUp"			"ReportPlayerButton"
+		"navLeft"		"ResumeGameButton"
 		"navDown"		"QuickplayChangeButton"
 		"navRight"		"RequestCoachButton"
 		"navToRelay"	"SubButton"
@@ -2785,7 +2791,7 @@
 	"RequestCoachButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"RequestCoachButton"
+		"fieldName"		"RequestCoachButton"
 		"xpos"			"c0"
 		"ypos"			"123"
 		"zpos"			"12"
@@ -2793,6 +2799,7 @@
 		"tall"			"20"
 		"visible"		"1"
 
+		"navUp"			"CallVoteButton"
 		"navLeft"		"MutePlayersButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navDown"		"QuickplayChangeButton"
@@ -3505,7 +3512,7 @@
 		"TutorialHighlightButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"TutorialHighlightButton"
+			"fieldName"		"TutorialHighlightButton"
 			"xpos"			"10"
 			"ypos"			"85"
 			"wide"			"230"
@@ -3674,7 +3681,7 @@
 		"PracticeHighlightButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"PracticeHighlightButton"
+			"fieldName"		"PracticeHighlightButton"
 			"xpos"			"10"
 			"ypos"			"85"
 			"wide"			"230"
