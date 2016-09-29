@@ -5,6 +5,7 @@ Scheme
 		ButtonBorder
 		{
 			"inset" "0 0 0 0"
+			"backgroundtype" "0"
 			Left
 			{
 				"1"
@@ -46,6 +47,7 @@ Scheme
 		ButtonKeyFocusBorder
 		{
 			"inset" "0 0 0 0"
+			"backgroundtype" "0"
 			Left
 			{
 				"1"
@@ -86,6 +88,7 @@ Scheme
 		ButtonDepressedBorder
 		{
 			"inset" "0 0 0 0"
+			"backgroundtype" "0"
 			Left
 			{
 				"1"
