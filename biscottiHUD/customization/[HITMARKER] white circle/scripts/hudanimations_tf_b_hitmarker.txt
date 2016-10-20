@@ -2,6 +2,12 @@
 
 event DamagedPlayer
 {
+	StopEvent Hitmarker 0.0
+	RunEvent Hitmarker 0.01
+}
+
+event HitMarker
+{
 	Animate WhiteCircleHitMarker				Alpha		"255"		Linear 0.0 0.0
 	Animate WhiteCircleHitMarker				Alpha		"0"			Linear 0.1 0.2
 }

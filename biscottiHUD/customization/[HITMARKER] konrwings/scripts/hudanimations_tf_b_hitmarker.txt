@@ -2,6 +2,12 @@
 
 event DamagedPlayer
 {
+	StopEvent Hitmarker 0.0
+	RunEvent Hitmarker 0.01
+}
+
+event HitMarker
+{
 	Animate Garm3nFontKonrWingsHitMarker		Alpha		"100"		Linear	0.0 0.0
 	Animate Garm3nFontKonrWingsHitMarker		Alpha		"0"			Accel	0.3 0.075
 }
