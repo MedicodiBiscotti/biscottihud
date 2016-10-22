@@ -947,7 +947,7 @@
 		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"250"
-		"tall"			"220"
+		"tall"			"260"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground" "1"
@@ -959,7 +959,7 @@
 		"end_x"			"c-30"
 		"end_y"			"140"
 		"end_wide"		"250"
-		"end_tall"		"200"
+		"end_tall"		"240"
 		"callout_inparents_x"	"c100"
 		"callout_inparents_y"	"c-000"
 
@@ -993,7 +993,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"45"
 			"wide"			"f20"
-			"tall"			"200"
+			"tall"			"240"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1051,5 +1051,41 @@
 				"scaleImage"	"1"
 			}				
 		}			
-	}	
+	}
+	
+	"Tooltip_CasualLobby"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Tooltip_CasualLobby"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10000"
+		"wide"			"300"
+		"tall"			"0"
+		"visible"		"0"
+		"PaintBackgroundType"	"0"
+		"border"		"bSchemePrimeBorder1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"15 15 15 255"
+		
+		"TipLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TipLabel"
+			"font"			"HudFontSmallestBold"
+			"labelText"		"%tiptext%"
+			"textAlignment"	"west"
+			"xpos"			"20"
+			"ypos"			"10"
+			"zpos"			"2"
+			"wide"			"100"
+			"tall"			"10"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"TanLight"
+			"auto_wide_tocontents"	"1"
+		}
+	}
 }

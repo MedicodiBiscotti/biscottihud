@@ -1,5 +1,5 @@
 # biscottiHUD
-v. 1.77
+v. 1.78
 
 This is my custom HUD for Team Fortress 2 (TF2).
 
