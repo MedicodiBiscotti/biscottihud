@@ -44,17 +44,16 @@
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImageNULL"
+		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"	"8"
 		"ypos"	"8"
 		"zpos"			"3"
-		"wide"	"12"
-		"tall"	"12"
+		"wide"	"-12"
+		"tall"	"-12"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"
-		"alpha"			"0"
+		"scaleImage"	"0"
 	}
 	"PlayerHealthShadedBGTournament"
 	{
