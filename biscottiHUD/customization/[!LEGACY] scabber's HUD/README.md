@@ -1,5 +1,5 @@
 # scabber's HUD
-v. 1.01
+v. 1.02
 
 This is a customization for the old design of my HUD, from back when I went by the alias **sgt. scabberdaddle**. It's the resurrection of **scabber's HUD**!
 
