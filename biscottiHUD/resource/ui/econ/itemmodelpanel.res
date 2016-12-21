@@ -75,6 +75,7 @@
 				"angles_x"		"10"
 				"angles_y"		"130"
 				"angles_z"		"0"
+				"spotlight" "1"
 			}
 		}
 	
