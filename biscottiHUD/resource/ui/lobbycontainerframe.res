@@ -44,7 +44,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 255"
+		"fillcolor"		"bBlackSolid1"
 		"border"		"NoBorder"
 	}
 	"BackgroundFooter"
@@ -58,7 +58,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 255"
+		"fillcolor"		"bBlackSolid1"
 	}
 	"FooterLine"
 	{
@@ -106,9 +106,9 @@
 			"font"				"HudFontMediumBold"
 			"selectedcolor"		"200 187 161 255"
 			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
-			"armedBgColor_override" "46 43 42 255"
-			"selectedBgColor_override" "46 43 42 255"
+			"defaultBgColor_override"	"bBlackSolid3"
+			"armedBgColor_override" "bBlackSolid3"
+			"selectedBgColor_override" "bBlackSolid3"
 			"paintbackground"	"1"
 			"activeborder_override"	"bTabActive"
 			"normalborder_override" "bBorderBottom4"

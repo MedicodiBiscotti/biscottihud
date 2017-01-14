@@ -4,15 +4,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGRect"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"290"
+		"tall"			"60"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"bgcolor_override"	"0 0 0 50"
+		"bgcolor_override"	"bBlackSolid2"
 	}
 
 
@@ -157,7 +157,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"border_armed"		"TeamMenuBorder"
-			
+		
 		"defaultFgColor_override" "0 0 0 0"
 		"defaultBgColor_override" "0 0 0 0"
 		"armedFgColor_override" "0 0 0 0"

@@ -1,6 +1,7 @@
 #base	"schemes/scheme_backpackitemquality.res"
 #base	"schemes/scheme_buttonborder.res"
 #base	"schemes/scheme_colourscheme.res"
+#base	"schemes/scheme_panelborder.res"
 #base	"schemes/scheme_transparency_box.res"
 #base	"schemes/scheme_transparency_misc.res"
 
@@ -29,6 +30,9 @@ Scheme
 		// CUSTOM COLOURS		
 		"bGoalOrange"			"255 133 0 255"
 		"bBlackSolid"			"0 0 0 255"
+		"bBlackSolid1"			"20 20 20 255"
+		"bBlackSolid2"			"30 30 30 255"
+		"bBlackSolid3"			"40 40 40 255"
 		"bBlackTrans175"		"0 0 0 175"
 		"bBlackTrans225"		"0 0 0 225"
 		"bBlue"					"61 171 255 255"

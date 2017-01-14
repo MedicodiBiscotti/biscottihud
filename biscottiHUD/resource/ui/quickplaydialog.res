@@ -49,7 +49,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"40 37 37 255"
+			"bgcolor_override"	"bBlackSolid3"
 			"proportionalToParent"	"1"
 		}
 
@@ -920,9 +920,10 @@
 			"wide"			"280"
 			"tall"			"160"
 			"visible"		"0"
-			"PaintBackgroundType"	"2"
-			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
+			"PaintBackgroundType"	"0"
+			"paintbackground" "1"
+			"border"		"bSchemePrimeBorder1"
+			"bgcolor_override"	"TanLight"
 		
 			"force_close"	"1"
 			"end_x"			"50"

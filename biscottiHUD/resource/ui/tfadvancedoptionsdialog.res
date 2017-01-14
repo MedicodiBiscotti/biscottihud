@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"		"46 43 42 255"
+		"bgcolor_override"		"bBlackSolid3"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	""
 		"paintborder"			"1"

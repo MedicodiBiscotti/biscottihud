@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"bBlackSolid3"
 		
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
@@ -196,7 +196,7 @@
 		"tileImage"		"1"
 		"tileVertically" "0"
 	}				
-		
+	
 	"ItemSlotLabel"
 	{
 		"ControlName"		"CExLabel"

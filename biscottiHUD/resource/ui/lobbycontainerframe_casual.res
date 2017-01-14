@@ -1041,7 +1041,7 @@
 		"PaintBackgroundType"	"0"
 		"border"		"bSchemePrimeBorder1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"15 15 15 255"
+		"bgcolor_override"	"bBlackSolid1"
 		
 		"TipLabel"
 		{

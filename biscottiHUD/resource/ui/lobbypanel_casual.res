@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"bBlackSolid3"
 		"proportionaltoparent"	"1"
 	}
 
@@ -62,7 +62,7 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground" "1"
 			"border"		"bSchemePrimeBorder1"
-			"bgcolor_override"	"15 15 15 255"
+			"bgcolor_override"	"bBlackSolid1"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"

@@ -11,7 +11,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"border"		"bSchemePrimeBorder1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"bBlackSolid3"
 		"proportionaltoparent"	"1"
 
 		"QuestionContainer"

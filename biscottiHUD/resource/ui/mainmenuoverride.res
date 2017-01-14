@@ -2370,7 +2370,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"1"
 //		"border"		"MainMenuHighlightBorder"
-		"bgcolor_override"		"15 15 15 255"
+		"bgcolor_override"		"bBlackSolid3"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this

@@ -58,9 +58,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"hide_streams"
-			
+		
 		"paintbackground"	"0"
-			
+		
 		//"defaultFgColor_override" "235 226 202 255"
 		//"armedFgColor_override" "46 43 42 255"
 		"defaultFgColor_override" "46 43 42 255"
@@ -203,10 +203,10 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-			
+		
 		"defaultFgColor_override" "Black"
 		"defaultBgColor_override" "bSchemePrime"
 		"armedFgColor_override" "Black"
 		"armedBgColor_override" "175 175 175 255"
-	}	
+	}
 }

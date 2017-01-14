@@ -40,7 +40,7 @@
 		"tall"			"306"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 255"
+		"fillcolor"		"bBlackSolid2"
 		
 		"border"		"bSchemePrimeBorder1"
 	}

@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"bBlackSolid3"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
 		"NavDown"		"MvMEconItemsGroupBox"
@@ -232,7 +232,7 @@
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"		"bSchemePrimeBorder1"
 
 			"NavToRelay"	"TourList"
 
@@ -294,7 +294,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"bSchemePrimeBorder1"
 
 		"TourLootImage"
 		{
@@ -352,7 +352,7 @@
 		"wide"			"400"
 		"tall"			"120"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"bSchemePrimeBorder1"
 
 		"NavToRelay"	"OpenHelpButton"
 		"NavUp"			"MvMTourOfDutyGroupBox"
@@ -562,7 +562,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"bSchemePrimeBorder1"
 
 		"NavToRelay"	"MannUpNowButton"
 		"NavUp"			"MvMEconItemsGroupBox"
@@ -725,7 +725,7 @@
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"		"bSchemePrimeBorder1"
 
 			"NavToRelay"	"ChallengeList"
 
@@ -769,7 +769,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"bSchemePrimeBorder1"
 
 		"NoGCTitle"
 		{
@@ -817,7 +817,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"border"		"bSchemePrimeBorder1"
 
 		"SearchActiveTitle"
 		{

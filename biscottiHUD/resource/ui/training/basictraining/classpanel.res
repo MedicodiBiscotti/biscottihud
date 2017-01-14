@@ -38,7 +38,7 @@
 		"defaultFgColor_override" "235 226 202 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "235 226 202 255"
-		"disabledFgColor_override"	"46 43 42 255"
+		"disabledFgColor_override"	"bBlackSolid3"
 	}
 	
 	"ProgressLabel"

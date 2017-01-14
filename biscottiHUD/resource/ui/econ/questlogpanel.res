@@ -104,7 +104,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 //		"border"		"MainMenuBGBorder"
-		"bgcolor_override"	"Black"
+		"bgcolor_override"	"bBlackSolid3"
 
 		"UpperLine"
 		{

@@ -165,7 +165,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"border"		"bSchemePrimeBorder1"
-		"bgcolor_override"		"15 15 15 255"
+		"bgcolor_override"		"bBlackSolid2"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -320,7 +320,7 @@
 				"wide"			"f0"
 				"tall"			"p0.45"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"0 0 0 150"
+				"bgcolor_override"	"bBlackSolid1"
 
 				"if_mini"
 				{
