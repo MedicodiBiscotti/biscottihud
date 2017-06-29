@@ -19,7 +19,7 @@
 		"src_corner_width"	"16"
 	
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	
 	"WaveCountLabel"
@@ -93,7 +93,7 @@
 		if_verbose
 		{
 			"visible"		"1"
-		}		
+		}
 	}
 	
 	"ProgressBar"
@@ -116,7 +116,7 @@
 		"src_corner_width"	"16"
 	
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	
 	"ProgressBarBG"
@@ -139,6 +139,6 @@
 		"src_corner_width"	"16"
 	
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 }

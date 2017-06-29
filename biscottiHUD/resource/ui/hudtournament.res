@@ -130,7 +130,7 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
-					
+				
 				if_mvm
 				{
 					"xpos"				"0"
@@ -304,7 +304,7 @@
 				if_readymode
 				{
 					"visible"		"1"
-				}		
+				}
 			}
 			
 			"ReadyImage"
@@ -390,7 +390,7 @@
 				"fgcolor"		"0 255 0 255"
 				
 				if_mvm
-				{	
+				{
 					"visible"		"0"
 				}
 				
@@ -451,7 +451,7 @@
 		"src_corner_width"	"23"
 		
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 		
 		if_mvm
 		{
@@ -470,10 +470,10 @@
 		{
 			"xpos"			"195"
 			"visible"		"1"
-		}		
+		}
 	}
 	"TournamentLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
 		"font"			"HudFontSmall"
@@ -529,7 +529,7 @@
 		"src_corner_width"	"23"
 		
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 		
 		if_mvm
 		{
@@ -661,7 +661,7 @@
 		}
 	}
 	"TournamentREDLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
 		"font"			"HudFontSmallest"
@@ -696,7 +696,7 @@
 		}
 	}
 	"TournamentREDStateLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
 		"font"			"HudFontSmallestBold"
@@ -731,7 +731,7 @@
 		}
 	}
 	"TournamentConditionLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
 		"font"			"TFFontSmall"
@@ -792,7 +792,7 @@
 		"src_corner_width"	"23"
 		
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 		
 		if_mvm
 		{
@@ -810,7 +810,7 @@
 		}
 	}
 	"TournamentInstructionsLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
 		"font"			"TFFontSmall"
@@ -860,7 +860,7 @@
 	}
 	
 	"TournamentInstructionsLabelShadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
 		"font"			"TFFontSmall"
@@ -990,7 +990,7 @@
 	}
 
 	"CountdownLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"HudFontGiant"
@@ -1024,7 +1024,7 @@
 	}
 	
 	"CountdownLabelShadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"

@@ -13,7 +13,7 @@
 		"delta_item_font_big"		"HudFontMedium"
 	}
 
-	"CDamageAccountValue"	
+	"CDamageAccountValue"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"			"CDamageAccountValue"

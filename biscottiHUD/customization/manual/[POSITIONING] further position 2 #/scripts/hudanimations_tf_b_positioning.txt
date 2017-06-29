@@ -1,0 +1,8 @@
+//===========================================
+
+event CompetitiveGame_RestoreChatWindow
+{
+	Animate HudChat ypos 240 Accel 0 0
+}
+
+//===========================================

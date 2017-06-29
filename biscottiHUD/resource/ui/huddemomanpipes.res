@@ -1,3 +1,6 @@
+#base	"huddemomanpipes_positioning.res"
+#base	"huddemomanpipes_size.res"
+
 "Resource/UI/HudDemomanPipes.res"
 {
 	"background"
@@ -5,8 +8,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"background"
 		"xpos"			"12"
-		"ypos"			"86"
-		"ypos_minmode"	"6"
+		"ypos"			"6"
 		"zpos"			"0"
 		"wide"			"76"
 		"wide_minmode"	"56"
@@ -18,22 +20,16 @@
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
 	
 	"ChargeLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"40"
-		"ypos"					"107"
-		"ypos_minmode"			"27"
 		"zpos"					"2"
-		"wide"					"80"
-		"tall"					"7"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Charge"
@@ -45,16 +41,11 @@
 	}
 
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"40"
-		"ypos"					"108"
-		"ypos_minmode"			"28"
 		"zpos"					"2"
-		"wide"					"80"
-		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -62,14 +53,12 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}				
-		
+	}
+	
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"161"
-		"xpos_minmode"		"211"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
@@ -90,7 +79,7 @@
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red"
 			"teambg_3"		"../hud/ico_stickybomb_blue"	
-		}	
+		}
 		
 		"NumPipesLabel"
 		{
@@ -112,7 +101,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontSmall"
-			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 		}
 		"NumPipesLabelDropshadow"
@@ -135,18 +123,15 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontSmall"
-			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"black"
-		}		
+		}
 	}
 	
 	"NoPipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"161"
-		"xpos_minmode"	"211"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
@@ -213,6 +198,6 @@
 			"font"			"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"black"
-		}			
-	}				
+		}
+	}
 }

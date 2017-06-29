@@ -24,7 +24,7 @@
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 		
-		"if_mvm"
+		if_mvm
 		{
 			"tall"			"448"
 		}

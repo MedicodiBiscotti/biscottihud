@@ -29,7 +29,7 @@
 		"image"			"../hud/objectives_flagpanel_bg_right"
 		"scaleImage"	"1"	
 	}
-		
+	
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -78,7 +78,7 @@
 		"font"			"HudFontBig"
 		"fgcolor"		"Black"
 	}	
-							
+	
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -95,7 +95,7 @@
 		"font"			"HudFontBig"
 		"fgcolor"		"TanLight"		
 	}	
-		
+	
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -112,7 +112,7 @@
 		"font"			"HudFontBig"
 		"fgcolor"		"Black"		
 	}	
-															
+	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -131,7 +131,7 @@
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 	}	
-			
+	
 	"PlayingToBG"
 	{
 		"ControlName"	"ImagePanel"

@@ -9,10 +9,10 @@
 		"ypos"					"200"
 		"wide"					"200"
 		"tall"					"110"
-		"bgcolor_override"		"46 43 42 0"
+		"bgcolor_override"		"bBlackSolid3"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
+		"border"				"bSchemePrimeBorder1"
 	}
 	
 	"CenterPositioner"

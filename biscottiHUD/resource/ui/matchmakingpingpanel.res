@@ -39,7 +39,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"border"		"bSchemePrimeBorder1"
-			"bgcolor_override"		"40 40 40 255"					// 40 because the ping slider's bar is hard-coded at 30
+			"bgcolor_override"		"bBlackSolid3"					// 40 because the ping slider's bar is hard-coded at 30
 			"proportionaltoparent"	"1"
 		}
 

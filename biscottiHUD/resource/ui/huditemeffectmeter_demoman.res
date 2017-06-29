@@ -1,3 +1,5 @@
+#base	"huditemeffectmeter_demoman_positioning.res"
+
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
@@ -5,10 +7,6 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c95"	[$WIN32]
-		"ypos"			"c109"	[$WIN32]
-		"xpos_minmode"	"c95"	[$WIN32]
-		"ypos_minmode"	"c139"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"

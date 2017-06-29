@@ -229,7 +229,6 @@
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
 		"ypos"				"0"	[$WIN32]
-		"ypos_minmode"		"0"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"2"
 		"wide"				"110"
@@ -376,7 +375,7 @@
 			{	
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"				"healthbar"
-				"font"					"Default"																		
+				"font"					"Default"
 				"xpos"					"0"
 				"ypos"					"19"
 				"zpos"					"5"
@@ -396,7 +395,7 @@
 			{	
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"				"overhealbar"
-				"font"					"Default"																		
+				"font"					"Default"
 				"xpos"					"0"
 				"ypos"					"19"
 				"zpos"					"6"
