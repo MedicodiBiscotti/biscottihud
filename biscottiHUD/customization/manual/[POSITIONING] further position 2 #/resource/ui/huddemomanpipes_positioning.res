@@ -1,19 +1,39 @@
 "Resource/UI/HudDemomanPipes.res"
 {
-	"ChargeLabel"
-	{
-		"ypos"			"27"
-	}
-	"ChargeMeter"
-	{
-		"ypos"			"28"
-	}
 	"PipesPresentPanel"
 	{
-		"xpos"			"211"
+		"PipeIcon"
+		{
+			"xpos"			"190"
+			"ypos"			"130"
+		}
+		"NumPipesLabel"
+		{
+			"xpos"			"206"
+			"ypos"			"130"
+		}
+		"NumPipesLabelDropshadow"
+		{
+			"xpos"			"207"
+			"ypos"			"131"
+		}
 	}
 	"NoPipesPresentPanel"
 	{
-		"xpos"			"211"
+		"PipeIcon"
+		{
+			"xpos"			"190"
+			"ypos"			"130"
+		}
+		"NumPipesLabel"
+		{
+			"xpos"			"206"
+			"ypos"			"130"
+		}
+		"NumPipesLabelDropshadow"
+		{
+			"xpos"			"207"
+			"ypos"			"131"
+		}
 	}
 }

@@ -1,4 +1,4 @@
-#base	"huditemeffectmeter_raygun_ammo.res"
+#base	"huditemeffectmeter_raygun_style.res"
 
 "Resource/UI/HudItemEffectMeter_Raygun.res"
 {

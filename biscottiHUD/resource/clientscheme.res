@@ -1,6 +1,7 @@
 #base	"schemes/scheme_backpackitemquality.res"
 #base	"schemes/scheme_buttonborder.res"
 #base	"schemes/scheme_colourscheme.res"
+#base	"schemes/scheme_crosshaircolours.res"
 #base	"schemes/scheme_panelborder.res"
 #base	"schemes/scheme_transparency_box.res"
 #base	"schemes/scheme_transparency_misc.res"
@@ -174,11 +175,212 @@ Scheme
 		// if a font fails to load then the subsequent fonts will replace
 		
 		// CUSTOM FONT INSTANCES
-		"FogCrosshairs"
+		"FogCrosshairs12"
 		{
 			"1"
 			{
 				"name"		"Crosshairs"
+				"tall"		"12"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs14"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"14"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs16"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"16"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs18"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"18"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs20"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs22"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"22"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs24"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"24"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs26"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"26"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs28"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"28"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs30"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"30"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs32"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"32"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs34"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"34"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs36"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"36"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs38"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"38"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs40"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"40"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs42"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"42"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs44"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"44"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs46"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"46"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"FogCrosshairs48"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"48"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Garm3nFontKonrWings12"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"12"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Garm3nFontKonrWings14"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
 				"tall"		"14"
 				"weight"	"0"
 				"antialias"	"1"
@@ -275,6 +477,238 @@ Scheme
 			}
 		}
 		
+		"KnucklesCrosses12"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"12"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses14"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"14"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses16"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"16"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses18"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"18"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses20"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses22"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"22"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses24"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"24"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses26"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"26"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses28"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"28"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses30"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"30"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses32"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"32"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses34"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"34"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses36"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"36"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses38"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"36"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses40"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"40"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses42"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"42"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses44"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"44"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses46"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"46"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"KnucklesCrosses48"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"48"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Seeker14"
+		{
+			"1"
+			{
+				"name"		"Seeker"
+				"tall"		"14"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Seeker16"
+		{
+			"1"
+			{
+				"name"		"Seeker"
+				"tall"		"16"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Seeker18"
+		{
+			"1"
+			{
+				"name"		"Seeker"
+				"tall"		"18"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Seeker20"
+		{
+			"1"
+			{
+				"name"		"Seeker"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
 		"CloseCaption_Normal"
 		{
 			"1"
@@ -361,6 +795,20 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		
+		"HudFontMediumShadow"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"24"
+				"tall_lodef"		"28"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 		
@@ -1227,6 +1675,16 @@ Scheme
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
+		}
+		"10"
+		{
+			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"name" "KnucklesCrosses"
+		}
+		"11"
+		{
+			"font" "resource/fonts/tf2cross.ttf"
+			"name" "Seeker"
 		}
 	}
 }

@@ -1,4 +1,4 @@
-#base	"huditemeffectmeter_pomson_ammo.res"
+#base	"huditemeffectmeter_pomson_style.res"
 
 "Resource/UI/HudItemEffectMeter_Pomson.res"
 {

@@ -1,71 +1,32 @@
 #base	"hudlayout_incognito.res"
 
+#base	"hudlayout_crosshair2alpha.res"
+#base	"hudlayout_crosshairs.res"
+#base	"hudlayout_hitmarker.res"
+#base	"hudlayout_pdamenu.res"
 #base	"hudlayout_positioning.res"
 
 "Resource/HudLayout.res"
 {
-	FogCrosshairs
+	Crosshair1
 	{
-		"ControlName" "CExLabel"
-		"fieldName" "FogCrosshairs"
-		"visible" "0"
-		"enabled" "1"
-		"xpos" "c-100"
-		"ypos" "c-100"
-		"zpos" "2"
-		"wide" "202"
-		"tall" "198"
-		"font" "FogCrosshairs"
-		"labelText" "p"
-		"textAlignment" "center"
+		"ControlName"		"CExLabel"
+		"fieldName"			"Crosshair1"
+		"enabled"			"1"
 	}
-	Garm3nFontKonrWings
+	Crosshair2
 	{
-		"ControlName" "CExLabel"
-		"fieldName" "Garm3nFontKonrWings"
-		"visible" "0"
-		"enabled" "1"
-		"xpos" "c-26"
-		"ypos" "c-24"
-		"zpos" "2"
-		"wide" "51"
-		"tall" "50"
-		"font" "Garm3nFontKonrWings28"
-		"labelText" "#"
-		"textAlignment" "center"
+		"ControlName"		"CExLabel"
+		"fieldName"			"Crosshair2"
+		"enabled"			"1"
 	}
-	Garm3nFontKonrWingsHitMarker
+	HitMarker
 	{
-		"ControlName" "CExLabel"
-		"fieldName" "Garm3nFontKonrWingsHitMarker"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "c-26"
-		"ypos" "c-24"
-		"zpos" "2"
-		"wide" "51"
-		"tall" "50"
-		"font" "Garm3nFontKonrWings28"
-		"labelText" "#"
-		"textAlignment" "center"
-		"fgcolor"	"230 230 230 255"
-		"alpha"		"0"
+		"fieldName"			"HitMarker"
+		"enabled"			"1"
+		"alpha"				"0"
 	}
-	WhiteCircleHitMarker
-	{
-		"Controlname" "ImagePanel"
-		"fieldname" "WhiteCircleHitMarker"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"		"c-32"
-		"ypos"		"c-32"
-		"wide"	 "64"
-		"tall"	 "64"
-		"image"	 "../vgui/crosshairs/crosshair3"
-		"imagecolor"	"255 0 0 255"
-		"scaleimage"	"1"
-		"alpha"		"0"
-	}
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -265,12 +226,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
+		"wide"					"100"
+		"tall"  				"50"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -1028,11 +985,7 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c"		// c-55
 		"zpos"			"10"
-		"wide"			"450"
-		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1041,11 +994,7 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c"		// c-59
 		"zpos"			"10"
-		"wide"			"450"
-		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -1054,11 +1003,7 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c"	// c-55
 		"zpos"			"10"
-		"wide"			"250"
-		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1067,11 +1012,7 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c"		// c-52
 		"zpos"			"10"
-		"wide"			"470"
-		"tall"			"200"	[$WIN32]
 		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
 	}
@@ -1082,6 +1023,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-80"	[$WIN32]
+		"ypos"			"c"		[$WIN32]
+		"tall"			"168"
+		"wide"			"265"
 	}
 
 	HudTeamGoal

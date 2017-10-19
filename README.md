@@ -1,5 +1,5 @@
 # biscottiHUD
-v. 1.82
+v. 1.83
 
 This is my custom HUD for Team Fortress 2 (TF2).
 
@@ -82,6 +82,9 @@ I've also added **custom crosshairs** to the HUD. To enable them you have to edi
 * Main Menu
 * Meter Sizes
 * HP/Ammo Positioning
+* PDA Menu Designs
+* Scoreboard Player Numbers
+* Sticky Count Labels
 * Uber Charge Labels
 * Vaccinator Icon Position
 * Vaccinator Count Label
@@ -110,11 +113,11 @@ There are tons of other customizations that I've added as I've made more signifi
 I've made a lot of stuff since I last really updated this segment, so I'll have to do that at a later date.
 
 ### [^](#top "Back to Top")How to activate customizations
-There are two ways to activate the official customizations. The easiest and most convenient was just added. In the **customizations** folder, you will find a lot of `.bat` (**batch**) files. If you just double click one of them, it will automatically copy over the appropriate files using the command prompt. If you're concerned about clicking random batch files from the internet, I copletely understand you, but keep in mind, you can always open the `.bat` file with a text editor like **Notepad++** to see exactly what it does. Literally it just copies files from one folder to another, and you don't even have to agree to the overwrite prompt. It's handy, and really, you can trust me. But still, open the file, there's nothing sinister there. I made this because it's hella convenient if you switch stuff around a lot.
+There are two ways to activate the official customizations. The easiest and most convenient was just added. In the **customizations** folder, you will find a lot of `.bat` (**batch**) files. If you just double click one of them, it will automatically copy over the appropriate files using the command prompt. If you're concerned about clicking random batch files from the internet, I completely understand you, but keep in mind, you can always open the `.bat` file with a text editor like **Notepad++** to see exactly what it does. Literally it just copies files from one folder to another, and you don't even have to agree to the overwrite prompt. It's handy, and really, you can trust me. But still, open the file, there's nothing sinister there. I made this because it's hella convenient if you switch stuff around a lot.
 
 I also made `.bat` files in the main folder of the HUD to quickly activate/deactivate **incognito mode**, restore to all the **default customizations**, and activate a list of customizations you might prefer instead. You can make this list either by actually opening the file and editing it, **OR** you can **change the name** of the folders in `customization\manual\` to have either `(default)` or `(modified)` at the end (yes, include the parenthesis). `(default)` makes it load when you excecute the `customization default.bat` file, `(modified)` will make it load when you execute the `customization modified.bat` file.
 
-If you're really not comfortable using the `.bat` files, no hard feelings, I completely understand. Fortunately you can still activate them using the old, manual method of coyping the files from the customization folder into the main folder. It's exactly like it used to, except it's one folder deeper down, so so you go back three steps instead of two when you're inside the folder to get back to the main one.
+If you're really not comfortable using the `.bat` files, no hard feelings, I completely understand. Fortunately you can still activate them using the old, manual method of copying the files from the customization folder into the main folder. It's exactly like it used to, except it's one folder deeper down, so so you go back three steps instead of two when you're inside the folder to get back to the main one.
 
 Here's a diagram to show you how to enable customizations to the HUD the manual way.
 ```
@@ -135,7 +138,7 @@ Here's a diagram to show you how to enable customizations to the HUD the manual 
 '-> resource
 '-> scripts
 ```
-In other words, mark and **copy (CTRL+C)** the elements inside the `customization` that you wish to use (i.e. the folders inside **[SPEC HP] cross**, then **go back two steps**, and **paste (CTRL+V)** to overwrite all the normal files in all the major folders with the new ones. This way the customization also applies to the incongito mode and the revert from incognito back to normal. See below. it follows the same procedure for enabling it as customizations do.
+In other words, mark and **copy (CTRL+C)** the elements inside the `customization` that you wish to use (i.e. the folders inside **[SPEC HP] cross**, then **go back three steps**, and **paste (CTRL+V)** to overwrite all the normal files in all the major folders with the new ones. This way the customization also applies to the incognito mode and the revert from incognito back to normal. See below. it follows the same procedure for enabling it as customizations do.
 
 # [^](#top "Back to Top")Incognito
 I've made an **incognito** mode designed for streamers that disables all names on the HUD. To enable it, either double click the `incognito.bat` file in the `biscottiHUD` folder. It will then automatically copy over the appropriate files, or copy the contents of the `incognito` folder into the parent folder (so that the folders match up). To disable it again, either double click the `incognito_revert.bat` file in the `biscottiHUD` folder, or copy the contents of `incognito_revert` into the parent folder to overwrite the incognito ones. It's a similar maneuvre to how you enable customizations, only you only go back one step (up one folder) instead of three like you do with customizations. Note that I think custom weapon names still show up.

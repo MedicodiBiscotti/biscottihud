@@ -1,4 +1,4 @@
-#base	"huditemeffectmeter_particlecannon_ammo.res"
+#base	"huditemeffectmeter_particlecannon_style.res"
 
 "Resource/UI/HudItemEffectMeter_ParticleCannon.res"
 {

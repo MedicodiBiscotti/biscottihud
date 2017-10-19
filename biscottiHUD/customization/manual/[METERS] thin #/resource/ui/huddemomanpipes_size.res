@@ -3,9 +3,10 @@
 	"ChargeLabel"
 	{
 		"xpos"					"40"
+		"ypos"					"141"
 		"wide"					"-80"
-		"tall"					"7"
-		"visible"				"0"
+		"tall"					"15"
+		"visible"				"1"
 	}
 	"ChargeMeter"
 	{

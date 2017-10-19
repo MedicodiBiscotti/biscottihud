@@ -85,7 +85,7 @@
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"
 		"wide"			"110"
-		"wide_minmode"	"100"
+		"wide_minmode"	"99"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
@@ -110,7 +110,7 @@
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"110"
-		"wide_minmode"	"100"
+		"wide_minmode"	"99"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
