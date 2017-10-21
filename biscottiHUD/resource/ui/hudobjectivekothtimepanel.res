@@ -61,7 +61,7 @@
 				"tall"			"14"
 				"font"			"HudFontSmall"
 			}
-		}	
+		}
 	}
 
 	"RedTimer"
@@ -71,7 +71,6 @@
 		"xpos"				"90"
 		"xpos_minmode"		"70"
 		"ypos"				"0"
-		"ypos_minmode"		"0"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -126,7 +125,7 @@
 				"tall"			"14"
 				"font"			"HudFontSmall"
 			}
-		}	
+		}
 	}
 	
 	"ActiveTimerBG"

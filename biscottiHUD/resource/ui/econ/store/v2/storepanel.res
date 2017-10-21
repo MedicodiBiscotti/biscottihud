@@ -80,7 +80,8 @@
 		"tabxindent"	"10"
 		"tabxdelta"		"10"
 		"tabxfittotext"	"1"
-		"tabheight"		"32"
+		"tabheight"		"18"
+		"yoffset"		"14"
 		"transition_time" "0"
 		
 		"HeaderLine"

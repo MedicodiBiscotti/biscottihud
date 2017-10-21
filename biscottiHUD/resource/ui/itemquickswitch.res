@@ -16,13 +16,13 @@
 		"settitlebarvisible"	"0"
 		
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"Black"
+		"bgcolor_override"	"bBlackSolid3"
 		"PaintBackground"	"0"
 		
 		"itempanel_xpos"	"25"
 		"itempanel_ydelta"	"0"
 		
-		"itemskv"	
+		"itemskv"
 		{
 			"wide"			"220"
 			"tall"			"40"
@@ -33,7 +33,7 @@
 			
 			"model_xpos"	"25"
 			"model_ypos"	"3"
-			"model_wide"	"58"		
+			"model_wide"	"58"
 			"model_tall"	"34"
 			
 			"text_center"	"1"
@@ -56,7 +56,7 @@
 		"tall"				"220"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"Black"
+		"fillcolor"			"bBlackSolid3"
 	}
 	
 	"BGSquare"
@@ -70,7 +70,7 @@
 		"tall"				"22"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"Black"
+		"fillcolor"			"bBlackSolid3"
 	}
 	
 	"ColoredBG"
@@ -132,7 +132,7 @@
 		"tall"				"80"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"Black"
+		"fillcolor"			"bBlackSolid3"
 	}
 	
 	"CaratLabel"
@@ -204,7 +204,7 @@
 		"tileImage"		"1"
 		"tileVertically" "0"
 	}				
-		
+	
 	"itemcontainerscroller"
 	{
 		"ControlName"	"EditablePanel"
@@ -218,7 +218,7 @@
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}
-		
+	
 	"itemcontainer"
 	{
 		"ControlName"	"EditablePanel"

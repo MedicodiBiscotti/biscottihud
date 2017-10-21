@@ -4,13 +4,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
-
-		"xpos"			"cs-0.5-240"
+		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-
-		"zpos"			"3"		
-		"wide"			"o1"
-		"tall"			"500"
+		"zpos"			"3"
+		"wide"			"f0"
+		"tall"			"f0"
 		"proportionaltoparent"	"1"
 		"actionsignallevel"	"2"
 
@@ -39,7 +37,7 @@
 				}
 			}
 
-			"paintbackground"	"0"	
+			"paintbackground"	"0"
 		}
 
 		"RankModel"
@@ -48,9 +46,9 @@
 			"fieldName"		"RankModel"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
-			"zpos"			"0"		
+			"zpos"			"0"
 			"wide"			"o1"
-			"tall"			"200"
+			"tall"			"p0.12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -58,8 +56,18 @@
 			"fov"			"70"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+				"ypos"		"cs-0.5"
+				"wide"		"200"
+				"tall"		"200"
+			}
+
+			"paintbackground"	"0"
+
 			"render_texture"	"0"
-		
+
 			"model"
 			{
 				"force_pos"		"1"
@@ -68,10 +76,15 @@
 				"angles_x"	"0"
 				"angles_y"	"180"
 				"angles_z"	"0"
-				"origin_x"		"50"
+				"origin_x"		"45"
 				"origin_y"		"0"
 				"origin_z"		"0"
 				"spotlight"	"1"
+
+				if_mini
+				{
+					"origin_x"		"55"
+				}
 
 				"animation"
 				{
@@ -79,7 +92,7 @@
 					"default"	"1"
 				}
 			}
-		
+
 			"lights"
 			{
 				"default"
@@ -102,6 +115,8 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
+
+			"paintbackground"	"0"
 
 			"ParticleEffects"
 			{
@@ -134,19 +149,22 @@
 				}
 			}
 
-			"paintbackground"	"0"	
+			"paintbackground"	"1"
 		}
 
 		"MedalButton"
 		{
-			"ControlName"	"Panel"
+			"ControlName"	"Button"
 			"fieldName"		"MedalButton"
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
+			"ypos"			"cs-0.5+2"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"60"
+			"tall"			"42"
 			"proportionaltoparent"	"1"
+			"command"	"medal_clicked"
+			"actionsignallevel"	"2"
+			"labeltext"	""
 
 			"paintbackground"	"0"
 			"backgroundenabled"	"0"
@@ -157,11 +175,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"xpos"			"rs1"
+		"ypos"			"20"
 		"zpos"			"-1"
-		"wide"			"605"
-		"tall"			"70"
+		"wide"			"260"
+		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"border"		"bSchemePrimeBorder1"
@@ -170,18 +188,66 @@
 
 		if_mini
 		{
+			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
+		}
+
+		"NameLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"NameLabel"
+			"xpos"			"65"
+			"ypos"			"5"
+			"wide"			"f0"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmallishBold"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
+			"labelText"		"%name%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"visible"	"0"
+			}
+		}
+
+		"LevelLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"LevelLabel"
+			"xpos"			"65"
+			"ypos"			"20"
+			"wide"			"f0"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmallestBold"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
+			"labelText"		"%level%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+			}
 		}
 
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"p0.20"
+			"xpos"			"rs1-5"
 			"ypos"			"0"
-			"wide"			"p0.78"
+			"wide"			"f70"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -202,23 +268,7 @@
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
-				"LevelLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"LevelLabel"
-					"xpos"			"0"
-					"ypos"			"0"
-					"wide"			"f0"
-					"zpos"			"100"
-					"tall"			"20"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"HudFontSmallestBold"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
-					"labelText"		"%level%"
-					"proportionaltoparent"	"1"
-				}
+
 
 				"CurrentXPLabel"
 				{
@@ -261,9 +311,9 @@
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"0"
-					"ypos"			"rs1-7"
+					"ypos"			"rs1-10"
 					"wide"			"p1"
-					"tall"			"12"
+					"tall"			"7"
 					"proportionaltoparent"	"1"
 
 					"ProgressBar"
@@ -273,7 +323,7 @@
 						"xpos"			"0"
 						"ypos"			"cs-0.5"
 						"wide"			"f0"
-						"tall"			"f0"
+						"tall"			"f-2"
 						"zpos"			"1"
 						"proportionaltoparent"	"1"
 						"progress"		"1"
@@ -288,8 +338,8 @@
 						"fieldName"		"ContinuousProgressBar"
 						"xpos"			"cs-0.5"
 						"ypos"			"cs-0.5"
-						"wide"			"f4"
-						"tall"			"f4"
+						"wide"			"f2"
+						"tall"			"f2"
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
@@ -319,6 +369,7 @@
 				"ypos"			"5"
 				"wide"			"f0"
 				"tall"			"p0.45"
+				"visible"		"0"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"bBlackSolid1"
 
@@ -341,7 +392,7 @@
 				}
 
 
-	
+
 				// First column
 				"GamesLabel"
 				{

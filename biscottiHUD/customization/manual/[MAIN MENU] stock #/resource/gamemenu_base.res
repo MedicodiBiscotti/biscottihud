@@ -20,29 +20,6 @@
 		"tooltip"		"Toggle Hud Minmode"
 	}
 	
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"subimage"		"icon_resume"
-		"OnlyInGame"	"1"
-	}
-	"FindAGameButton"
-	{
-		"label" "#MMenu_FindAGame" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
-	}
-
-	"FindAGameButtonHalfWidth"
-	{
-		"label" "#MMenu_FindAGame" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyInGame"	"1"
-	}
-
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"
@@ -50,19 +27,7 @@
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
-	"GeneralStoreButton"
-	{
-		"label" "#MMenu_Shop"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
-	}
-	"CharacterSetupButton"
-	{
-		"label" "#MMenu_CharacterSetup"
-		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
-	}
-	
+
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"CallVoteButton"
