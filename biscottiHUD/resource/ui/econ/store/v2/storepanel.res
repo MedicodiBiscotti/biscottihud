@@ -18,7 +18,7 @@
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
-		
+
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
@@ -26,11 +26,11 @@
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -72,7 +72,7 @@
 		"fillcolor"		"bSchemePrime"
 		"scaleImage"	"1"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -83,7 +83,7 @@
 		"tabheight"		"18"
 		"yoffset"		"14"
 		"transition_time" "0"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
@@ -98,23 +98,23 @@
 			"fillcolor"		"Blank"
 			"border"		"bBorderBottom3"
 		}
-		
+
 		"tabskv"
 		{
 			"textinsetx"		"6"
 			"textAlignment"		"center"
 			"font"				"HudFontSmallBold"
 			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
+			"unselectedcolor"	"130 120 104 255"
 			"defaultBgColor_override"	"bBlackSolid3"
 			"armedBgColor_override" "bBlackSolid3"
 			"selectedBgColor_override" "bBlackSolid3"
 			"paintbackground"	"1"
 			"activeborder_override"	"bTabActive"
-			"normalborder_override" "bBorderBottom4"
+			"normalborder_override" "bBorderBottom3"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
@@ -139,7 +139,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
@@ -151,7 +151,7 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
-	
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"
@@ -164,7 +164,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
+
 	"SupportCommunityMapMakersCheckButton"
 	{
 		"ControlName"	"CheckButton"
@@ -178,7 +178,7 @@
 		"labelText"		""
 		"visible"		"0"
 	}
-	
+
 	"SupportCommunityMapMakersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -194,7 +194,7 @@
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"	"CExButton"
