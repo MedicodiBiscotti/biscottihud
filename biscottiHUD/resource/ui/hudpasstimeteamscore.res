@@ -15,34 +15,46 @@
 
 	"LeftSideBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-140"
-		"ypos"			"r95"
+		"xpos"			"c-91"
+		"ypos"			"r60"
 		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_left"
-		"scaleImage"	"1"	
+		"image"			"../hud/color_panel_blu"
+		"scaleImage"	"1"
+
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
-		
+
 	"RightSideBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"RightSideBG"
-		"xpos"			"c-140"
-		"ypos"			"r95"
+		"xpos"			"c41"
+		"ypos"			"r60"
 		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"80"
+		"wide"			"50"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_right"
-		"scaleImage"	"1"	
+		"image"			"../hud/color_panel_red"
+		"scaleImage"	"1"
+
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
-		
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -55,75 +67,79 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-120"
-		"ypos"			"r67"
+		"xpos"			"c-91"
+		"ypos"			"r59"
 		"zpos"			"8"
-		"wide"			"80"
-		"tall"			"35"
+		"wide"			"50"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
 		"fgcolor"		"TanLight"
-	}	
-		
+		"textinsetx"	"5"
+	}
+
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-118"
-		"ypos"			"r66"
+		"fieldName"		"BlueScore"
+		"xpos"			"c-89"
+		"ypos"			"r58"
 		"zpos"			"7"
-		"wide"			"80"
-		"tall"			"35"
+		"wide"			"50"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
 		"fgcolor"		"Black"
-	}	
-							
+		"textinsetx"	"5"
+	}
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c42"
-		"ypos"			"r67"
+		"xpos"			"c41"
+		"ypos"			"r59"
 		"zpos"			"8"
-		"wide"			"80"
-		"tall"			"35"
+		"wide"			"50"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
-		"fgcolor"		"TanLight"		
-	}	
-		
+		"fgcolor"		"TanLight"
+		"textinsetx"	"5"
+	}
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"RedScoreShadow"
-		"xpos"			"c44"
-		"ypos"			"r66"
+		"fieldName"		"RedScore"
+		"xpos"			"c43"
+		"ypos"			"r58"
 		"zpos"			"7"
-		"wide"			"80"
-		"tall"			"35"
+		"wide"			"50"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
-		"fgcolor"		"Black"		
+		"fgcolor"		"Black"
+		"textinsetx"	"5"
 	}
 
 	"PlayingToCluster"
@@ -142,10 +158,10 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayingTo"
-			"xpos"			"c-45"
-			"ypos"			"r51"
+			"xpos"			"c-41"
+			"ypos"			"r47"
 			"zpos"			"4"
-			"wide"			"90"
+			"wide"			"82"
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
@@ -155,27 +171,20 @@
 			"brighttext"	"0"
 			"font"			"HudFontSmall"
 			"fgcolor"		"TanLight"
-		}	
-				
+		}
+
 		"PlayingToBG"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"PlayingToBG"
-			"xpos"			"c-45"
-			"ypos"			"r52"
+			"xpos"			"c-41"
+			"ypos"			"r48"
 			"zpos"			"3"
-			"wide"			"90"
+			"wide"			"82"
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_brown"
-			"scaleImage"	"1"	
-			
-			"src_corner_height"		"15"
-			"src_corner_width"		"15"
-			
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
+			"fillcolor"		"bBlackBG"
 		}
 	}
 }
