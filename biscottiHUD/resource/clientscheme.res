@@ -34,6 +34,7 @@ Scheme
 		"bBlackSolid1"			"20 20 20 255"
 		"bBlackSolid2"			"30 30 30 255"
 		"bBlackSolid3"			"40 40 40 255"
+		"bBlackSolid4"			"50 50 50 255"
 		"bBlackTrans175"		"0 0 0 175"
 		"bBlackTrans225"		"0 0 0 225"
 		"bBlue"					"61 171 255 255"

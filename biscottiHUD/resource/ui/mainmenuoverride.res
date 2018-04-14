@@ -1,3 +1,5 @@
+#base	"mainmenuoverride_colour.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -130,11 +132,9 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"bBlackSolid2"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		"border"		"bSchemePrimeBorder1"
 
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -257,7 +257,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Version"
 		"xpos"			"c-282"
-		"ypos"			"177"
+		"ypos"			"180"
 		"wide"			"244"
 		"tall"			"30"
 		"visible"		"1"
@@ -293,8 +293,6 @@
 		"tall"			"62"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"bSchemePrimeBorder1"
-		"bgcolor_override"	"bBlackSolid2"
 	}
 
 	"DemoUIButton"
@@ -302,7 +300,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DemoUIButton"
 		"xpos"			"c-285"
-		"ypos"			"173"
+		"ypos"			"175"
 		"zpos"			"11"
 		"wide"			"38"
 		"tall"			"40"
@@ -319,10 +317,10 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"38"
-			"tall"			"40"
+			"xpos"			"2"
+			"ypos"			"2"
+			"wide"			"34"
+			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -338,21 +336,21 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
+			"paintbackground"	"1"
+			
+			"fgcolor"		"TanLight"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "235 226 202 255"
+			
+			"defaultBgColor_Override"		"TanDark"
+			"armedBgColor_Override"			"TFOrange"
 
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"TanLight"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"9"
+				"xpos"			"7"
 				"ypos"			"4"
 				"zpos"			"1"
 				"wide"			"20"
@@ -369,7 +367,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ConsoleButton"
 		"xpos"			"c-285"
-		"ypos"			"211"
+		"ypos"			"213"
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"20"
@@ -385,10 +383,10 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"125"
-			"tall"			"20"
+			"xpos"			"2"
+			"ypos"			"2"
+			"wide"			"121"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -404,13 +402,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
+			"paintbackground"	"1"
+			
+			"fgcolor"		"TanLight"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultBgColor_override" "TanDark"
+			"armedBgColor_override" "TFOrange"
 		}
 	}
 
@@ -419,7 +416,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MinmodeButton"
 		"xpos"			"c-160"
-		"ypos"			"211"
+		"ypos"			"213"
 		"zpos"			"11"
 		"wide"			"135"
 		"tall"			"20"
@@ -436,10 +433,10 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"125"
-			"tall"			"20"
+			"xpos"			"2"
+			"ypos"			"2"
+			"wide"			"121"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -455,13 +452,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
+			"paintbackground"	"1"
+			
+			"fgcolor"		"TanLight"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultBgColor_override" "TanDark"
+			"armedBgColor_override" "TFOrange"
 		}
 	}
 
@@ -564,7 +560,7 @@
 		"zpos"			"-52"
 		"wide"			"320"
 		"tall"			"100"
-		"visible"		"0"
+		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
@@ -618,13 +614,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
 		"xpos"			"c-290"
-		"ypos"			"94"
+		"ypos"			"92"
 		"zpos"			"-100"
 		"wide"			"260"
 		"tall"			"60"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"PaintBackgroundType"	"0"
 		"proportionaltoparent"	"1"
 	}
 
@@ -639,7 +634,6 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
 
 		"TipSubLabel"
 		{
@@ -871,7 +865,6 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"1"
 //		"border"		"MainMenuHighlightBorder"
-		"bgcolor_override"		"bBlackSolid3"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
@@ -1401,9 +1394,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
-		"zpos"			"10"
+		"xpos"			"c-30"
+		"ypos"			"0"
+		"zpos"			"10002"
 		"wide"			"210"
 		"tall"			"80"
 		"visible"		"0"
@@ -1615,9 +1608,6 @@
 		"tall"			"150"
 		"visible"		"1"
 
-		"border"		"bSchemePrimeBorder1"
-		"bgcolor_override"	"bBlackSolid2"
-
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1757,9 +1747,6 @@
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"border"		"bSchemePrimeBorder1"
-
-			"bgcolor_override"	"bBlackSolid2"
 
 			"TitleLabel"
 			{
@@ -2446,7 +2433,6 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"bBlackSolid1"
 		"tileImage"		"1"
 	}
 	"FooterLine"

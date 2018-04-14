@@ -1251,10 +1251,10 @@
 			"enabled"		"1"
 			"fgcolor_override"	"bGreen"
 		}				
-		"Dash"
+		"Divider"
 		{
 			"ControlName"	"Label"
-			"fieldName"		"Dash"
+			"fieldName"		"Divider"
 			"font"			"HudFontMediumBigBold"
 			"labelText"		"/"
 			"textAlignment"	"center"

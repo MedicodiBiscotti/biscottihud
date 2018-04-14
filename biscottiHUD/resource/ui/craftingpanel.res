@@ -1,3 +1,5 @@
+#base	"craftingpanel_colour.res"
+
 "Resource/UI/CraftingPanel.res"
 {
 	"crafting_panel"
@@ -16,9 +18,6 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"bBlackSolid3"
-		"infocus_bgcolor_override" "bBlackSolid3"
-		"outoffocus_bgcolor_override" "bBlackSolid3"
 
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"		

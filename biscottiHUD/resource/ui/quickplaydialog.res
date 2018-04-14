@@ -1,3 +1,5 @@
+#base	"quickplaydialog_colour.res"
+
 "Resource/QuickplayDialog.res"
 {
 	"QuickplayDialog"
@@ -34,7 +36,6 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"bSchemePrimeBorder1"
 
 		"Background"
 		{
@@ -49,7 +50,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"bBlackSolid3"
 			"proportionalToParent"	"1"
 		}
 
@@ -922,8 +922,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground" "1"
-			"border"		"bSchemePrimeBorder1"
-			"bgcolor_override"	"TanLight"
 		
 			"force_close"	"1"
 			"end_x"			"50"

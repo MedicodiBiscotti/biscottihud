@@ -1,3 +1,5 @@
+#base	"lobbycontainerframe_colour.res"
+
 "Resource/UI/LobbyContainerFrame.res"
 {
 	"LobbyContainerFrame"
@@ -18,7 +20,7 @@
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
-		
+
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
@@ -26,13 +28,13 @@
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
-		
+
 		"NavToRelay"			"BackButton"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -44,7 +46,6 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"bBlackSolid1"
 		"border"		"NoBorder"
 	}
 	"BackgroundFooter"
@@ -58,7 +59,6 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"bBlackSolid1"
 	}
 	"FooterLine"
 	{
@@ -74,7 +74,7 @@
 		"fillcolor"		"bSchemePrime"
 		"scaleImage"	"1"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -84,7 +84,7 @@
 		"tabwidth"		"240"
 		"tabheight"		"32"
 		"transition_time" "0"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
@@ -99,22 +99,19 @@
 			"fillcolor"		"Blank"
 			"border"		"bBorderBottom3"
 		}
-		
+
 		"tabskv"
 		{
 			"textinsetx"		"40"
 			"font"				"HudFontMediumBold"
 			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"bBlackSolid3"
-			"armedBgColor_override" "bBlackSolid3"
-			"selectedBgColor_override" "bBlackSolid3"
+			"unselectedcolor"	"130 120 104 255"
 			"paintbackground"	"1"
 			"activeborder_override"	"bTabActive"
 			"normalborder_override" "bBorderBottom4"
 		}
 	}
-	
+
 	"OptionsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -156,7 +153,7 @@
 			"scaleImage"	"1"
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -176,14 +173,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"back"
-		
+
 		"NavUp"			"PlayNowButton"
 		"NavRight"		"LearnMoreButton"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"
@@ -196,7 +193,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
+
 	"MatchmakingBanPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -210,7 +207,7 @@
 		"enabled"		"1"
 		"mouseinputenabled"	"0"
 		"bgcolor_override"	"Black"
-		
+
 		"MatchmakingBanDurationLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -230,7 +227,7 @@
 			"pinCorner"		"0"
 		}
 	}
-	
+
 	"NextButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -250,15 +247,15 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"next"
-		
+
 		"NavUp"			"StartPartyButton"
 		"NavDown"		"LearnMoreButton"
 		"NavLeft"		"LearnMoreButton"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"StartPartyButton"
 	{
 		"ControlName"	"CExButton"
@@ -280,11 +277,11 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"start_party"
-		
+
 		"NavUp"			"Sheet"
 		"NavDown"		"NextButton"
 		"NavLeft"		"PracticeButton"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

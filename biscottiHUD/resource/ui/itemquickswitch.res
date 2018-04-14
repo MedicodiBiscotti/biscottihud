@@ -1,3 +1,5 @@
+#base	"itemquickswitch_colour.res"
+
 "Resource/UI/ItemQuickSwitch.res"
 {
 	"ItemQuickSwitchPanel"
@@ -16,7 +18,6 @@
 		"settitlebarvisible"	"0"
 		
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"bBlackSolid3"
 		"PaintBackground"	"0"
 		
 		"itempanel_xpos"	"25"
@@ -56,7 +57,6 @@
 		"tall"				"220"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"bBlackSolid3"
 	}
 	
 	"BGSquare"
@@ -70,7 +70,6 @@
 		"tall"				"22"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"bBlackSolid3"
 	}
 	
 	"ColoredBG"
@@ -132,7 +131,6 @@
 		"tall"				"80"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"bBlackSolid3"
 	}
 	
 	"CaratLabel"

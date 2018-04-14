@@ -208,7 +208,7 @@
 			"tall"				"f0"
 			"visible"			"1"
 			"enabled"			"1"
-			"fillcolor"			"color_panel_brown"
+			"fillcolor"			"bBlackBG"
 		}
 		
 		"itemmodelpanel"

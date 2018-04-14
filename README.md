@@ -1,5 +1,5 @@
 # biscottiHUD
-v. 1.88
+v. 1.89
 
 This is my custom HUD for Team Fortress 2 (TF2).
 
@@ -79,7 +79,7 @@ I've also added **custom crosshairs** to the HUD. To enable them you have to edi
 * HP Cross Styles (no cross, PV style cross, e.v.e style cross)
 * HP Spectator styles
 * Koth Active
-* Main Menu
+* Menu Colours (Slightly darker or lighter)
 * Meter Sizes
 * HP/Ammo Positioning
 * PDA Menu Designs

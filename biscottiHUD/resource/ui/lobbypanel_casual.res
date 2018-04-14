@@ -1,3 +1,4 @@
+#base	"lobbypanel_casual_colour.res"
 #base "LobbyPanel.res"
 
 "Resource/UI/LobbyPanel_Casual.res"
@@ -17,7 +18,6 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"bBlackSolid3"
 		"proportionaltoparent"	"1"
 	}
 
@@ -61,8 +61,6 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"paintbackground" "1"
-			"border"		"bSchemePrimeBorder1"
-			"bgcolor_override"	"bBlackSolid1"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"

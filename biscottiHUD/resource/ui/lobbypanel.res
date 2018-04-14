@@ -1,3 +1,5 @@
+#base	"lobbypanel_colour.res"
+
 "Resource/UI/LobbyPanel.res"
 {
 	"LobbyPanel"
@@ -15,7 +17,6 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"bBlackSolid3"
 		"proportionaltoparent"	"1"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"

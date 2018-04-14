@@ -1,3 +1,4 @@
+#base	"lobbypanel_comp_colour.res"
 #base "LobbyPanel.res"
 
 "Resource/UI/LobbyPanel_Comp.res"
@@ -17,7 +18,6 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"bBlackSolid3"
 		"proportionaltoparent"	"1"
 	}
 

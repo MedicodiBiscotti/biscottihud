@@ -1,3 +1,5 @@
+#base	"pvprankpanel_colour.res"
+
 "Resource/UI/PvPRankPanel.res"
 {
 	"ModelContainer"
@@ -190,10 +192,8 @@
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"f40"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
-		"border"		"bSchemePrimeBorder1"
-		"bgcolor_override"		"bBlackSolid2"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -425,7 +425,6 @@
 				"tall"			"p0.45"
 				"visible"		"0"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"bBlackSolid1"
 
 				"if_mini"
 				{

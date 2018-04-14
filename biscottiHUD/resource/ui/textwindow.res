@@ -1,3 +1,5 @@
+#base	"textwindow_colour.res"
+
 "Resource/UI/TextWindow.res"
 {
 	"info"
@@ -40,7 +42,6 @@
 		"tall"			"306"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"bBlackSolid2"
 		
 		"border"		"bSchemePrimeBorder1"
 	}

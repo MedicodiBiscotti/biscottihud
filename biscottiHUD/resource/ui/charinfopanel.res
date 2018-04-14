@@ -1,3 +1,5 @@
+#base	"charinfopanel_colour.res"
+
 "Resource/UI/CharInfoPanel.res"
 {
 	"character_info"
@@ -42,7 +44,6 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"bBlackSolid1"
 		"border"		"NoBorder"
 	}
 	"BackgroundFooter"
@@ -56,7 +57,6 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"bBlackSolid1"
 	}
 	"FooterLine"
 	{
@@ -105,9 +105,6 @@
 			"font"				"HudFontMediumSmallBold"
 			"selectedcolor"		"200 187 161 255"
 			"unselectedcolor"	"130 120 104 255"
-			"defaultBgColor_override"	"bBlackSolid3"
-			"armedBgColor_override" "bBlackSolid3"
-			"selectedBgColor_override" "bBlackSolid3"
 			"paintbackground"	"1"
 			"activeborder_override"	"bTabActive"
 			"normalborder_override" "bBorderBottom3"

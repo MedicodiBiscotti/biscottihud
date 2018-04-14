@@ -1,3 +1,5 @@
+#base	"tfadvancedoptionsdialog_colour.res"
+
 "Resource\UI\TFAdvancedOptionsDialog.res"
 {
 	"TFAdvancedOptionsDialog"
@@ -13,12 +15,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"		"bBlackSolid3"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	""
 		"paintborder"			"1"
 		"paintbackground"		"1"
-		"border"				"bSchemePrimeBorder1"
 		
 		"control_w"			"500"
 		"control_h"			"25"

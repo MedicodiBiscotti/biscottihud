@@ -1,3 +1,5 @@
+#base	"surveypanel_base_colour.res"
+
 "Resource/UI/SurveyPanel_Base.res"
 {
 	"Survey"
@@ -10,8 +12,6 @@
 		"tall"			"150"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
-		"border"		"bSchemePrimeBorder1"
-		"bgcolor_override"		"bBlackSolid3"
 		"proportionaltoparent"	"1"
 
 		"QuestionContainer"

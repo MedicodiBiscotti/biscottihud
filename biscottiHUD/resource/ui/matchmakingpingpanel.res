@@ -1,3 +1,4 @@
+#base	"matchmakingpingpanel_colour.res"
 #base "MatchMakingDashboardSidePanel.res"
 
 "Resource/UI/MatchMakingPingPanel.res"
@@ -28,8 +29,6 @@
 		"tall"			"f-50"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
-		"border"		"bSchemePrimeBorder1"
-		"bgcolor_override"		"bBlackSolid2"					// slider doesn't seem to have a bg anymore :(
 		"proportionaltoparent"	"1"
 	}
 
@@ -257,6 +256,20 @@
 		"use_convar_minmax" "1"
 	}
 
+	"Gradient"
+	{
+		"Controlname"	"EditablePanel"
+		"fieldName"		"Gradient"
+		"xpos"			"rs1-10"
+		"ypos"			"175"
+		"wide"			"f40"
+		"tall"			"24"
+		"zpos"			"5"
+		"proportionaltoparent"	"1"
+		"border"		"InnerShadowBorder"
+		"mouseinputenabled"	"0"
+	}
+
 	"DataCenterContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -346,7 +359,7 @@
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 
-			"paintborder"	"1"
+			"paintborder"	"0"
 			"border"		"bSchemePrimeBorder1"
 		}
 	}

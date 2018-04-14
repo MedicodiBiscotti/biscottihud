@@ -1,3 +1,5 @@
+#base	"quickplaybusydialog_colour.res"
+
 "Resource/UI/QuickPlayBusyDialog.res"
 {
 	"QuickPlayBusyDialog"
@@ -32,7 +34,6 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"bSchemePrimeBorder1"
 
 		"Background"
 		{
@@ -47,7 +48,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"bBlackSolid3"
 		}
 
 		"TitleLabel"
@@ -142,7 +142,6 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"bSchemePrimeBorder1"
 
 		"Background"
 		{
@@ -157,7 +156,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"40 37 37 255"
 		}
 
 		"TitleLabel"

@@ -1,3 +1,5 @@
+#base	"craftingstatusdialog_colour.res"
+
 "Resource/UI/CraftingStatusDialog.res"
 {
 	"CraftingStatusDialog"
@@ -9,10 +11,8 @@
 		"ypos"					"200"
 		"wide"					"200"
 		"tall"					"110"
-		"bgcolor_override"		"bBlackSolid3"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"bSchemePrimeBorder1"
 	}
 	
 	"CenterPositioner"

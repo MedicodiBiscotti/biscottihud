@@ -1,3 +1,4 @@
+#base	"lobbycontainerframe_casual_colour.res"
 #base "LobbyContainerFrame.res"
 
 "Resource/UI/LobbyContainerFrame_Casual.res"
@@ -1038,9 +1039,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
-		"border"		"bSchemePrimeBorder1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"bBlackSolid1"
 		
 		"TipLabel"
 		{

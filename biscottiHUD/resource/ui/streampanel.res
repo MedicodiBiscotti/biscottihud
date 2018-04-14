@@ -1,3 +1,5 @@
+#base	"streampanel_colour.res"
+
 "Resource/UI/StreamPanel.res"
 {
 	"BGRect"
@@ -11,8 +13,6 @@
 		"tall"			"60"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-
-		"bgcolor_override"	"bBlackSolid2"
 	}
 
 
