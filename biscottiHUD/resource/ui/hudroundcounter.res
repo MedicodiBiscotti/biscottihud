@@ -82,15 +82,15 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BGBlue"
-		"xpos"				"6"
+		"xpos"				"2"					// 6 for box
 		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"30"
+		"wide"				"2"					// 30 for box
 		"tall"				"8"
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"fillcolor"			"bBlackBG"
+		"fillcolor"			"color_panel_blu"
 		
 		"pin_to_sibling"	"BGAnchor"
 		"pin_to_sibling_corner"	"0"
@@ -100,15 +100,15 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BGRed"
-		"xpos"				"6"
+		"xpos"				"2"					// 6 for box
 		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"30"
+		"wide"				"2"					// 30 for box
 		"tall"				"8"
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"fillcolor"			"bBlackBG"
+		"fillcolor"			"color_panel_red"
 		
 		"pin_to_sibling"	"BGAnchor"
 		"pin_to_sibling_corner"	"1"

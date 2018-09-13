@@ -7,6 +7,12 @@
 		"labelText"		"#TF_Object_dispenser"
 	}
 	
+	"BuildingIcon"	
+	{
+		"ypos"			"24"
+		"icon"			"obj_status_dispenser"
+	}
+	
 	"NumberLabel"
 	{	
 		"labelText"		"2"

@@ -1,4 +1,5 @@
-#base	"hudplayerhealth_lines.res"
+#base	"hudplayerhealth_linesh.res"
+#base	"hudplayerhealth_linesv.res"
 #base	"hudplayerhealth_overhealcross.res"
 #base	"hudplayerhealth_positioning.res"
 #base	"hudplayerhealth_style.res"

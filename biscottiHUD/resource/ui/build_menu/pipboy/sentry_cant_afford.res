@@ -8,6 +8,12 @@
 		"labelText_lodef"		"#TF_Object_Sentry_360"
 	}
 	
+	"BuildingIcon"	
+	{
+		"ypos"			"16"
+		"icon"			"obj_status_sentrygun_1"
+	}
+	
 	"NumberLabel"
 	{	
 		"labelText"		"1"

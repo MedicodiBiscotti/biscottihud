@@ -6,6 +6,6 @@
 	}
 	"ChargeLabel"
 	{
-		"visible"		"0"
+		"wide"			"-95"
 	}
 }

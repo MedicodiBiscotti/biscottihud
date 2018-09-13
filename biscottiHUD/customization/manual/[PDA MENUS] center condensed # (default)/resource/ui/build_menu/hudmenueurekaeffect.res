@@ -7,8 +7,8 @@
 		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"0"
-		"wide"			"186"
-		"tall"			"148"
+		"wide"			"166"
+		"tall"			"125"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"bBlackBG"
@@ -20,7 +20,7 @@
 		"fieldName"		"ColoredLine"
 		"xpos"			"0"
 		"ypos"			"5"
-		"wide"			"186"
+		"wide"			"166"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
@@ -41,11 +41,11 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
-		"xpos"			"10"
+		"xpos"			"4"
 		"ypos"			"-4"
 		"zpos"			"1"
-		"wide"			"48"
-		"tall"			"48"
+		"wide"			"43"
+		"tall"			"43"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -57,11 +57,11 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIconShadow"
-		"xpos"			"11"
+		"xpos"			"5"
 		"ypos"			"-3"
 		"zpos"			"0"
-		"wide"			"48"
-		"tall"			"48"
+		"wide"			"43"
+		"tall"			"43"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -73,9 +73,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiant"
-		"xpos"			"63"			// align me to the left edge of the first selection
-		"ypos"			"4"
+		"font"			"HudFontMediumBold"
+		"xpos"			"50"			// align me to the left edge of the first selection
+		"ypos"			"-3"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
@@ -93,10 +93,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiant"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"Black"
-		"xpos"			"64"			// align me to the left edge of the first selection
-		"ypos"			"5"
+		"xpos"			"51"			// align me to the left edge of the first selection
+		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"
@@ -114,12 +114,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"SpectatorKeyHints"
-		"xpos"			"-26"
-		"ypos"			"35"
+		"font"			"HudFontSmallest"
+		"xpos"			"-39"
+		"ypos"			"24"
 		"zpos"			"1"
 		"wide"			"200"
-		"tall"			"13"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -134,11 +134,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"available_target_1"
-		"xpos"			"5"
-		"ypos"			"47"
+		"xpos"			"1"
+		"ypos"			"36"
 		"zpos"			"10"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"72"
+		"tall"			"102"
 		"visible"		"1"
 	}
 	
@@ -146,11 +146,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"available_target_2"
-		"xpos"			"105"
-		"ypos"			"47"
+		"xpos"			"89"
+		"ypos"			"36"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"72"
+		"tall"			"102"
 		"visible"		"1"
 	}
 
@@ -158,11 +158,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_target_1"
-		"xpos"			"5"
-		"ypos"			"47"
+		"xpos"			"1"
+		"ypos"			"36"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"72"
+		"tall"			"102"
 		"visible"		"0"
 	}
 	
@@ -170,11 +170,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_target_2"
-		"xpos"			"105"
-		"ypos"			"47"
+		"xpos"			"89"
+		"ypos"			"36"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"124"
+		"wide"			"72"
+		"tall"			"102"
 		"visible"		"0"
 	}
 }

@@ -9,7 +9,8 @@
 	
 	"BuildingIcon"	
 	{
-		"icon"			"hud_menu_dispenser_build"
+		"ypos"			"24"
+		"icon"			"obj_status_dispenser"
 	}
 	
 	"NumberLabel"

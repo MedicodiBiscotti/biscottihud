@@ -1,3 +1,5 @@
+#base	"hudmatchstatus_teamstatus.res"
+
 "Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
@@ -336,7 +338,6 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"f0"
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"

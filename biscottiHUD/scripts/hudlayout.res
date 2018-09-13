@@ -5,6 +5,7 @@
 #base	"hudlayout_hitmarker.res"
 #base	"hudlayout_pdamenu.res"
 #base	"hudlayout_positioning.res"
+#base	"hudlayout_teamstatus.res"
 
 "Resource/HudLayout.res"
 {
@@ -213,11 +214,11 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-45"	[$WIN32]
-		"ypos"					"c18"	[$WIN32]
+		"ypos"					"c"	[$WIN32]
 		"xpos"					"r194"	[$X360]
 		"ypos"					"r174"	[$X360]
 		"wide"					"90"
-		"tall"  				"180"
+		"tall"  				"198"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -487,7 +488,6 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
 		"xpos"	 "r672"	[$X360]
 		"ypos"	 "35"	[$X360]
 		"wide"	 "628"

@@ -1,4 +1,5 @@
-#base	"hudammoweapons_lines.res"
+#base	"hudammoweapons_linesh.res"
+#base	"hudammoweapons_linesv.res"
 
 "Resource/UI/HudAmmoWeapons.res"
 {

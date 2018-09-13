@@ -45,8 +45,10 @@ Scheme
 		"SlinFire2"				"255 30 0 255"
 		"bBrightBlue"			"31 141 225 255"
 		"bBrightRed"			"200 36 0 255"
+		"bGray"					"155 155 155 255"
 		"bDarkGray"				"50 50 50 200"
 		"bGreen"				"0 175 0 255"
+		"bGreen2"				"94 150 49 255"				// CreditsGreen
 		"bOrange"				"200 66 10 255"
 		"bWhite"				"235 235 235 255"
 		"color_panel_brown"		"51 48 45 200"

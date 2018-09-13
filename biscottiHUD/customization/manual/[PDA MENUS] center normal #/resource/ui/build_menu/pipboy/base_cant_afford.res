@@ -122,7 +122,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"0 155 0 255"
 	}
 
 	"NumberLabel"

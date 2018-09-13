@@ -9,6 +9,7 @@
 	
 	"BuildingIcon"	
 	{
+		"ypos"			"24"
 		"icon"			"eureka_teleport_home"
 	}
 	

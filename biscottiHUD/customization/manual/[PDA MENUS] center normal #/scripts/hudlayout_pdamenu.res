@@ -29,4 +29,6 @@
 		"wide"			"442"
 		"tall"			"147"	[$WIN32]
 	}
+	
+	// Centered at c60
 }
