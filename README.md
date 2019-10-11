@@ -1,5 +1,5 @@
 # biscottiHUD
-v. 1.90b
+v. 1.91
 
 This is my custom HUD for Team Fortress 2 (TF2).
 
@@ -117,7 +117,7 @@ There are two ways to activate the official customizations. The easiest and most
 
 I also made `.bat` files in the main folder of the HUD to quickly activate/deactivate **incognito mode**, restore to all the **default customizations**, and activate a list of customizations you might prefer instead. You can make this list either by actually opening the file and editing it, **OR** you can **change the name** of the folders in `customization\manual\` to have either `(default)` or `(modified)` at the end (yes, include the parenthesis). `(default)` makes it load when you excecute the `customization default.bat` file, `(modified)` will make it load when you execute the `customization modified.bat` file.
 
-If you're really not comfortable using the `.bat` files, no hard feelings, I completely understand. Fortunately you can still activate them using the old, manual method of copying the files from the customization folder into the main folder. It's exactly like it used to, except it's one folder deeper down, so so you go back three steps instead of two when you're inside the folder to get back to the main one.
+If you're really not comfortable using the `.bat` files, no hard feelings, I completely understand. Fortunately you can still activate them using the old, manual method of copying the files from the customization folder into the main folder. It's exactly like it used to be, except it's one folder deeper down, so you go back three steps instead of two when you're inside the folder to get back to the main one.
 
 Here's a diagram to show you how to enable customizations to the HUD the manual way.
 ```
