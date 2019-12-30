@@ -1,0 +1,42 @@
+//===========================================
+
+event MMenu_PlayList_Expand
+{
+	Animate ItemsContainer			ypos 420 Spline 0 0.4
+	Animate EventPromo				ypos 470 Spline 0 0.4
+	Animate SafeMode				ypos 470 Spline 0 0.4
+	Animate ControlBGPanel			ypos 393 Spline	0 0.4
+	Animate ConsoleButton			ypos 397 Spline	0 0.4
+	Animate MinmodeButton			ypos 397 Spline 0 0.4
+
+	Animate PlayListContainer Tall 260	 Spline	0.0 0.40
+
+	FireCommand 0 "soundentry Panel.SlideDown"
+}
+
+event MMenu_PlayList_Collapse
+{
+	Animate ItemsContainer			ypos 160 Spline 0 0.4
+	Animate EventPromo				ypos 210 Spline 0 0.4
+	Animate SafeMode				ypos 210 Spline 0 0.4
+	Animate ControlBGPanel			ypos 373 Spline	0 0.4
+	Animate ConsoleButton			ypos 377 Spline	0 0.4
+	Animate MinmodeButton			ypos 377 Spline 0 0.4
+
+	Animate PlayListContainer Tall 0 Spline 0 0.4
+
+	FireCommand 0 "soundentry Panel.SlideUp"
+}
+
+event MMenu_PlayList_Collapse_Immediate
+{
+	Animate ItemsContainer			ypos 160 Spline 0 0
+	Animate EventPromo				ypos 210 Spline 0 0
+	Animate ControlBGPanel			ypos 373 Spline	0 0
+	Animate ConsoleButton			ypos 377 Spline	0 0
+	Animate MinmodeButton			ypos 377 Spline 0 0
+
+	Animate PlayListContainer Tall 0 Spline 0 0
+}
+
+//===========================================

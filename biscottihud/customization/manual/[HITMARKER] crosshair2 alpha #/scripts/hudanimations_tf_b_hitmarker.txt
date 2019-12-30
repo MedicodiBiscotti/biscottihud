@@ -1,0 +1,15 @@
+//===========================================
+
+event DamagedPlayer
+{
+	StopEvent Hitmarker 0.0
+	RunEvent Hitmarker 0.01
+}
+
+event HitMarker
+{
+	Animate Crosshair2				Alpha		"100"		Linear	0.0 0.0
+	Animate Crosshair2				Alpha		"0"			Accel	0.3 0.075
+}
+
+//===========================================

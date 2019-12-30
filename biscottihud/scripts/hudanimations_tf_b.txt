@@ -1,0 +1,56 @@
+// Section to enable/disable certain event animations //
+//=====================================================
+
+//event FlagOutline {runevent FlagOutlineNULL 0}
+
+//===========================================
+
+// Local player flag pickup/drop
+event FlagOutline
+{
+}
+
+event FlagOutlineNULL
+{
+	RunEvent FlagOutlineHide 0.0
+	Animate OutlineImage	Alpha		"255"			Linear 0.1 0.2
+	
+	Animate OutlineImage	Position	"c-200 140"		Linear 0.1 0.2
+	Animate OutlineImage	Size		"400 200"		Linear 0.1 0.2
+
+	Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2	[$WIN32]
+	Animate OutlineImage	Position	"c-50 r158"		Linear 0.7 0.2	[$X360]
+	Animate OutlineImage	Size		"100 50"		Linear 0.7 0.2
+	
+	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
+}
+
+//===========================================
+
+// Spy Disguise
+event HudSpyDisguiseHide
+{
+	RunEvent HudSpyDisguiseChanged 0
+	
+	// This needs to be here for the Center Left and Center Right customizations.
+	// I have no friggin' clue why this needs to be here, but it gets angry when it's not.
+	// It can be any animation that is not itself and has a similar name (for some reason).
+	// The animations also override any need for position and size in resource/ui/hudplayerclass.res for some reason.
+	// Again, I have no idea why that is.
+}
+
+//===========================================
+
+//--------------------------------------------------------------------------
+event CompetitiveGame_LowerChatWindow
+{
+//	Animate HudChat ypos r140 Accel 0 0
+}
+
+event HudTournament_MoveChatWindow
+{
+//	RunEvent CompetitiveGame_LowerChatWindow 0
+//	RunEvent CompetitiveGame_RestoreChatWindow 10
+}
+
+//--------------------------------------------------------------------------

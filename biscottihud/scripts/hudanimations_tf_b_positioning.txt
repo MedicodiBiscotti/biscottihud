@@ -1,0 +1,46 @@
+//===========================================
+
+event HudSpyDisguiseChangedCenterLeft
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-280 r340"	Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"180 180"		Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHideCenterLeft	0.7
+}
+
+event HudSpyDisguiseHideCenterLeft
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"c-190 r250"	Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"0 0"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+
+event HudSpyDisguiseChangedCenterRight
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c90 r340"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"180 180"		Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHideCenterRight	0.7
+}
+
+event HudSpyDisguiseHideCenterRight
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"c180 r250"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"0 0"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+
+//===========================================
+
+event CompetitiveGame_RestoreChatWindow
+{
+	Animate HudChat ypos 212 Accel 0 0
+}
+
+//===========================================
