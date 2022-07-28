@@ -1,8 +1,0 @@
-//===========================================
-
-event HudSpyDisguiseChanged
-{
-	RunEvent HudSpyDisguiseChangedCenterLeft 0
-}
-
-//===========================================
