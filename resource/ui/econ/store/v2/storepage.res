@@ -1,3 +1,5 @@
+#base	"storepage_colour.res"
+
 "Resource/UI/StorePage.res"
 {
 	"StorePage"
@@ -15,9 +17,6 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"bBlackSolid3"
-		"infocus_bgcolor_override" "bBlackSolid3"
-		"outoffocus_bgcolor_override" "bBlackSolid3"
 		
 		"max_cart_model_panels"	"10"
 		
