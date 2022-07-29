@@ -1,5 +1,13 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {
+	"HudKothTimeStatus"
+	{
+		if_match
+		{
+			"zpos"		"5"
+		}
+	}
+	
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
