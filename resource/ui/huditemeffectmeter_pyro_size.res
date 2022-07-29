@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
+"Resource/UI/HudItemEffectMeter_Pyro.res"
 {
 	HudItemEffectMeter
 	{
