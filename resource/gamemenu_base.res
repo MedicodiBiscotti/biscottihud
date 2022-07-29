@@ -42,6 +42,10 @@
 	{
 		"label"			""
 		"command"		"OpenPlayerListDialog"
+		// OpenMutePlayerDialog is newer but the only difference is that it's enormous
+		// I like it better small.
+		// Old PlayerListDialog is in resource/playerlistdialog.res
+		// New MutePlayerDialog is in resource/muteplayerdialog.res
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
 		"tooltip" "#MMenu_MutePlayers"
