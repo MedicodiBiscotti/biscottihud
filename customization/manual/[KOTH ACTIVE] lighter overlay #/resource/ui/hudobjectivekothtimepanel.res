@@ -1,5 +1,13 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {
+	"HudKothTimeStatus"
+	{
+		if_match
+		{
+			"zpos"		"5"
+		}
+	}
+	
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
@@ -61,7 +69,7 @@
 				"tall"			"14"
 				"font"			"HudFontSmall"
 			}
-		}	
+		}
 	}
 
 	"RedTimer"
@@ -125,7 +133,7 @@
 				"tall"			"14"
 				"font"			"HudFontSmall"
 			}
-		}	
+		}
 	}
 	
 	"ActiveTimerBG"
