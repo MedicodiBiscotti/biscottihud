@@ -7,7 +7,7 @@ I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercia
 
 **Table of Contents**
 * [Compatibility](#compatibility)
-* [IMPORTANT! Minmode](#important-minmode)
+* [Minmode](#minmode)
 * [Installation](#installation)
 * [Customization](#customization)
 	* [Manual edits](#manual-edits)
@@ -34,39 +34,32 @@ I'd appreciate if you'd credit me for the HUD if you use it for pseudo-commercia
 
 By compatible I mean that they work, not necessarily that it follows the design philosophy of the HUD. But at least there's nothing clipping out of the side of the screen.
 
-# [^](#top "Back to Top")IMPORTANT! Minmode
-**NO LONGER TRUE!!!**
-This HUD is a **minmode HUD**, meaning I designed it around using minmode (**cl_hud_minmode 1**).
-But it also has a **non-minmode** version for people who like the HP and ammo to be higher up and closer to the centre. I personally don't like this and thus designed it in minmode.
+# [^](#top "Back to Top")Minmode
+This HUD is primarily designed around using minmode (**cl_hud_minmode 1**).
+It also has a **non-minmode** version for people who like the various backgrounds and icons to be bigger. I personally don't like this and thus designed it in minmode.
 
 To change between them use `cl_hud_minmode 0/1` where 1 is minmode, and 0 is non-minmode.
 All the screenshots on huds.tf are in minmode (`cl_hud_minmode 1`).
 
-**UPDATE**
-The HUD now has the different HP/ammo positions as their own customizations. Minmode now only toggles if some backgrounds, icons etc. are slightly bigger. As it should be.
-
 # [^](#top "Back to Top")Installation
 Click the button that says **Download ZIP**.
 
-Then extract it to your `/tf/custom/` folder so that inside your custom folder there is a folder called **biscottiHUD** which contains `customization`, `materials`, `resource`, `scripts` etc.
+Then extract it to your `tf/custom/` folder so that inside your custom folder there is a folder called **biscottihud-main** which contains `customization`, `materials`, `resource`, `scripts` etc.
+
+The easiest way to accomplish this, depending on your zip software, is probably to just copy the `.zip` file to the `tf/custom/` folder, and then **extract to here**.
 
 # [^](#top "Back to Top")Customization
 The easiest way to do most customization is to use the ones that I've made specifically, but if you're HUD savvy and feel up for it, you can of course **edit the files of the HUD manually**. I'd still appreciate credit for the HUD, though. Such as "Oh, I use an edited biscottiHUD" or something similar. Below I'll quickly outline some customizations you can do that I haven't made into an actual option.
 
 ## [^](#top "Back to Top")Manual edits
-Inside `/scripts/hudanimations_tf_b_healthcolour.txt` you will find the animations for things like being **overhealed** or **low on health and ammo**. There you can disable the **box being coloured** when in different states of health (i.e. overhealed). You can also change the colours, but if you want to switch the colour scheme from **green-orange** to **blue-red** for overheal/low, I've already made those as official customizations.
+Inside `scripts/hudanimations_tf_b_healthcolour.txt` you will find the animations for things like being **overhealed** or **low on health and ammo**. There you can disable the **box being coloured** when in different states of health (i.e. overhealed). You can also change the colours, but if you want to switch the colour scheme from **green-orange** to **blue-red** for overheal/low, I've already made those as official customizations.
 
-In `/scripts/hudanimations_tf_b.txt` you can also re-enable the **shaded image** that pops up on screen when **disguising or picking of the intelligence**. This is done by uncommenting the respective lines at the top of the file. I hate that thing, though, but it's up to you.
-
-This HUD includes **multiple scoreboards** with tweaked sizes for **24**, **32**, **18**, and **12** man servers. (**Normal**, **32 man**, **Highlander**, and **6's**). To change the scoreboard, go to `scoreboard.res` and change the number **24** to the variant that you want.
-
-If you want to make the font of the buttons different in the main menu, use a text editor like **notepad++** and replace `HudFontMediumBold` with **something else** in `/resource/ui/mainmenuoverride.res`.
+In `scripts/hudanimations_tf_b.txt` you can also re-enable the **shaded image** that pops up on screen when **disguising or picking of the intelligence**. This is done by uncommenting the respective lines at the top of the file. I hate that thing, though, but it's up to you.
 
 I've also added **custom crosshairs** to the HUD. To enable them you have to edit the file `scripts/hudlayout.res`. The crosshairs are at the top of the file. They're already set to a certain crosshair, but I would advise that you tweak it yourself however you like. Keep in mind that for some reason, the symbols in the font aren't completely centered so positioning them could be really tricky. You'll also have to manually make the same edit to the `scripts/hudlayout.res` files in the `incognito/` and `incognito_revert/` folders. To change the style of the crosshair, change the `labelText` to a different symbol. See more information [here](http://www.teamfortress.tv/14702/release-fogs-crosshairs-v3 "Fog's Crosshairs on teamfortress.tv").
 
 ## [^](#top "Back to Top")Official customizations
 * Background Colours
-* Scabber's HUD (my old trash HUD)
 * Bison Mangler 6000 Ammo Position
 * Box Lines
 * Box Transparency
@@ -74,27 +67,25 @@ I've also added **custom crosshairs** to the HUD. To enable them you have to edi
 * Class Menu Design
 * Colours HP
 * Colours Uber
+* Disguise Silhouette
 * Hitmarker
 * HP Overheal Cross
 * HP Cross Styles (no cross, PV style cross, e.v.e style cross)
 * HP Spectator styles
 * Koth Active
 * Menu Colours (Slightly darker or lighter)
+* Metal Labels
 * Meter Sizes
 * HP/Ammo Positioning
 * PDA Menu Designs
-* Scoreboard Player Numbers
+* Scoreboard Player Numbers (24, 32, 18, and 12)
 * Sticky Count Labels
+* Team Status Top Panel
 * Uber Charge Labels
 * Vaccinator Icon Position
 * Vaccinator Count Label
 
-
 Now to talk about the **official customizations** included in the HUD.
-
-I've included multiple copies of the **Main Menu** located in the **customization** folder. One with a **custom** design by me, and one with the **stock** design but with two extra buttons added.
-
-To change the menu, copy the one you want from the **customization** folder into `/resource/ui/`. Note that the **customization** folder has those folders in it. See the diagram below for a more detailed explanation of this procedure.
 
 I've also included a **chat** file that uses a **bigger font**. There is also a version of the **winpanels** that use a **bigger font** for the team score. To change those, use the same procedure as when described above.
 
@@ -121,7 +112,7 @@ If you're really not comfortable using the `.bat` files, no hard feelings, I com
 
 Here's a diagram to show you how to enable customizations to the HUD the manual way.
 ```
-| \tf\custom\biscottiHUD\
+| tf/custom/biscottihud-main/
 --------------------------------------
 '-> customization
 '	'-> manual
@@ -138,7 +129,7 @@ Here's a diagram to show you how to enable customizations to the HUD the manual 
 '-> resource
 '-> scripts
 ```
-In other words, mark and **copy (CTRL+C)** the elements inside the `customization` that you wish to use (i.e. the folders inside **[SPEC HP] cross**, then **go back three steps**, and **paste (CTRL+V)** to overwrite all the normal files in all the major folders with the new ones. This way the customization also applies to the incognito mode and the revert from incognito back to normal. See below. it follows the same procedure for enabling it as customizations do.
+In other words, mark and **copy (CTRL+C)** the elements inside the `customization` that you wish to use (i.e. the folders inside **[SPEC HP] cross**, then **go back three steps** to the HUD's root folder, and **paste (CTRL+V)** to overwrite all the normal files in all the major folders with the new ones. This way the customization also applies to the incognito mode and the revert from incognito back to normal. See below. it follows the same procedure for enabling it as customizations do.
 
 # [^](#top "Back to Top")Incognito
 I've made an **incognito** mode designed for streamers that disables all names on the HUD. To enable it, either double click the `incognito.bat` file in the `biscottiHUD` folder. It will then automatically copy over the appropriate files, or copy the contents of the `incognito` folder into the parent folder (so that the folders match up). To disable it again, either double click the `incognito_revert.bat` file in the `biscottiHUD` folder, or copy the contents of `incognito_revert` into the parent folder to overwrite the incognito ones. It's a similar maneuvre to how you enable customizations, only you only go back one step (up one folder) instead of three like you do with customizations. Note that I think custom weapon names still show up.
@@ -169,9 +160,9 @@ The Engineer buildings panel is HUGELY inspired by **e.v.e HUD** but tweaked and
 
 I took the RED and BLU buttons on the loadout screen from Ray (I think).
 
-The main menu was inspired by an older version of WhiskerBiscuit's **budhud**. As was the concept of incognito to hide player names, but was of course implemented manually by me.
+The now defunct main menu design was inspired by an older version of WhiskerBiscuit's **budhud**. As was the concept of incognito to hide player names, but was of course implemented manually by me.
 
-The background to the HP SELF STYLE cross customizations were designed by Povohat (I think) from his classic PVHUD, and Sinders from e.v.e.. HUD
+The background to the HP SELF STYLE cross customizations were designed by Povohat (I think) from his classic PVHUD, and Sinders from e.v.e HUD.
 
 The Close Captions were created by **Clovervidia** and edited by me.
 
@@ -179,15 +170,13 @@ A lot of README formatting inspired by Omni.
 
 **Hope you enjoy!**
 
-# [^](#top "Back to Top")See it in action! YouTube!
-I also have a [YouTube channel](https://www.youtube.com/user/SuperKavv "Medico di Biscotti on YouTube") that serves as a dump-site for the terrible, terrible videos I make from time to time. You can also see the HUD in action [here](https://youtu.be/cEWcqiAdATU "Tough Break update video") and [here](https://youtu.be/aZYaEZxbI-8 "HUD + name origin video"). The trailer uses an old version of the HUD, but the newer videos show the current one.
-
+# [^](#top "Back to Top")Links!
 [Imgur album](http://imgur.com/a/4ipiu "biscottiHUD on Imgur")
 
 [huds.tf page](http://huds.tf/forum/showthread.php?tid=236 "biscottiHUD on huds.tf")
 
 [teamfortress.tv thread](http://www.teamfortress.tv/32405/biscottihud "biscottiHUD on teamfortress.tv")
 
-[DOWNLOAD](https://github.com/MedicodiBiscotti/biscottiHUD/archive/master.zip "DOWNLOAD")
+[DOWNLOAD](https://github.com/MedicodiBiscotti/biscottihud/archive/refs/heads/main.zip "DOWNLOAD")
 
 [Steam profile](http://www.steamcommunity.com/profiles/76561198020028851 "Medico di Biscotti on Steam"). Feel free to contact me but if you just add me, I'll probably ignore it. See how to get my attention in the bio.
