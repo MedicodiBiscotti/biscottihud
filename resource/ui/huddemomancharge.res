@@ -20,5 +20,6 @@
 		
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
+		"fgcolor_override"	"White"
 	}
 }
