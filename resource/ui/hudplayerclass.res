@@ -1,3 +1,5 @@
+#base	"hudplayerclass_incognito.res"
+
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data
@@ -384,7 +386,6 @@
 			"tall"	 			"f0"
 			"autoResize"		"0"
 			"pinCorner"			"0"
-			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"West"
 			"dulltext"			"0"
