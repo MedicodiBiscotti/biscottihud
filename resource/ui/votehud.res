@@ -1,3 +1,5 @@
+#base	"votehud_incognito.res"
+
 "Resource/UI/VoteHud.res"
 {
 	"VotePassed"
@@ -86,7 +88,6 @@
 			"ypos"			"5"
 			"wide"			"130"
 			"tall"			"20"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%header%"
 			"textAlignment"		"north-west"
@@ -105,7 +106,6 @@
 			"ypos"			"22"
 			"wide"			"120"
 			"tall"			"40"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%voteissue%"
 			"textAlignment"	"north-west"

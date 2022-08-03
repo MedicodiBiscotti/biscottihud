@@ -1,1 +1,1 @@
-#base	"scoreboard_number.res"
+#base	"scoreboard_normal.res"
