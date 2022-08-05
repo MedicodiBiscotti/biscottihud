@@ -967,7 +967,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../HUD/color_panel_brown"
+		"image"			"../HUD/color_panel_brown_opaque"
 
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
