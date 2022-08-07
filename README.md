@@ -117,15 +117,15 @@ Here's a diagram to show you how to enable customizations to the HUD the manual 
 '-> customization
 '	'-> manual
 '		'-> [BOX LINES] on #
-'	'		'-> **resource**					**CTRL+A**
-'	'											**CTRL+C**
+'	'		'-> **resource**		**CTRL+A**
+'	'						**CTRL+C**
 '	'-> [BOX LINES] on #.bat
-'	'-> etc.									**Go back**
-'												**Go back**
-'												**Go back**
-'-> incognito									**CTRL+V**
-'-> incognito_revert							**Overwrite files?**
-'-> materials									**YES!**
+'	'-> etc.					**Go back**
+'							**Go back**
+'							**Go back**
+'-> incognito						**CTRL+V**
+'-> incognito_revert					**Overwrite files?**
+'-> materials						**YES!**
 '-> resource
 '-> scripts
 ```
